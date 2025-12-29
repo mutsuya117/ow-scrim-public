@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question / 質問
+    url: https://github.com/mutsuya117/ow-scrim-public/discussions
+    about: Ask questions in Discussions / Discussionsで質問する

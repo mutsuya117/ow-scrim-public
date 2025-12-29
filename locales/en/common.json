@@ -1,0 +1,215 @@
+{
+  "error": {
+    "generic": "An error occurred",
+    "unknown": "An unknown error occurred",
+    "network": "A network error occurred",
+    "timeout": "Request timed out",
+    "login": "Login failed",
+    "auth": "Authentication failed",
+    "create": "Failed to create",
+    "update": "Failed to update",
+    "delete": "Failed to delete",
+    "save": "Failed to save",
+    "fetch": "Failed to fetch",
+    "send": "Failed to send",
+    "submit": "Failed to submit request",
+    "approve": "Failed to approve",
+    "reject": "Failed to reject",
+    "cancel": "Failed to cancel",
+    "withdraw": "Failed to withdraw",
+    "withDetail": "Failed to {{action}}: {{detail}}",
+    "withoutDetail": "Failed to {{action}}"
+  },
+  "success": {
+    "create": "Created successfully",
+    "update": "Updated successfully",
+    "delete": "Deleted successfully",
+    "save": "Saved successfully",
+    "send": "Sent successfully",
+    "submit": "Request submitted",
+    "approve": "Approved successfully",
+    "reject": "Rejected successfully",
+    "cancel": "Cancelled successfully",
+    "withdraw": "Withdrawn successfully",
+    "copy": "Copied to clipboard",
+    "action": "{{action}} completed"
+  },
+  "team": {
+    "error": {
+      "create": "Failed to create team",
+      "update": "Failed to update team",
+      "leave": "Failed to leave team",
+      "memberRemove": "Failed to remove member",
+      "roleUpdate": "Failed to update role",
+      "inviteCancel": "Failed to cancel invitation",
+      "inviteFetch": "Failed to fetch invitations",
+      "inviteValidate": "Failed to validate invite code",
+      "requestCancel": "Failed to cancel request",
+      "notFound": "Team not found",
+      "permissionDenied": "You don't have permission to access this feature"
+    },
+    "success": {
+      "create": "Team created",
+      "update": "Team updated",
+      "leave": "Left the team",
+      "memberRemove": "Member removed",
+      "roleUpdate": "Role updated",
+      "inviteCancel": "Invitation cancelled",
+      "inviteCodeCopy": "Invite code copied",
+      "inviteUrlCopy": "Invite URL copied"
+    },
+    "validation": {
+      "adminRequired": "Admin permission required",
+      "needAdminBeforeLeave": "The team needs at least one admin. Please assign admin permission to another member before leaving."
+    }
+  },
+  "scrim": {
+    "error": {
+      "create": "Failed to create scrim post",
+      "apply": "Failed to apply",
+      "cancel": "Failed to cancel",
+      "withdraw": "Failed to withdraw",
+      "approve": "Failed to approve",
+      "reject": "Failed to reject",
+      "timeChange": "Failed to request time change",
+      "fetch": "Failed to fetch scrim posts",
+      "messageFetch": "Failed to fetch messages",
+      "messageSend": "Failed to send message",
+      "invitationCancel": "Failed to cancel invitation",
+      "invitationFetch": "Failed to fetch invitations",
+      "register": "Failed to register"
+    },
+    "success": {
+      "create": "Scrim post created",
+      "apply": "Applied successfully",
+      "cancel": "Cancelled",
+      "withdraw": "Withdrawn",
+      "approve": "Approved",
+      "reject": "Rejected"
+    }
+  },
+  "lft": {
+    "error": {
+      "create": "Failed to create LFT post",
+      "update": "Failed to update",
+      "close": "Failed to close LFT post",
+      "delete": "Failed to delete LFT post",
+      "fetch": "Failed to fetch LFT posts",
+      "startConversation": "Failed to start conversation"
+    },
+    "success": {
+      "create": "LFT post created",
+      "update": "Updated",
+      "close": "LFT post closed",
+      "delete": "LFT post deleted"
+    }
+  },
+  "tournament": {
+    "error": {
+      "create": "Failed to create tournament",
+      "update": "Failed to update tournament",
+      "delete": "Failed to delete",
+      "publish": "Failed to publish",
+      "close": "Failed to close registration",
+      "lottery": "Failed to run lottery",
+      "complete": "Failed to complete",
+      "cancel": "Failed to cancel",
+      "apply": "Failed to apply",
+      "approve": "Failed to approve",
+      "reject": "Failed to reject",
+      "promote": "Failed to promote",
+      "disqualify": "Failed to disqualify",
+      "export": "Failed to export",
+      "rankFetch": "Failed to fetch rankings",
+      "operation": "Operation failed"
+    },
+    "success": {
+      "create": "Tournament created",
+      "update": "Tournament updated",
+      "delete": "Tournament deleted",
+      "publish": "Tournament published",
+      "close": "Registration closed",
+      "lottery": "Lottery completed",
+      "complete": "Tournament completed",
+      "cancel": "Tournament cancelled"
+    },
+    "validation": {
+      "dateRequired": "Please set at least one event date",
+      "challongeLoginRequired": "Please login to Challonge first",
+      "noAdvancingTeams": "No advancing teams"
+    }
+  },
+  "circle": {
+    "error": {
+      "create": "Failed to create circle",
+      "joinRequest": "Failed to send join request",
+      "generic": "An error occurred"
+    },
+    "success": {
+      "create": "Circle created",
+      "joinRequest": "Join request sent",
+      "inviteCodeCopy": "Invite code copied",
+      "inviteUrlCopy": "Invite URL copied",
+      "inviteRegenerate": "Invite code regenerated",
+      "settingsSave": "Settings saved"
+    }
+  },
+  "notification": {
+    "error": {
+      "save": "Failed to save settings",
+      "testSend": "Error during test send",
+      "webhookUrlRequired": "Please enter Webhook URL",
+      "webhookUrlInvalid": "Please enter a valid Discord Webhook URL"
+    },
+    "success": {
+      "save": "Settings saved",
+      "testSend": "Test message sent. Please check Discord."
+    }
+  },
+  "rating": {
+    "error": {
+      "send": "Failed to send rating",
+      "update": "Failed to update rating",
+      "delete": "Failed to delete",
+      "replySend": "Failed to send reply",
+      "replyUpdate": "Failed to update reply"
+    },
+    "success": {
+      "send": "Rating submitted",
+      "update": "Rating updated",
+      "delete": "Rating deleted",
+      "replySend": "Reply sent",
+      "replyUpdate": "Reply updated"
+    }
+  },
+  "user": {
+    "error": {
+      "fetch": "Failed to fetch user info",
+      "notFound": "User not found",
+      "report": "Failed to send report",
+      "delete": "Error during account deletion"
+    },
+    "success": {
+      "report": "Report submitted"
+    }
+  },
+  "calendar": {
+    "error": {
+      "add": "Failed to add",
+      "update": "Failed to update",
+      "delete": "Failed to delete",
+      "bulkSet": "Failed to bulk set"
+    },
+    "success": {
+      "add": "Added",
+      "update": "Updated",
+      "delete": "Deleted",
+      "bulkSet": "Bulk set completed"
+    },
+    "validation": {
+      "duplicateSchedule": "A schedule already exists at this time",
+      "dayOfWeekRequired": "Please select a day of week",
+      "noTargetDates": "No target dates for setting"
+    }
+  }
+}

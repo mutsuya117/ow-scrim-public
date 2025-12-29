@@ -1,0 +1,215 @@
+{
+  "error": {
+    "generic": "エラーが発生しました",
+    "unknown": "不明なエラーが発生しました",
+    "network": "ネットワークエラーが発生しました",
+    "timeout": "タイムアウトしました",
+    "login": "ログインに失敗しました",
+    "auth": "認証に失敗しました",
+    "create": "作成に失敗しました",
+    "update": "更新に失敗しました",
+    "delete": "削除に失敗しました",
+    "save": "保存に失敗しました",
+    "fetch": "取得に失敗しました",
+    "send": "送信に失敗しました",
+    "submit": "リクエストの送信に失敗しました",
+    "approve": "承認に失敗しました",
+    "reject": "拒否に失敗しました",
+    "cancel": "キャンセルに失敗しました",
+    "withdraw": "取り下げに失敗しました",
+    "withDetail": "{{action}}に失敗しました: {{detail}}",
+    "withoutDetail": "{{action}}に失敗しました"
+  },
+  "success": {
+    "create": "作成しました",
+    "update": "更新しました",
+    "delete": "削除しました",
+    "save": "保存しました",
+    "send": "送信しました",
+    "submit": "リクエストを送信しました",
+    "approve": "承認しました",
+    "reject": "拒否しました",
+    "cancel": "キャンセルしました",
+    "withdraw": "取り下げました",
+    "copy": "コピーしました",
+    "action": "{{action}}しました"
+  },
+  "team": {
+    "error": {
+      "create": "チームの作成に失敗しました",
+      "update": "チームの更新に失敗しました",
+      "leave": "チームの脱退に失敗しました",
+      "memberRemove": "メンバーの削除に失敗しました",
+      "roleUpdate": "ロールの更新に失敗しました",
+      "inviteCancel": "招待の取り消しに失敗しました",
+      "inviteFetch": "招待一覧の取得に失敗しました",
+      "inviteValidate": "招待コードの検証に失敗しました",
+      "requestCancel": "リクエストの取り消しに失敗しました",
+      "notFound": "チームが見つかりません",
+      "permissionDenied": "この機能にアクセスする権限がありません"
+    },
+    "success": {
+      "create": "チームを作成しました",
+      "update": "チームを更新しました",
+      "leave": "チームを脱退しました",
+      "memberRemove": "メンバーを削除しました",
+      "roleUpdate": "ロールを更新しました",
+      "inviteCancel": "招待を取り消しました",
+      "inviteCodeCopy": "招待コードをコピーしました",
+      "inviteUrlCopy": "招待URLをコピーしました"
+    },
+    "validation": {
+      "adminRequired": "管理者権限が必要です",
+      "needAdminBeforeLeave": "チームには最低1人の管理者が必要です。脱退する前に他のメンバーに管理者権限を付与してください。"
+    }
+  },
+  "scrim": {
+    "error": {
+      "create": "募集の作成に失敗しました",
+      "apply": "申込みに失敗しました",
+      "cancel": "キャンセルに失敗しました",
+      "withdraw": "取り下げに失敗しました",
+      "approve": "承認に失敗しました",
+      "reject": "拒否に失敗しました",
+      "timeChange": "時間変更リクエストに失敗しました",
+      "fetch": "募集の取得に失敗しました",
+      "messageFetch": "メッセージの取得に失敗しました",
+      "messageSend": "メッセージの送信に失敗しました",
+      "invitationCancel": "招待の取り消しに失敗しました",
+      "invitationFetch": "招待一覧の取得に失敗しました",
+      "register": "登録に失敗しました"
+    },
+    "success": {
+      "create": "募集を作成しました",
+      "apply": "申し込みました",
+      "cancel": "キャンセルしました",
+      "withdraw": "取り下げました",
+      "approve": "承認しました",
+      "reject": "拒否しました"
+    }
+  },
+  "lft": {
+    "error": {
+      "create": "募集の作成に失敗しました",
+      "update": "更新に失敗しました",
+      "close": "募集の終了に失敗しました",
+      "delete": "募集の削除に失敗しました",
+      "fetch": "募集の取得に失敗しました",
+      "startConversation": "連絡の開始に失敗しました"
+    },
+    "success": {
+      "create": "募集を作成しました",
+      "update": "更新しました",
+      "close": "募集を終了しました",
+      "delete": "募集を削除しました"
+    }
+  },
+  "tournament": {
+    "error": {
+      "create": "大会の作成に失敗しました",
+      "update": "大会の更新に失敗しました",
+      "delete": "削除に失敗しました",
+      "publish": "公開に失敗しました",
+      "close": "締切に失敗しました",
+      "lottery": "抽選に失敗しました",
+      "complete": "終了に失敗しました",
+      "cancel": "中止に失敗しました",
+      "apply": "申し込みに失敗しました",
+      "approve": "承認に失敗しました",
+      "reject": "拒否に失敗しました",
+      "promote": "繰り上げに失敗しました",
+      "disqualify": "失格処理に失敗しました",
+      "export": "エクスポートに失敗しました",
+      "rankFetch": "順位の取得に失敗しました",
+      "operation": "操作に失敗しました"
+    },
+    "success": {
+      "create": "大会を作成しました",
+      "update": "大会を更新しました",
+      "delete": "大会を削除しました",
+      "publish": "大会を公開しました",
+      "close": "応募を締め切りました",
+      "lottery": "抽選を実行しました",
+      "complete": "大会を終了しました",
+      "cancel": "大会を中止しました"
+    },
+    "validation": {
+      "dateRequired": "開催日時を1つ以上設定してください",
+      "challongeLoginRequired": "先にChallongeにログインしてください",
+      "noAdvancingTeams": "進出チームがありません"
+    }
+  },
+  "circle": {
+    "error": {
+      "create": "サークルの作成に失敗しました",
+      "joinRequest": "参加リクエストの送信に失敗しました",
+      "generic": "エラーが発生しました"
+    },
+    "success": {
+      "create": "サークルを作成しました",
+      "joinRequest": "参加リクエストを送信しました",
+      "inviteCodeCopy": "招待コードをコピーしました",
+      "inviteUrlCopy": "招待URLをコピーしました",
+      "inviteRegenerate": "招待コードを再生成しました",
+      "settingsSave": "設定を保存しました"
+    }
+  },
+  "notification": {
+    "error": {
+      "save": "設定の保存に失敗しました",
+      "testSend": "テスト送信中にエラーが発生しました",
+      "webhookUrlRequired": "Webhook URLを入力してください",
+      "webhookUrlInvalid": "有効なDiscord Webhook URLを入力してください"
+    },
+    "success": {
+      "save": "設定を保存しました",
+      "testSend": "テストメッセージを送信しました。Discordを確認してください。"
+    }
+  },
+  "rating": {
+    "error": {
+      "send": "評価の送信に失敗しました",
+      "update": "評価の更新に失敗しました",
+      "delete": "削除に失敗しました",
+      "replySend": "返信の送信に失敗しました",
+      "replyUpdate": "返信の更新に失敗しました"
+    },
+    "success": {
+      "send": "評価を送信しました",
+      "update": "評価を更新しました",
+      "delete": "評価を削除しました",
+      "replySend": "返信を送信しました",
+      "replyUpdate": "返信を更新しました"
+    }
+  },
+  "user": {
+    "error": {
+      "fetch": "ユーザー情報の取得に失敗しました",
+      "notFound": "ユーザーが見つかりません",
+      "report": "通報の送信に失敗しました",
+      "delete": "退会処理中にエラーが発生しました"
+    },
+    "success": {
+      "report": "通報を送信しました"
+    }
+  },
+  "calendar": {
+    "error": {
+      "add": "追加に失敗しました",
+      "update": "更新に失敗しました",
+      "delete": "削除に失敗しました",
+      "bulkSet": "一括設定に失敗しました"
+    },
+    "success": {
+      "add": "追加しました",
+      "update": "更新しました",
+      "delete": "削除しました",
+      "bulkSet": "一括設定しました"
+    },
+    "validation": {
+      "duplicateSchedule": "同じ日時の予定が既に存在します",
+      "dayOfWeekRequired": "曜日を選択してください",
+      "noTargetDates": "設定対象の日付がありません"
+    }
+  }
+}
