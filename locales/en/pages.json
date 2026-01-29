@@ -1,0 +1,641 @@
+{
+  "home": {
+    "hero": {
+      "title1": " Scrims: All in One Place,",
+      "title2": "Managed Here",
+      "subtitle1": "Make team scrims in Overwatch",
+      "subtitle2": "easier and smoother",
+      "loginWithDiscord": "Login with Discord",
+      "browseWithoutLogin": "Browse without login",
+      "freeAndEasy": "Free and no registration required",
+      "loginError": "Login failed. Please try again."
+    },
+    "features": {
+      "title": "Main Features",
+      "scrimMatching": {
+        "title": "Scrim Matching",
+        "description": "Filter by rating, time, and match format to easily find teams that match your criteria. From application to approval, everything is smooth."
+      },
+      "availability": {
+        "title": "Member Availability Check",
+        "description": "View team members' availability at a glance. Makes scheduling scrims easier and shows when all 5 members are available."
+      },
+      "discord": {
+        "title": "Discord Notifications",
+        "description1": "Receive important notifications on ",
+        "description2": "Discord",
+        "description3": ". Never miss updates.",
+        "item1": "• Scrim applications, approvals, rejections",
+        "item2": "• Scrim reminders (10min/1hr/12hr/24hr before)",
+        "item3": "• Tournament selection, rejection, promotion",
+        "item4": "• Tournament reminders (10min/1hr/12hr/24hr before)"
+      }
+    },
+    "interface": {
+      "title": "User-Friendly Interface",
+      "subtitle": "Simple and intuitive design that you can master quickly",
+      "scrimList": "Scrim Posts",
+      "teamDetail": "Team Details",
+      "teamSchedule": "Team Schedule",
+      "teamAverage": "Team Average",
+      "memberAvailability": "Member Availability",
+      "teamDetailCalc": "Team Details & Rating Calc",
+      "memberAvailabilityCheck": "Member Availability Check",
+      "fulltime": "Full-time",
+      "mutual2map": "Mutual 2-map",
+      "fiveOk": "5 OK",
+      "shortage": "Shortage",
+      "available": "5 players available",
+      "unavailable": "Not all available",
+      "days": {
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat",
+        "sun": "Sun"
+      },
+      "mockTime1": "12/21 (Sat) 20:00-",
+      "mockTime2": "12/21 (Sat) 21:00-",
+      "mockTime3": "12/22 (Sun) 19:00-"
+    },
+    "otherFeatures": {
+      "title": "Other Features",
+      "subtitle": "Comprehensive support for scrim management",
+      "scrim": {
+        "title": "Scrims",
+        "item1": "Match format selection (Full-time/Mutual 2-map/Other)",
+        "item2": "Time conflict detection and warnings",
+        "item3": "Region filter",
+        "item4": "External team scrim scheduling",
+        "item5": "Team ratings (Good/Bad) and history"
+      },
+      "team": {
+        "title": "Team Management",
+        "item1": "Create and edit teams",
+        "item2": "Member role assignment (Tank/DPS/Support)",
+        "item3": "Auto team rating calculation (min-max from all compositions)",
+        "item4": "Position & permission management (Owner/Manager, etc.)",
+        "item5": "Team announcements"
+      },
+      "circle": {
+        "title": "Scrim Circles",
+        "item1": "Create private groups between teams",
+        "item2": "Circle-exclusive scrim posts",
+        "item3": "Join via invite code"
+      },
+      "tournament": {
+        "title": "Tournaments",
+        "item1": "Create, apply, and run lottery",
+        "item2": "Co-organizer settings",
+        "item3": "Circle-exclusive visibility",
+        "item4": "Challonge integration"
+      },
+      "recruitment": {
+        "title": "Member Recruitment & LFT",
+        "item1": "Teams recruiting players",
+        "item2": "Players looking for teams (LFT)",
+        "item3": "Filter by role, language, region"
+      },
+      "other": {
+        "title": "Other",
+        "item1": "Personal calendar (view your schedule)",
+        "item2": "My Page (upcoming events & request management)"
+      }
+    },
+    "cta": {
+      "title": "Get Started Now",
+      "subtitle": "With a Discord account, you can create a team and start posting scrims right away",
+      "startFree": "Start Free Now"
+    },
+    "footer": {
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "licenses": "OSS Licenses",
+      "admin": "Admin"
+    },
+    "consent": {
+      "title": "Terms Agreement",
+      "description": "You must agree to the following terms to use this service.",
+      "viewTerms": "View Terms of Service →",
+      "viewPrivacy": "View Privacy Policy →",
+      "agree": "I agree to the Terms of Service and Privacy Policy",
+      "cancel": "Cancel",
+      "agreeAndLogin": "Agree and Login"
+    }
+  },
+  "recruitment": {
+    "memberTab": "Member Recruitment",
+    "memberTabHint": "Teams looking for members",
+    "playerTab": "Team Search",
+    "playerTabHint": "Players looking for teams (LFT)",
+    "filter": "Filter",
+    "list": {
+      "title": "Member Recruitment",
+      "description": "List of teams looking for players. Send a join request and wait for admin approval.",
+      "createTeam": "Create Team",
+      "joinByCode": "Join by Invite Code",
+      "createRecruitment": "Create Recruitment",
+      "filter": "Filter",
+      "recruitingRoles": "Recruiting Roles",
+      "playerRoles": "Player",
+      "staffRoles": "Staff",
+      "filterByLanguageRegion": "Filter by language and region",
+      "language": "Language",
+      "region": "Region",
+      "popularLanguages": "Popular Languages",
+      "popularRegions": "Popular Regions",
+      "resetFilters": "Reset Filters",
+      "noResults": "No recruitments matching your criteria",
+      "noRecruitments": "No teams currently recruiting",
+      "createTeamAction": "Create Team",
+      "memberBadge": "Member",
+      "pendingBadge": "Pending",
+      "recruitingRolesLabel": "Recruiting Roles",
+      "languageLabel": "Language:",
+      "regionLabel": "Region:",
+      "avgRank": "Avg Rank:",
+      "goToTeamPage": "Go to Team Page",
+      "waitingForApproval": "Waiting for admin approval",
+      "sendJoinRequest": "Send Join Request",
+      "loginRequired": "Login Required",
+      "loginToCreate": "Please login to create a team.",
+      "loginToViewTeam": "Please login to view team details.",
+      "loginToJoin": "Please login to join a team."
+    },
+    "invite": {
+      "title": "Join by Invite Code",
+      "description": "Enter the invite code shared by the team.",
+      "placeholder": "Enter invite code",
+      "cancel": "Cancel",
+      "validating": "Validating...",
+      "next": "Next",
+      "invalidCode": "Invalid invite code",
+      "expired": "Invite code has expired",
+      "maxUsesReached": "Invite code usage limit reached",
+      "teamNotFound": "Could not retrieve team information",
+      "teamDissolved": "This team has been dissolved",
+      "alreadyMember": "You are already a member of this team",
+      "alreadyRequested": "You have already sent a join request to this team",
+      "validationFailed": "Failed to validate invite code"
+    },
+    "joinRequest": {
+      "title": "Join Request",
+      "successTitle": "Request Sent!",
+      "successMessage": "Your join request has been sent to {{teamName}}.",
+      "waitForApproval": "Please wait for admin approval.",
+      "close": "Close",
+      "messageLabel": "Message (optional)",
+      "messagePlaceholder": "Introduce yourself or explain why you want to join...",
+      "contactSettings": "Show contact info (visible in request)",
+      "showDiscordId": "Show Discord ID",
+      "showBattleTag": "Show BattleTag",
+      "back": "Back",
+      "submitting": "Submitting...",
+      "submit": "Send Request",
+      "alreadyMember": "You are already a member of this team",
+      "alreadyRequested": "You have already sent a join request to this team",
+      "invalidOrExpired": "Invite code is invalid or expired",
+      "memberLimitReached": "This team has reached the member limit ({{max}})",
+      "notOpenForRecruitment": "This team is not currently recruiting",
+      "submitFailed": "Failed to send request"
+    },
+    "createGuide": {
+      "title": "Create Member Recruitment",
+      "description": "Member recruitment can be created from the team detail page.",
+      "step1": "Go to the team detail page",
+      "step2": "Click the \"Edit Recruitment\" button in the Member Recruitment section",
+      "step3": "Enter recruitment details and save",
+      "note": "* Only team admins can create and edit recruitments",
+      "close": "Close",
+      "goToTeamList": "Go to Team List"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "newInquiry": "New Inquiry",
+    "history": "Inquiry History",
+    "successMessage": "Your inquiry has been submitted. Thank you.",
+    "category": {
+      "label": "Category",
+      "bug": "Bug Report",
+      "feature": "Feature Request",
+      "other": "Other"
+    },
+    "subject": {
+      "label": "Subject",
+      "placeholder": "Subject of your inquiry"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Please describe your inquiry in detail"
+    },
+    "image": {
+      "label": "Attach Images",
+      "optional": "Optional, max {{max}} images",
+      "maxReached": "Maximum {{max}} images allowed",
+      "dropzone": "Drag & drop or click to select",
+      "formats": "JPEG, PNG, GIF, WebP (max 5MB each)",
+      "typeError": "Only JPEG, PNG, GIF, WebP formats are supported",
+      "sizeError": "File size must be 5MB or less",
+      "uploadError": "Failed to upload image",
+      "delete": "Delete",
+      "enlarged": "Enlarged image"
+    },
+    "validation": {
+      "subjectRequired": "Please enter a subject",
+      "messageRequired": "Please enter a message",
+      "replyRequired": "Please enter a reply"
+    },
+    "submit": "Submit",
+    "sending": "Sending...",
+    "loading": "Loading...",
+    "noHistory": "No inquiry history",
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "replies": "Conversation",
+    "sender": {
+      "admin": "Admin",
+      "user": "You"
+    },
+    "reply": "Reply",
+    "replyPlaceholder": "Enter your reply...",
+    "cancel": "Cancel",
+    "closedMessage": "This inquiry has been closed",
+    "required": "Required"
+  },
+  "legal": {
+    "backToTop": "← Back to Top",
+    "terms": {
+      "title": "Terms of Service",
+      "effectiveDate": "Effective Date: {{date}}"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "effectiveDate": "Effective Date: {{date}}"
+    },
+    "licenses": {
+      "title": "Open Source Licenses",
+      "description": "This service uses the following open source software. We thank all the authors and contributors.",
+      "library": "Library",
+      "version": "Version",
+      "repository": "Repository",
+      "note": "Only major dependencies are listed above. Please refer to each repository for the complete license text.",
+      "descriptions": {
+        "MIT": "MIT License - Free to use, copy, modify, and distribute with copyright and license notice.",
+        "Apache-2.0": "Apache License 2.0 - Requires copyright notice, license notice, and statement of changes. Includes patent grant.",
+        "MPL-2.0": "Mozilla Public License 2.0 - File-level copyleft. Modified files must be released under MPL.",
+        "0BSD": "Zero-Clause BSD - Free to use without restrictions.",
+        "ISC": "ISC License - Similar to MIT. Requires copyright and license notice.",
+        "BSD-3-Clause": "BSD 3-Clause License - Requires copyright and license notice."
+      }
+    }
+  },
+  "circle": {
+    "create": {
+      "pageTitle": "Create Circle",
+      "noPermission": "No permission to create circle",
+      "noPermissionHint": "You need team admin permission to create a circle.",
+      "teamLabel": "Team",
+      "teamHint": "Create circle with the selected team",
+      "nameLabel": "Circle Name",
+      "namePlaceholder": "Enter circle name",
+      "nameCount": "{{count}}/50",
+      "descriptionLabel": "Description (Optional)",
+      "descriptionPlaceholder": "Enter circle description",
+      "descriptionCount": "{{count}}/500",
+      "cancel": "Cancel",
+      "creating": "Creating...",
+      "createButton": "Create"
+    },
+    "roles": {
+      "circle_admin": "Admin",
+      "member_manager": "Member Manager",
+      "member": "Member"
+    },
+    "actions": {
+      "create": "Create Circle",
+      "join": "Join",
+      "leave": "Leave",
+      "kick": "Kick",
+      "role_change": "Role Change",
+      "update": "Settings Change",
+      "dissolve": "Dissolve",
+      "update_info": "Update Info",
+      "regenerate_code": "Regenerate Invite Code",
+      "join_request": "Join Request",
+      "join_request_approved": "Request Approved",
+      "join_request_rejected": "Request Rejected",
+      "join_request_cancelled": "Request Cancelled"
+    },
+    "ui": {
+      "memberCount": "Teams: {{count}}",
+      "membersTab": "Members",
+      "scrimsTab": "Scrim Posts",
+      "requestsTab": "Join Requests",
+      "settingsTab": "Settings",
+      "logsTab": "Logs",
+      "memberList": "Member List",
+      "yourTeam": "(Your Team)",
+      "myTeamBadge": "My Team",
+      "noRequests": "No pending join requests",
+      "leaveCircle": "Leave Circle",
+      "dissolveCircle": "Dissolve Circle",
+      "kickButton": "Kick",
+      "adminTransferNote": "* If you are the last admin, please transfer admin rights to another team before leaving",
+      "circleScrimPosts": "Scrim Posts in Circle",
+      "noScrimPosts": "No scrim posts available",
+      "ratingRequirement": "Rating Requirement",
+      "applications": "Applications",
+      "requestedBy": "Requested by",
+      "approve": "Approve",
+      "reject": "Reject",
+      "circleSettings": "Circle Settings",
+      "circleName": "Circle Name",
+      "description": "Description",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "save": "Save",
+      "notSet": "(Not Set)",
+      "inviteCode": "Invite Code",
+      "copyCode": "Copy Code",
+      "copyUrl": "Copy URL",
+      "regenerate": "Regenerate",
+      "inviteDescription": "Share the invite code or URL to invite teams",
+      "dangerZone": "Danger Zone",
+      "cannotUndo": "* This action cannot be undone",
+      "operationLogs": "Operation Logs",
+      "noLogs": "No operation logs",
+      "circleNotFound": "Circle not found",
+      "backToCircles": "Back to Circles",
+      "pageTitle": "Scrim Circles",
+      "createCircle": "Create Circle",
+      "joinByCode": "Join by Invite Code",
+      "inviteCodePlaceholder": "Enter invite code",
+      "checking": "Checking...",
+      "join": "Join",
+      "invalidCode": "Invalid invite code",
+      "myCircles": "My Circles",
+      "noCircles": "You are not in any circles",
+      "noCirclesHint": "Enter an invite code or create a new circle",
+      "teamCountLabel": "Teams"
+    },
+    "confirm": {
+      "kick": "Kick {{name}} from the circle?",
+      "leave": "Leave this circle?",
+      "dissolve1": "Dissolve this circle? This action cannot be undone.",
+      "dissolve2": "Are you sure you want to dissolve?",
+      "approveRequest": "Approve this join request?",
+      "rejectRequest": "Reject this join request?",
+      "regenerateCode": "Regenerate invite code? The existing code will be invalidated."
+    }
+  },
+  "user": {
+    "error": {
+      "fetch": "Failed to fetch user info",
+      "notFound": "User not found",
+      "report": "Failed to send report",
+      "delete": "Error during account deletion"
+    },
+    "success": {
+      "report": "Report submitted"
+    },
+    "detail": {
+      "pageTitle": "User Profile",
+      "teamCount": "Teams",
+      "scrimCount": "Scrims Completed: {{count}}",
+      "registeredDate": "Registered",
+      "backToMypage": "Back to My Page",
+      "ownProfile": "This is your own profile",
+      "viewMypage": "Go to My Page",
+      "report": {
+        "sectionTitle": "Report",
+        "description": "If you have an issue with this user, you can report them to the administrators.",
+        "withdrawnNote": "* This user has withdrawn, but you can still report past behavior.",
+        "button": "Report This User",
+        "modalTitle": "Report User",
+        "target": "Target",
+        "reasonLabel": "Reason for Report",
+        "selectReason": "Please select",
+        "detailLabel": "Details (Optional)",
+        "detailPlaceholder": "Please describe the issue...",
+        "imageLabel": "Evidence Images (Optional, max {{max}})",
+        "imageMax": "Maximum {{max}} images",
+        "imageDrop": "Click or drag & drop",
+        "imageFormats": "JPEG, PNG, GIF, WebP (max 5MB each)",
+        "attachedImage": "Attached image",
+        "cancel": "Cancel",
+        "submitting": "Submitting...",
+        "submit": "Submit Report",
+        "success": "Report Submitted",
+        "thanks": "Thank you for your report"
+      },
+      "reasons": {
+        "harassment": "Verbal Abuse / Slander",
+        "stalking": "Harassment / Stalking",
+        "impersonation": "Impersonation",
+        "spam": "Spam / Advertising",
+        "no_show": "No-Show / Absence",
+        "rank_fraud": "Rank Fraud",
+        "other": "Other"
+      },
+      "validation": {
+        "fileTypeError": "Only JPEG, PNG, GIF, WebP formats are supported",
+        "fileSizeError": "File size must be 5MB or less",
+        "uploadError": "Failed to upload image"
+      }
+    }
+  },
+  "mypage": {
+    "tabs": {
+      "scrim": "Scrims",
+      "teams": "Teams",
+      "lft": "Team Search",
+      "profile": "Profile"
+    },
+    "scrim": {
+      "viewCalendar": "View Calendar →",
+      "upcomingScrims": "Upcoming Scrims",
+      "noScrims": "No scheduled scrims",
+      "externalScrim": "External",
+      "applications": "Applications: {{count}}",
+      "applying": "Applying",
+      "applyingAs": "Applying as {{team}}"
+    },
+    "requests": {
+      "title": "Pending Join Requests",
+      "fromRecruitment": "From recruitment",
+      "fromInviteCode": "Via invite code",
+      "fromUrl": "Via URL",
+      "cancelling": "Cancelling...",
+      "cancel": "Cancel",
+      "cancelConfirm": "Cancel this request?",
+      "waitForApproval": "Waiting for admin approval"
+    },
+    "teams": {
+      "noTeams": "You are not a member of any team",
+      "memberCount": "Members: {{count}}",
+      "avgRank": "Avg Rank:"
+    },
+    "lft": {
+      "manage": "Manage Post",
+      "create": "Create Post",
+      "expiredWarning": "This post is over 100 days old and not shown in listings.",
+      "expiredHint": "To continue recruiting, please delete and recreate the post.",
+      "yourPost": "Your Post",
+      "expired": "Expired",
+      "recruiting": "Recruiting",
+      "closed": "Closed",
+      "createdAt": "Created:",
+      "contactCount": "{{count}} contacts",
+      "contactingTeams": "Teams in Contact",
+      "active": "Active",
+      "ended": "Ended",
+      "noPostHint": "If you're looking for a team, create a post to receive team contacts."
+    },
+    "profile": {
+      "title": "Profile",
+      "displayName": "Display Name",
+      "battleTag": "BattleTag",
+      "rank": "Rank",
+      "tank": "Tank:",
+      "damage": "Damage:",
+      "support": "Support:",
+      "settingsTitle": "Settings",
+      "settingsDescription": "Edit your profile, rank, notification settings, and more.",
+      "editSettings": "Edit Settings"
+    }
+  },
+  "settings": {
+    "language": {
+      "title": "Display Language",
+      "label": "Select language",
+      "current": "Current setting",
+      "options": {
+        "ja": "日本語",
+        "en": "English",
+        "ko": "한국어",
+        "zh": "中文"
+      }
+    },
+    "pageTitle": "User Settings",
+    "tabs": {
+      "settings": "Settings",
+      "withdraw": "Delete Account"
+    },
+    "profile": {
+      "title": "Profile & Contact",
+      "displayName": "Display Name",
+      "displayNamePlaceholder": "Player name",
+      "displayNameHint": "If not set, your Discord name will be used",
+      "charCount": "({{current}}/{{max}})",
+      "shareToTeam": "Share with team",
+      "shareToScrim": "Share with scrim opponent"
+    },
+    "rank": {
+      "title": "Rank by Role",
+      "tank": "Tank",
+      "damage": "Damage",
+      "support": "Support"
+    },
+    "region": {
+      "title": "Region",
+      "popularLabel": "Popular Regions"
+    },
+    "timezone": {
+      "title": "Timezone",
+      "label": "Display Timezone",
+      "popularLabel": "Popular Timezones",
+      "currentSetting": "Current setting:",
+      "currentTime": "Current time:"
+    },
+    "discord": {
+      "title": "Discord Notification Settings",
+      "description": "Set up a Discord Webhook to receive notifications on Discord.",
+      "webhookUrl": "Webhook URL",
+      "testSend": "Test Send",
+      "sending": "Sending...",
+      "howToGetUrl": "How to get Webhook URL",
+      "howToStep1": "1. Create your own Discord server (or use an existing one)",
+      "howToStep2": "2. Open channel settings where you want to receive notifications",
+      "howToStep3": "3. Go to 'Integrations' → 'Webhooks' → 'New Webhook'",
+      "howToStep4": "4. Copy the Webhook URL and paste it here",
+      "notifyItems": "Notification Items",
+      "notifyHint": "Set a Webhook URL to receive these notifications",
+      "inquiryReply": "Replies to inquiries",
+      "lftContact": "LFT scouts (team contact requests)",
+      "lftMessage": "New LFT conversation messages",
+      "joinRequestResult": "Team join request results (approved/rejected)",
+      "tournamentOrganizerTitle": "Tournament Organizer Notifications",
+      "tournamentApplication": "Team applications",
+      "tournamentApplicationCancel": "Application cancellations",
+      "tournamentTeamMessage": "Messages from teams",
+      "tournamentOrganizerRequest": "Co-organizer requests",
+      "tournamentReminder": "Tournament Start Reminders",
+      "reminder24h": "24 hours before",
+      "reminder12h": "12 hours before",
+      "reminder1h": "1 hour before",
+      "reminder10m": "10 minutes before"
+    },
+    "save": {
+      "button": "Save Settings",
+      "saving": "Saving...",
+      "success": "Settings saved",
+      "error": "An error occurred"
+    },
+    "withdraw": {
+      "title": "Delete Account",
+      "description": "Deleting your account will:",
+      "effect1": "Remove you from all teams",
+      "effect2": "Transfer admin rights to the oldest member if you're the only admin",
+      "effect3": "Dissolve teams where you're the only member",
+      "effect4": "Prevent you from logging in again",
+      "warning": "This action cannot be undone.",
+      "button": "Delete Account",
+      "confirmText": "delete",
+      "confirmPrompt": "Are you sure? Type \"{{text}}\" to confirm.",
+      "confirmError": "Please type \"{{text}}\"",
+      "confirm": "Confirm Deletion",
+      "processing": "Processing...",
+      "cancel": "Cancel",
+      "error": "An error occurred during account deletion"
+    },
+    "alertTitle": {
+      "error": "Error",
+      "success": "Success"
+    }
+  },
+  "notification": {
+    "error": {
+      "save": "Failed to save settings",
+      "testSend": "Error during test send",
+      "webhookUrlRequired": "Please enter Webhook URL",
+      "webhookUrlInvalid": "Please enter a valid Discord Webhook URL"
+    },
+    "success": {
+      "save": "Settings saved",
+      "testSend": "Test message sent. Please check Discord."
+    }
+  },
+  "rating": {
+    "error": {
+      "send": "Failed to send rating",
+      "update": "Failed to update rating",
+      "delete": "Failed to delete",
+      "replySend": "Failed to send reply",
+      "replyUpdate": "Failed to update reply"
+    },
+    "success": {
+      "send": "Rating submitted",
+      "update": "Rating updated",
+      "delete": "Rating deleted",
+      "replySend": "Reply sent",
+      "replyUpdate": "Reply updated"
+    }
+  }
+}

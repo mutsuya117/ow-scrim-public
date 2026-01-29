@@ -1,0 +1,641 @@
+{
+  "home": {
+    "hero": {
+      "title1": "スクリムの全てを、",
+      "title2": "ここで管理",
+      "subtitle1": "Overwatchチーム同士のスクリムを",
+      "subtitle2": "もっと手軽に、もっとスムーズに",
+      "loginWithDiscord": "Discordでログイン",
+      "browseWithoutLogin": "ログインせずに見てみる",
+      "freeAndEasy": "無料・登録不要ですぐに始められます",
+      "loginError": "ログインに失敗しました。もう一度お試しください。"
+    },
+    "features": {
+      "title": "主な機能",
+      "scrimMatching": {
+        "title": "スクリムマッチング",
+        "description": "レート帯・日時・対戦形式でフィルターして、条件に合ったチームを簡単に検索。申し込みから承認までスムーズに完結します。"
+      },
+      "availability": {
+        "title": "メンバーの空き時間確認",
+        "description": "チームメンバーの空き時間を一覧で確認。スクリムの日程調整がスムーズになり、5人揃う時間帯が一目でわかります。"
+      },
+      "discord": {
+        "title": "Discord通知",
+        "description1": "重要な通知を",
+        "description2": "Discordで受け取れます",
+        "description3": "。見逃しを防ぎます。",
+        "item1": "・スクリム申し込み・承認・却下",
+        "item2": "・スクリム開始リマインダー（10分前/1時間前/12時間前/24時間前）",
+        "item3": "・大会の当選・落選・繰り上げ",
+        "item4": "・大会の開始リマインダー（10分前/1時間前/12時間前/24時間前）"
+      }
+    },
+    "interface": {
+      "title": "使いやすいインターフェース",
+      "subtitle": "シンプルで直感的なデザインで、すぐに使いこなせます",
+      "scrimList": "スクリム募集一覧",
+      "teamDetail": "チーム詳細",
+      "teamSchedule": "チームスケジュール",
+      "teamAverage": "チーム平均",
+      "memberAvailability": "メンバー空き状況",
+      "teamDetailCalc": "チーム詳細・レート計算",
+      "memberAvailabilityCheck": "メンバー空き時間確認",
+      "fulltime": "フルタイム",
+      "mutual2map": "相互2map",
+      "fiveOk": "5人OK",
+      "shortage": "欠員あり",
+      "available": "5人参加可能",
+      "unavailable": "参加不可あり",
+      "days": {
+        "mon": "月",
+        "tue": "火",
+        "wed": "水",
+        "thu": "木",
+        "fri": "金",
+        "sat": "土",
+        "sun": "日"
+      },
+      "mockTime1": "12/21 (土) 20:00〜",
+      "mockTime2": "12/21 (土) 21:00〜",
+      "mockTime3": "12/22 (日) 19:00〜"
+    },
+    "otherFeatures": {
+      "title": "その他の機能",
+      "subtitle": "スクリム運営に必要な機能を幅広くサポートします",
+      "scrim": {
+        "title": "スクリム",
+        "item1": "対戦形式選択（フルタイム/相互2map/その他）",
+        "item2": "時間衝突検知と警告表示",
+        "item3": "居住地域フィルター",
+        "item4": "外部チームとのスクリム予定登録",
+        "item5": "相手チームの評価（Good/Bad）と履歴確認"
+      },
+      "team": {
+        "title": "チーム管理",
+        "item1": "チーム作成・編集",
+        "item2": "メンバーロール設定（Tank/DPS/Support）",
+        "item3": "チームレート自動計算（全編成から最低〜最高を算出）",
+        "item4": "役職・権限管理（オーナー/マネージャー等）",
+        "item5": "チームお知らせ機能"
+      },
+      "circle": {
+        "title": "スクリムサークル",
+        "item1": "チーム間のプライベートグループ作成",
+        "item2": "サークル限定スクリム募集",
+        "item3": "招待コードでの参加"
+      },
+      "tournament": {
+        "title": "大会",
+        "item1": "大会作成・応募・抽選",
+        "item2": "共同主催者の設定",
+        "item3": "サークル限定公開",
+        "item4": "Challonge連携"
+      },
+      "recruitment": {
+        "title": "メンバー募集・LFT",
+        "item1": "チームがプレイヤーを募集",
+        "item2": "プレイヤーがチームを探す（LFT）",
+        "item3": "ロール・言語・地域でフィルター"
+      },
+      "other": {
+        "title": "その他",
+        "item1": "個人カレンダー（自分の予定を一覧表示）",
+        "item2": "マイページ（直近の予定・リクエスト管理）"
+      }
+    },
+    "cta": {
+      "title": "今すぐ始めよう",
+      "subtitle": "Discordアカウントがあれば、すぐにチームを作成してスクリムを募集できます",
+      "startFree": "無料で今すぐ始める"
+    },
+    "footer": {
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー",
+      "licenses": "OSSライセンス",
+      "admin": "管理"
+    },
+    "consent": {
+      "title": "利用規約への同意",
+      "description": "本サービスをご利用いただくには、以下の規約に同意していただく必要があります。",
+      "viewTerms": "利用規約を確認する →",
+      "viewPrivacy": "プライバシーポリシーを確認する →",
+      "agree": "利用規約およびプライバシーポリシーに同意します",
+      "cancel": "キャンセル",
+      "agreeAndLogin": "同意してログイン"
+    }
+  },
+  "recruitment": {
+    "memberTab": "メンバー募集",
+    "memberTabHint": "チームがメンバーを募集",
+    "playerTab": "チーム募集",
+    "playerTabHint": "プレイヤーがチームを探す (LFT)",
+    "filter": "絞り込み",
+    "list": {
+      "title": "メンバー募集",
+      "description": "プレイヤーを募集しているチームの一覧です。参加リクエストを送信して、管理者の承認を待ちましょう。",
+      "createTeam": "チームを作成",
+      "joinByCode": "招待コードで参加",
+      "createRecruitment": "募集を作成",
+      "filter": "絞り込み",
+      "recruitingRoles": "募集ロール",
+      "playerRoles": "プレイヤー",
+      "staffRoles": "スタッフ",
+      "filterByLanguageRegion": "使用言語・居住地域で絞り込む",
+      "language": "使用言語",
+      "region": "居住地域",
+      "popularLanguages": "よく使う言語",
+      "popularRegions": "よく使う地域",
+      "resetFilters": "フィルターをリセット",
+      "noResults": "条件に一致する募集が見つかりませんでした",
+      "noRecruitments": "現在募集中のチームはありません",
+      "createTeamAction": "チームを作成する",
+      "memberBadge": "所属中",
+      "pendingBadge": "申請中",
+      "recruitingRolesLabel": "募集ロール",
+      "languageLabel": "言語:",
+      "regionLabel": "居住:",
+      "avgRank": "平均ランク:",
+      "goToTeamPage": "チームページへ",
+      "waitingForApproval": "管理者の承認をお待ちください",
+      "sendJoinRequest": "参加リクエストを送信",
+      "loginRequired": "ログインが必要です",
+      "loginToCreate": "チームを作成するにはログインしてください。",
+      "loginToViewTeam": "チームの詳細を見るにはログインしてください。",
+      "loginToJoin": "チームに参加するにはログインしてください。"
+    },
+    "invite": {
+      "title": "招待コードで参加",
+      "description": "チームから共有された招待コードを入力してください。",
+      "placeholder": "招待コードを入力",
+      "cancel": "キャンセル",
+      "validating": "確認中...",
+      "next": "次へ",
+      "invalidCode": "招待コードが無効です",
+      "expired": "招待コードの有効期限が切れています",
+      "maxUsesReached": "招待コードの使用回数が上限に達しています",
+      "teamNotFound": "チーム情報が取得できません",
+      "teamDissolved": "このチームは解散済みです",
+      "alreadyMember": "既にこのチームのメンバーです",
+      "alreadyRequested": "既にこのチームへの参加リクエストを送信済みです",
+      "validationFailed": "招待コードの検証に失敗しました"
+    },
+    "joinRequest": {
+      "title": "参加リクエスト",
+      "successTitle": "リクエスト送信完了!",
+      "successMessage": "{{teamName}}への参加リクエストを送信しました。",
+      "waitForApproval": "管理者の承認をお待ちください。",
+      "close": "閉じる",
+      "messageLabel": "メッセージ（任意）",
+      "messagePlaceholder": "自己紹介や参加理由など...",
+      "contactSettings": "連絡先の表示（リクエストに表示）",
+      "showDiscordId": "Discord IDを表示",
+      "showBattleTag": "BattleTagを表示",
+      "back": "戻る",
+      "submitting": "送信中...",
+      "submit": "リクエストを送信",
+      "alreadyMember": "既にこのチームのメンバーです",
+      "alreadyRequested": "既にこのチームへの参加リクエストを送信済みです",
+      "invalidOrExpired": "招待コードが無効または期限切れです",
+      "memberLimitReached": "このチームはメンバー数の上限（{{max}}人）に達しています",
+      "notOpenForRecruitment": "このチームは現在募集していません",
+      "submitFailed": "リクエストの送信に失敗しました"
+    },
+    "createGuide": {
+      "title": "メンバー募集の作成",
+      "description": "メンバー募集はチームの詳細ページから作成できます。",
+      "step1": "チームの詳細ページを開く",
+      "step2": "「メンバー募集」セクションの「募集を編集」ボタンをクリック",
+      "step3": "募集内容を入力して保存",
+      "note": "※ チームの管理者のみ募集を作成・編集できます",
+      "close": "閉じる",
+      "goToTeamList": "チーム一覧へ"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "newInquiry": "新規お問い合わせ",
+    "history": "お問い合わせ履歴",
+    "successMessage": "お問い合わせを送信しました。ありがとうございます。",
+    "category": {
+      "label": "カテゴリ",
+      "bug": "バグ報告",
+      "feature": "機能要望",
+      "other": "その他"
+    },
+    "subject": {
+      "label": "件名",
+      "placeholder": "お問い合わせの件名"
+    },
+    "message": {
+      "label": "本文",
+      "placeholder": "お問い合わせ内容を詳しくお書きください"
+    },
+    "image": {
+      "label": "画像添付",
+      "optional": "任意・最大{{max}}枚",
+      "maxReached": "画像は最大{{max}}枚までです",
+      "dropzone": "ここにドラッグ&ドロップ または クリックして選択",
+      "formats": "JPEG, PNG, GIF, WebP（各5MB以下）",
+      "typeError": "JPEG、PNG、GIF、WebP形式のみ対応しています",
+      "sizeError": "ファイルサイズは5MB以下にしてください",
+      "uploadError": "画像のアップロードに失敗しました",
+      "delete": "削除",
+      "enlarged": "拡大画像"
+    },
+    "validation": {
+      "subjectRequired": "件名を入力してください",
+      "messageRequired": "本文を入力してください",
+      "replyRequired": "返信内容を入力してください"
+    },
+    "submit": "送信",
+    "sending": "送信中...",
+    "loading": "読み込み中...",
+    "noHistory": "お問い合わせ履歴はありません",
+    "status": {
+      "pending": "未対応",
+      "in_progress": "対応中",
+      "resolved": "解決済み",
+      "closed": "クローズ"
+    },
+    "replies": "やり取り",
+    "sender": {
+      "admin": "運営",
+      "user": "自分"
+    },
+    "reply": "返信する",
+    "replyPlaceholder": "返信内容を入力...",
+    "cancel": "キャンセル",
+    "closedMessage": "このお問い合わせはクローズされています",
+    "required": "必須"
+  },
+  "legal": {
+    "backToTop": "← トップに戻る",
+    "terms": {
+      "title": "利用規約",
+      "effectiveDate": "制定日：{{date}}"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "effectiveDate": "制定日：{{date}}"
+    },
+    "licenses": {
+      "title": "オープンソースライセンス",
+      "description": "本サービスは以下のオープンソースソフトウェアを使用しています。各ソフトウェアの作者およびコントリビューターの皆様に感謝いたします。",
+      "library": "ライブラリ",
+      "version": "バージョン",
+      "repository": "リポジトリ",
+      "note": "上記は主要な依存関係のみを記載しています。各ライブラリの完全なライセンス条文については、それぞれのリポジトリをご参照ください。",
+      "descriptions": {
+        "MIT": "MIT License - 著作権表示とライセンス表示を含めれば、自由に使用・複製・改変・配布できます。",
+        "Apache-2.0": "Apache License 2.0 - 著作権表示とライセンス表示、変更点の明記が必要です。特許権の付与も含まれます。",
+        "MPL-2.0": "Mozilla Public License 2.0 - ファイル単位でのコピーレフト。変更したファイルはMPLで公開する必要があります。",
+        "0BSD": "Zero-Clause BSD - 制限なしで自由に使用できます。",
+        "ISC": "ISC License - MITライセンスとほぼ同等。著作権表示とライセンス表示が必要です。",
+        "BSD-3-Clause": "BSD 3-Clause License - 著作権表示とライセンス表示が必要です。"
+      }
+    }
+  },
+  "circle": {
+    "create": {
+      "pageTitle": "サークル作成",
+      "noPermission": "サークル作成権限がありません",
+      "noPermissionHint": "サークルを作成するには、チームの管理者権限が必要です。",
+      "teamLabel": "作成するチーム",
+      "teamHint": "選択したチームでサークルを作成します",
+      "nameLabel": "サークル名",
+      "namePlaceholder": "サークル名を入力",
+      "nameCount": "{{count}}/50",
+      "descriptionLabel": "説明（任意）",
+      "descriptionPlaceholder": "サークルの説明を入力",
+      "descriptionCount": "{{count}}/500",
+      "cancel": "キャンセル",
+      "creating": "作成中...",
+      "createButton": "作成"
+    },
+    "roles": {
+      "circle_admin": "管理者",
+      "member_manager": "メンバー管理者",
+      "member": "メンバー"
+    },
+    "actions": {
+      "create": "サークル作成",
+      "join": "参加",
+      "leave": "退会",
+      "kick": "キック",
+      "role_change": "権限変更",
+      "update": "設定変更",
+      "dissolve": "解散",
+      "update_info": "情報更新",
+      "regenerate_code": "招待コード再生成",
+      "join_request": "参加リクエスト",
+      "join_request_approved": "リクエスト承認",
+      "join_request_rejected": "リクエスト拒否",
+      "join_request_cancelled": "リクエスト取り消し"
+    },
+    "ui": {
+      "memberCount": "参加チーム: {{count}}チーム",
+      "membersTab": "メンバー",
+      "scrimsTab": "スクリム募集",
+      "requestsTab": "参加リクエスト",
+      "settingsTab": "設定",
+      "logsTab": "操作ログ",
+      "memberList": "メンバー一覧",
+      "yourTeam": "（あなたのチーム）",
+      "myTeamBadge": "自チーム",
+      "noRequests": "保留中の参加リクエストはありません",
+      "leaveCircle": "サークルから退会",
+      "dissolveCircle": "サークルを解散",
+      "kickButton": "キック",
+      "adminTransferNote": "※最後の管理者の場合は他のチームに管理者権限を移譲してから退会してください",
+      "circleScrimPosts": "サークル内のスクリム募集",
+      "noScrimPosts": "現在募集中のスクリムはありません",
+      "ratingRequirement": "募集レート",
+      "applications": "申込み",
+      "requestedBy": "リクエスト者",
+      "approve": "承認",
+      "reject": "拒否",
+      "circleSettings": "サークル設定",
+      "circleName": "サークル名",
+      "description": "説明",
+      "edit": "編集",
+      "cancel": "キャンセル",
+      "save": "保存",
+      "notSet": "（未設定）",
+      "inviteCode": "招待コード",
+      "copyCode": "コードをコピー",
+      "copyUrl": "URLをコピー",
+      "regenerate": "再生成",
+      "inviteDescription": "招待コードまたはURLを共有してチームを招待できます",
+      "dangerZone": "危険な操作",
+      "cannotUndo": "※この操作は取り消せません",
+      "operationLogs": "操作ログ",
+      "noLogs": "操作ログはありません",
+      "circleNotFound": "サークルが見つかりません",
+      "backToCircles": "サークル一覧に戻る",
+      "pageTitle": "スクリムサークル",
+      "createCircle": "サークルを作成",
+      "joinByCode": "招待コードで参加",
+      "inviteCodePlaceholder": "招待コードを入力",
+      "checking": "確認中...",
+      "join": "参加",
+      "invalidCode": "無効な招待コードです",
+      "myCircles": "所属サークル",
+      "noCircles": "所属しているサークルはありません",
+      "noCirclesHint": "招待コードを入力するか、新しいサークルを作成してください",
+      "teamCountLabel": "参加チーム"
+    },
+    "confirm": {
+      "kick": "{{name}} をサークルからキックしますか？",
+      "leave": "サークルから退会しますか？",
+      "dissolve1": "サークルを解散しますか？この操作は取り消せません。",
+      "dissolve2": "本当に解散しますか？",
+      "approveRequest": "この参加リクエストを承認しますか？",
+      "rejectRequest": "この参加リクエストを拒否しますか？",
+      "regenerateCode": "招待コードを再生成しますか？既存のコードは無効になります。"
+    }
+  },
+  "user": {
+    "error": {
+      "fetch": "ユーザー情報の取得に失敗しました",
+      "notFound": "ユーザーが見つかりません",
+      "report": "通報の送信に失敗しました",
+      "delete": "退会処理中にエラーが発生しました"
+    },
+    "success": {
+      "report": "通報を送信しました"
+    },
+    "detail": {
+      "pageTitle": "ユーザー情報",
+      "teamCount": "所属チーム数",
+      "scrimCount": "スクリム参加件数: {{count}}件",
+      "registeredDate": "登録日",
+      "backToMypage": "マイページに戻る",
+      "ownProfile": "これはあなたのプロフィールです",
+      "viewMypage": "マイページを表示",
+      "report": {
+        "sectionTitle": "通報",
+        "description": "このユーザーに問題がある場合は、運営に通報できます。",
+        "withdrawnNote": "※ 退会済みユーザーですが、過去の行為について通報できます。",
+        "button": "このユーザーを通報する",
+        "modalTitle": "ユーザーを通報",
+        "target": "対象",
+        "reasonLabel": "通報理由",
+        "selectReason": "選択してください",
+        "detailLabel": "詳細（任意）",
+        "detailPlaceholder": "具体的な内容を教えてください...",
+        "imageLabel": "証拠画像（任意・最大{{max}}枚）",
+        "imageMax": "画像は最大{{max}}枚まで",
+        "imageDrop": "クリックまたはドラッグ&ドロップ",
+        "imageFormats": "JPEG, PNG, GIF, WebP（各5MB以下）",
+        "attachedImage": "添付画像",
+        "cancel": "キャンセル",
+        "submitting": "送信中...",
+        "submit": "通報する",
+        "success": "通報を受け付けました",
+        "thanks": "ご報告ありがとうございます"
+      },
+      "reasons": {
+        "harassment": "暴言・誹謗中傷",
+        "stalking": "嫌がらせ・ハラスメント",
+        "impersonation": "なりすまし",
+        "spam": "スパム・宣伝",
+        "no_show": "ドタキャン・無断欠席",
+        "rank_fraud": "ランク詐称",
+        "other": "その他"
+      },
+      "validation": {
+        "fileTypeError": "JPEG、PNG、GIF、WebP形式のみ対応しています",
+        "fileSizeError": "ファイルサイズは5MB以下にしてください",
+        "uploadError": "画像のアップロードに失敗しました"
+      }
+    }
+  },
+  "mypage": {
+    "tabs": {
+      "scrim": "スクリム",
+      "teams": "所属チーム",
+      "lft": "チーム募集",
+      "profile": "プロフィール"
+    },
+    "scrim": {
+      "viewCalendar": "カレンダーを見る →",
+      "upcomingScrims": "今後のスクリム",
+      "noScrims": "予定されているスクリムはありません",
+      "externalScrim": "外部スクリム",
+      "applications": "申込み: {{count}}件",
+      "applying": "申込み中",
+      "applyingAs": "{{team}}として申込み"
+    },
+    "requests": {
+      "title": "保留中の参加リクエスト",
+      "fromRecruitment": "募集から申請",
+      "fromInviteCode": "招待コードで申請",
+      "fromUrl": "URLで申請",
+      "cancelling": "取消中...",
+      "cancel": "取り消し",
+      "cancelConfirm": "このリクエストを取り消しますか？",
+      "waitForApproval": "管理者の承認をお待ちください"
+    },
+    "teams": {
+      "noTeams": "所属しているチームはありません",
+      "memberCount": "メンバー: {{count}}人",
+      "avgRank": "平均ランク:"
+    },
+    "lft": {
+      "manage": "募集を管理",
+      "create": "募集を作成",
+      "expiredWarning": "この募集は作成から100日が経過したため、一覧に表示されていません。",
+      "expiredHint": "引き続き募集を行う場合は、一度削除して再作成してください。",
+      "yourPost": "あなたの募集",
+      "expired": "期限切れ",
+      "recruiting": "募集中",
+      "closed": "募集終了",
+      "createdAt": "作成日:",
+      "contactCount": "{{count}} 件の連絡",
+      "contactingTeams": "連絡中のチーム",
+      "active": "やり取り中",
+      "ended": "終了",
+      "noPostHint": "チームを探している場合は、募集を作成してチームからの連絡を待ちましょう。"
+    },
+    "profile": {
+      "title": "プロフィール",
+      "displayName": "表示名",
+      "battleTag": "BattleTag",
+      "rank": "ランク",
+      "tank": "タンク:",
+      "damage": "ダメージ:",
+      "support": "サポート:",
+      "settingsTitle": "設定",
+      "settingsDescription": "プロフィール情報、ランク、通知設定などを編集できます。",
+      "editSettings": "設定を編集"
+    }
+  },
+  "settings": {
+    "language": {
+      "title": "表示言語",
+      "label": "言語を選択",
+      "current": "現在の設定",
+      "options": {
+        "ja": "日本語",
+        "en": "English",
+        "ko": "한국어",
+        "zh": "中文"
+      }
+    },
+    "pageTitle": "ユーザー設定",
+    "tabs": {
+      "settings": "設定",
+      "withdraw": "退会"
+    },
+    "profile": {
+      "title": "プロフィール・連絡先",
+      "displayName": "表示名",
+      "displayNamePlaceholder": "プレイヤー名",
+      "displayNameHint": "未設定の場合はDiscordの名前が使用されます",
+      "charCount": "({{current}}/{{max}})",
+      "shareToTeam": "チームに公開",
+      "shareToScrim": "スクリム相手に公開"
+    },
+    "rank": {
+      "title": "各ロールのランク",
+      "tank": "タンク",
+      "damage": "ダメージ",
+      "support": "サポート"
+    },
+    "region": {
+      "title": "居住地域",
+      "popularLabel": "よく使う地域"
+    },
+    "timezone": {
+      "title": "タイムゾーン",
+      "label": "表示タイムゾーン",
+      "popularLabel": "よく使うタイムゾーン",
+      "currentSetting": "現在の設定:",
+      "currentTime": "現在時刻:"
+    },
+    "discord": {
+      "title": "Discord通知設定",
+      "description": "Discord Webhookを設定すると、各種通知をDiscordで受け取れます。",
+      "webhookUrl": "Webhook URL",
+      "testSend": "テスト送信",
+      "sending": "送信中...",
+      "howToGetUrl": "Webhook URLの取得方法",
+      "howToStep1": "1. 自分専用のDiscordサーバーを作成（または既存のサーバーを使用）",
+      "howToStep2": "2. 通知を受け取りたいチャンネルの設定を開く",
+      "howToStep3": "3. 「連携サービス」→「ウェブフック」→「新しいウェブフック」",
+      "howToStep4": "4. 「ウェブフックURLをコピー」してここに貼り付け",
+      "notifyItems": "通知する項目",
+      "notifyHint": "Webhook URLを設定すると、以下の通知を受け取れます",
+      "inquiryReply": "お問い合わせへの返信",
+      "lftContact": "LFTへのスカウト（チームからの連絡開始）",
+      "lftMessage": "LFT会話の新着メッセージ",
+      "joinRequestResult": "チーム参加リクエストの結果（承認/却下）",
+      "tournamentOrganizerTitle": "大会主催者向け通知",
+      "tournamentApplication": "チームからの応募",
+      "tournamentApplicationCancel": "応募キャンセル",
+      "tournamentTeamMessage": "チームからのメッセージ",
+      "tournamentOrganizerRequest": "共同主催者の申し込み",
+      "tournamentReminder": "大会開始リマインダー",
+      "reminder24h": "24時間前",
+      "reminder12h": "12時間前",
+      "reminder1h": "1時間前",
+      "reminder10m": "10分前"
+    },
+    "save": {
+      "button": "設定を保存",
+      "saving": "保存中...",
+      "success": "設定を保存しました",
+      "error": "エラーが発生しました"
+    },
+    "withdraw": {
+      "title": "アカウント退会",
+      "description": "アカウントを退会すると、以下の処理が行われます：",
+      "effect1": "所属しているすべてのチームから脱退します",
+      "effect2": "あなたが唯一の管理者のチームでは、最も古いメンバーに管理者権限が移譲されます",
+      "effect3": "あなたしかいないチームは解散されます",
+      "effect4": "ログインができなくなります",
+      "warning": "この操作は取り消せません。",
+      "button": "退会する",
+      "confirmText": "退会する",
+      "confirmPrompt": "本当に退会しますか？確認のため「{{text}}」と入力してください。",
+      "confirmError": "「{{text}}」と入力してください",
+      "confirm": "退会を確定",
+      "processing": "処理中...",
+      "cancel": "キャンセル",
+      "error": "退会処理中にエラーが発生しました"
+    },
+    "alertTitle": {
+      "error": "エラー",
+      "success": "成功"
+    }
+  },
+  "notification": {
+    "error": {
+      "save": "設定の保存に失敗しました",
+      "testSend": "テスト送信中にエラーが発生しました",
+      "webhookUrlRequired": "Webhook URLを入力してください",
+      "webhookUrlInvalid": "有効なDiscord Webhook URLを入力してください"
+    },
+    "success": {
+      "save": "設定を保存しました",
+      "testSend": "テストメッセージを送信しました。Discordを確認してください。"
+    }
+  },
+  "rating": {
+    "error": {
+      "send": "評価の送信に失敗しました",
+      "update": "評価の更新に失敗しました",
+      "delete": "削除に失敗しました",
+      "replySend": "返信の送信に失敗しました",
+      "replyUpdate": "返信の更新に失敗しました"
+    },
+    "success": {
+      "send": "評価を送信しました",
+      "update": "評価を更新しました",
+      "delete": "評価を削除しました",
+      "replySend": "返信を送信しました",
+      "replyUpdate": "返信を更新しました"
+    }
+  }
+}

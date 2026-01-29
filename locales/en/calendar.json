@@ -1,0 +1,109 @@
+{
+  "calendar": {
+    "error": {
+      "add": "Failed to add",
+      "update": "Failed to update",
+      "delete": "Failed to delete",
+      "bulkSet": "Failed to bulk set"
+    },
+    "success": {
+      "add": "Added",
+      "update": "Updated",
+      "delete": "Deleted",
+      "bulkSet": "Bulk set completed",
+      "debugSet": "Set {{count}} availability slots"
+    },
+    "validation": {
+      "duplicateSchedule": "A schedule already exists at this time",
+      "dayOfWeekRequired": "Please select a day of week",
+      "noTargetDates": "No target dates for setting"
+    },
+    "ui": {
+      "title": "Calendar",
+      "days": {
+        "sun": "Sun",
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat"
+      },
+      "zoom": {
+        "compact": "Compact",
+        "standard": "Standard",
+        "expanded": "Expanded"
+      },
+      "events": {
+        "cancelled": "[Cancelled]",
+        "scrimScheduled": "📅 Scrim Scheduled",
+        "available": "Available",
+        "recruiting": "[Recruiting]",
+        "applicationCount": "({{count}})"
+      },
+      "legend": {
+        "title": "Legend",
+        "confirmed": "Confirmed",
+        "scrimScheduled": "Scrim Scheduled",
+        "recruiting": "Recruiting",
+        "available": "Available"
+      },
+      "display": {
+        "title": "Display",
+        "showAvailability": "Show availability"
+      },
+      "operations": {
+        "title": "Operations",
+        "bulkSettings": "Bulk Settings",
+        "debugRandom": "🧪 Set random for 1 month"
+      },
+      "settingsDrawer": {
+        "title": "Settings"
+      },
+      "slotModal": {
+        "addTitle": "Add Availability",
+        "editTitle": "Edit Availability",
+        "date": "Date",
+        "startTime": "Start Time",
+        "endTime": "End Time",
+        "deleteSlot": "Delete this slot",
+        "deleteConfirm": "Delete this slot?",
+        "cancel": "Cancel",
+        "add": "Add",
+        "update": "Update",
+        "adding": "Adding...",
+        "updating": "Updating..."
+      },
+      "bulkModal": {
+        "title": "Bulk Settings",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "targetDays": "Target Days",
+        "deleteAll": "Delete All in Range",
+        "deleteConfirmTitle": "Confirm Bulk Delete",
+        "deleteConfirmMessage": "Delete all slots from {{startDate}} to {{endDate}}?",
+        "deleteButton": "Delete",
+        "bulkAdd": "Bulk Add",
+        "setting": "Setting..."
+      },
+      "debug": {
+        "title": "Generate Debug Data",
+        "message": "Set random availability for 1 month?\n(Existing availability will be kept)\n\nMultiple slots will be set per day for overlap testing."
+      }
+    }
+  },
+  "outsideAvailability": {
+    "title": "Outside your availability",
+    "dialogTitle": "Outside Availability",
+    "description": "This scrim is outside your registered availability.",
+    "hint": "You can set and check your availability on the Calendar page.",
+    "close": "Close",
+    "goToCalendar": "Go to Calendar"
+  },
+  "pendingRatings": {
+    "title": "Pending Ratings ({{count}})",
+    "description": "Please rate completed scrims. Your ratings help improve future matchmaking.",
+    "rate": "Rate",
+    "moreItems": "{{count}} more"
+  }
+}

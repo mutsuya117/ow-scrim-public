@@ -1,0 +1,165 @@
+{
+  "lft": {
+    "error": {
+      "create": "创建找队帖失败",
+      "update": "更新失败",
+      "close": "关闭找队帖失败",
+      "delete": "删除找队帖失败",
+      "fetch": "获取找队帖失败",
+      "startConversation": "开始对话失败"
+    },
+    "success": {
+      "create": "找队帖已创建",
+      "update": "已更新",
+      "close": "找队帖已关闭",
+      "delete": "找队帖已删除"
+    },
+    "create": {
+      "pageTitle": "创建找队帖",
+      "infoMessage1": "您将作为正在找队的选手被展示。战队管理员可以通过消息联系您。",
+      "infoMessage2": "帖子将在100天后自动隐藏。",
+      "rolesLabel": "可担任角色",
+      "rolesHint": "选择您能担任的角色。选手角色段位将从您的个人设置中获取。",
+      "playerRoles": "选手角色",
+      "staffRoles": "工作人员角色",
+      "notSet": "未设置",
+      "setOtherRanks": "如需设置其他角色的段位，请前往",
+      "profileSettings": "个人设置",
+      "setOtherRanksEnd": "",
+      "languageLabel": "语言",
+      "popularLanguages": "常用语言",
+      "regionLabel": "地区",
+      "popularRegions": "常用地区",
+      "descriptionLabel": "自我介绍",
+      "descriptionPlaceholder": "自我介绍、期望的战队氛围、活跃时间等...",
+      "contactLabel": "公开联系方式",
+      "contactHint": "公开的联系方式将对所有浏览者可见。",
+      "showDiscordId": "公开Discord ID",
+      "showBattleTag": "公开BattleTag",
+      "cancel": "取消",
+      "creating": "创建中...",
+      "submit": "创建帖子",
+      "validation": {
+        "atLeastOneRole": "请选择至少一个角色"
+      },
+      "alreadyExists": "您已有一个有效的帖子。请先删除现有帖子。"
+    },
+    "list": {
+      "title": "找队中",
+      "description": "正在找队的选手列表。战队管理员可以发送消息联系他们。",
+      "createTeam": "创建战队",
+      "viewMyPost": "查看我的帖子",
+      "createPost": "创建帖子",
+      "filter": "筛选",
+      "recruitingRoles": "可担任角色",
+      "playerRoles": "选手",
+      "staffRoles": "工作人员",
+      "filterByLanguageRegion": "按语言和地区筛选",
+      "language": "语言",
+      "region": "地区",
+      "popularLanguages": "常用语言",
+      "popularRegions": "常用地区",
+      "resetFilters": "重置筛选",
+      "noResults": "没有符合条件的帖子",
+      "noPosts": "目前没有正在找队的选手",
+      "createPostAction": "创建帖子",
+      "expiredWarning": "此帖子已超过100天，不再显示在列表中",
+      "selfBadge": "您",
+      "expiredBadge": "已过期",
+      "rankNotSet": "未设置",
+      "languageLabel": "语言：",
+      "regionLabel": "地区：",
+      "editManage": "编辑与管理",
+      "viewAndContact": "查看与联系",
+      "viewDetails": "查看详情",
+      "loginRequired": "需要登录",
+      "loginToCreate": "请登录后创建帖子。",
+      "loginToViewUser": "请登录后查看用户详情。",
+      "loginToViewDetails": "请登录后查看帖子详情。"
+    },
+    "detail": {
+      "notFound": "帖子不存在",
+      "ownPost": "您的帖子",
+      "userPost": "{{name}}的帖子",
+      "backToList": "返回列表",
+      "closed": "此帖子已关闭",
+      "expiredWarning": "此帖子已超过100天，不再显示在列表中。",
+      "expiredHint": "如需继续找队，请删除后重新发布。",
+      "edit": {
+        "title": "编辑帖子",
+        "recruitingRoles": "可担任角色",
+        "roleRankHint": "选手角色段位将从您的个人设置中获取",
+        "playerRoles": "选手角色",
+        "staffRoles": "工作人员角色",
+        "rankNotSet": "未设置",
+        "setOtherRanks": "如需设置其他角色的段位，请前往",
+        "profileSettings": "个人设置",
+        "setOtherRanksEnd": "",
+        "language": "语言",
+        "region": "地区",
+        "popularLanguages": "常用语言",
+        "popularRegions": "常用地区",
+        "description": "自我介绍",
+        "descriptionPlaceholder": "游戏风格、活跃时间、目标等...",
+        "shareDiscord": "公开Discord ID",
+        "shareBattleTag": "公开BattleTag",
+        "cancel": "取消",
+        "saving": "保存中...",
+        "save": "保存"
+      },
+      "view": {
+        "roleRank": "角色与段位",
+        "languageLabel": "语言：",
+        "regionLabel": "地区：",
+        "editButton": "编辑",
+        "closeButton": "关闭帖子",
+        "deleteButton": "删除",
+        "contactButton": "代表战队联系"
+      },
+      "contacts": {
+        "title": "正在联系的战队",
+        "closedBadge": "已关闭"
+      },
+      "messages": {
+        "title": "消息",
+        "empty": "暂无消息",
+        "teamLabel": "（战队）",
+        "inputPlaceholder": "输入消息...",
+        "sending": "发送中...",
+        "send": "发送",
+        "waitingForTeam": "等待战队联系您",
+        "clickToStart": "点击「代表战队联系」开始对话",
+        "adminOnly": "只有战队管理员可以发送消息"
+      },
+      "inviteButton": {
+        "sending": "发送中...",
+        "send": "发送战队邀请"
+      },
+      "startModal": {
+        "title": "开始对话",
+        "teamLabel": "代表战队联系",
+        "messageLabel": "首条消息",
+        "messagePlaceholder": "介绍您的战队、要求等...",
+        "cancel": "取消",
+        "sending": "发送中...",
+        "send": "开始对话"
+      },
+      "inviteModal": {
+        "title": "发送战队邀请",
+        "description": "通过消息向以下用户发送邀请链接和邀请码",
+        "hint": "收件人可以点击链接加入您的战队。",
+        "cancel": "取消",
+        "sending": "发送中...",
+        "send": "发送邀请"
+      },
+      "confirm": {
+        "closeTitle": "关闭帖子",
+        "closeMessage": "关闭此帖子吗？所有相关对话也将被关闭。",
+        "deleteTitle": "删除帖子",
+        "deleteMessage": "删除此帖子吗？此操作无法撤销。",
+        "alreadyContacted": "您已代表此战队联系过"
+      },
+      "inviteMessage": "【邀请加入{{teamName}}】\n\n点击此链接加入战队：{{inviteUrl}}\n\n邀请码：{{inviteCode}}"
+    }
+  }
+}

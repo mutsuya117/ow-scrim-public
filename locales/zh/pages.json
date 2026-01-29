@@ -1,0 +1,641 @@
+{
+  "home": {
+    "hero": {
+      "title1": "训练赛的一切，",
+      "title2": "在这里管理",
+      "subtitle1": "让守望先锋团队训练赛",
+      "subtitle2": "更轻松更顺畅",
+      "loginWithDiscord": "使用Discord登录",
+      "browseWithoutLogin": "无需登录浏览",
+      "freeAndEasy": "免费使用，无需注册",
+      "loginError": "登录失败，请重试。"
+    },
+    "features": {
+      "title": "主要功能",
+      "scrimMatching": {
+        "title": "训练赛匹配",
+        "description": "按评价、时间和比赛模式筛选，轻松找到符合条件的队伍。从申请到批准，一切顺畅进行。"
+      },
+      "availability": {
+        "title": "成员空闲时间查看",
+        "description": "一目了然地查看队员的空闲时间。方便安排训练赛，显示5人全员空闲的时段。"
+      },
+      "discord": {
+        "title": "Discord通知",
+        "description1": "在",
+        "description2": "Discord",
+        "description3": "接收重要通知。不错过任何更新。",
+        "item1": "• 训练赛申请、批准、拒绝",
+        "item2": "• 训练赛提醒（10分钟/1小时/12小时/24小时前）",
+        "item3": "• 比赛录取、拒绝、晋级",
+        "item4": "• 比赛提醒（10分钟/1小时/12小时/24小时前）"
+      }
+    },
+    "interface": {
+      "title": "用户友好的界面",
+      "subtitle": "简洁直观的设计，快速上手",
+      "scrimList": "训练赛招募",
+      "teamDetail": "战队详情",
+      "teamSchedule": "战队日程",
+      "teamAverage": "战队平均",
+      "memberAvailability": "成员空闲时间",
+      "teamDetailCalc": "战队详情与段位计算",
+      "memberAvailabilityCheck": "成员空闲时间查看",
+      "fulltime": "全场",
+      "mutual2map": "互选2图",
+      "fiveOk": "5人齐",
+      "shortage": "缺人",
+      "available": "5人可用",
+      "unavailable": "非全员可用",
+      "days": {
+        "mon": "一",
+        "tue": "二",
+        "wed": "三",
+        "thu": "四",
+        "fri": "五",
+        "sat": "六",
+        "sun": "日"
+      },
+      "mockTime1": "12/21 (六) 20:00-",
+      "mockTime2": "12/21 (六) 21:00-",
+      "mockTime3": "12/22 (日) 19:00-"
+    },
+    "otherFeatures": {
+      "title": "其他功能",
+      "subtitle": "全面支持训练赛管理",
+      "scrim": {
+        "title": "训练赛",
+        "item1": "比赛模式选择（全场/互选2图/其他）",
+        "item2": "时间冲突检测和警告",
+        "item3": "地区筛选",
+        "item4": "外部队伍训练赛安排",
+        "item5": "战队评价（好评/差评）和历史记录"
+      },
+      "team": {
+        "title": "战队管理",
+        "item1": "创建和编辑战队",
+        "item2": "成员角色分配（坦克/输出/辅助）",
+        "item3": "自动战队段位计算（所有阵容的最小-最大值）",
+        "item4": "职位和权限管理（队长/经理等）",
+        "item5": "战队公告"
+      },
+      "circle": {
+        "title": "训练赛圈子",
+        "item1": "在战队之间创建私密群组",
+        "item2": "圈子专属训练赛招募",
+        "item3": "通过邀请码加入"
+      },
+      "tournament": {
+        "title": "比赛",
+        "item1": "创建、报名和抽签",
+        "item2": "协办方设置",
+        "item3": "圈子专属可见性",
+        "item4": "Challonge集成"
+      },
+      "recruitment": {
+        "title": "成员招募与找队",
+        "item1": "战队招募选手",
+        "item2": "选手找队（LFT）",
+        "item3": "按角色、语言、地区筛选"
+      },
+      "other": {
+        "title": "其他",
+        "item1": "个人日历（查看您的日程）",
+        "item2": "我的页面（即将进行的活动和申请管理）"
+      }
+    },
+    "cta": {
+      "title": "立即开始",
+      "subtitle": "有Discord账号就可以创建战队并开始发布训练赛招募",
+      "startFree": "立即免费开始"
+    },
+    "footer": {
+      "terms": "服务条款",
+      "privacy": "隐私政策",
+      "licenses": "开源许可",
+      "admin": "管理"
+    },
+    "consent": {
+      "title": "条款同意",
+      "description": "您必须同意以下条款才能使用本服务。",
+      "viewTerms": "查看服务条款 →",
+      "viewPrivacy": "查看隐私政策 →",
+      "agree": "我同意服务条款和隐私政策",
+      "cancel": "取消",
+      "agreeAndLogin": "同意并登录"
+    }
+  },
+  "recruitment": {
+    "memberTab": "成员招募",
+    "memberTabHint": "正在招募成员的战队",
+    "playerTab": "找队",
+    "playerTabHint": "正在找队的选手（LFT）",
+    "filter": "筛选",
+    "list": {
+      "title": "成员招募",
+      "description": "正在招募选手的战队列表。发送加入申请并等待管理员批准。",
+      "createTeam": "创建战队",
+      "joinByCode": "通过邀请码加入",
+      "createRecruitment": "创建招募",
+      "filter": "筛选",
+      "recruitingRoles": "招募角色",
+      "playerRoles": "选手",
+      "staffRoles": "工作人员",
+      "filterByLanguageRegion": "按语言和地区筛选",
+      "language": "语言",
+      "region": "地区",
+      "popularLanguages": "常用语言",
+      "popularRegions": "常用地区",
+      "resetFilters": "重置筛选",
+      "noResults": "没有符合条件的招募",
+      "noRecruitments": "目前没有战队在招募",
+      "createTeamAction": "创建战队",
+      "memberBadge": "成员",
+      "pendingBadge": "待处理",
+      "recruitingRolesLabel": "招募角色",
+      "languageLabel": "语言：",
+      "regionLabel": "地区：",
+      "avgRank": "平均段位：",
+      "goToTeamPage": "前往战队页面",
+      "waitingForApproval": "等待管理员批准",
+      "sendJoinRequest": "发送加入申请",
+      "loginRequired": "需要登录",
+      "loginToCreate": "请登录后创建战队。",
+      "loginToViewTeam": "请登录后查看战队详情。",
+      "loginToJoin": "请登录后加入战队。"
+    },
+    "invite": {
+      "title": "通过邀请码加入",
+      "description": "输入战队分享的邀请码。",
+      "placeholder": "输入邀请码",
+      "cancel": "取消",
+      "validating": "验证中...",
+      "next": "下一步",
+      "invalidCode": "无效的邀请码",
+      "expired": "邀请码已过期",
+      "maxUsesReached": "邀请码已达使用上限",
+      "teamNotFound": "无法获取战队信息",
+      "teamDissolved": "此战队已解散",
+      "alreadyMember": "您已是此战队成员",
+      "alreadyRequested": "您已向此战队发送过加入申请",
+      "validationFailed": "验证邀请码失败"
+    },
+    "joinRequest": {
+      "title": "加入申请",
+      "successTitle": "申请已发送！",
+      "successMessage": "您的加入申请已发送至{{teamName}}。",
+      "waitForApproval": "请等待管理员批准。",
+      "close": "关闭",
+      "messageLabel": "留言（可选）",
+      "messagePlaceholder": "自我介绍或说明加入理由...",
+      "contactSettings": "公开联系方式（申请中可见）",
+      "showDiscordId": "显示Discord ID",
+      "showBattleTag": "显示BattleTag",
+      "back": "返回",
+      "submitting": "提交中...",
+      "submit": "发送申请",
+      "alreadyMember": "您已是此战队成员",
+      "alreadyRequested": "您已向此战队发送过加入申请",
+      "invalidOrExpired": "邀请码无效或已过期",
+      "memberLimitReached": "此战队已达成员上限（{{max}}人）",
+      "notOpenForRecruitment": "此战队目前不招募成员",
+      "submitFailed": "发送申请失败"
+    },
+    "createGuide": {
+      "title": "创建成员招募",
+      "description": "成员招募可以从战队详情页面创建。",
+      "step1": "前往战队详情页面",
+      "step2": "点击成员招募部分的「编辑招募」按钮",
+      "step3": "输入招募详情并保存",
+      "note": "* 只有战队管理员可以创建和编辑招募",
+      "close": "关闭",
+      "goToTeamList": "前往战队列表"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "newInquiry": "新建咨询",
+    "history": "咨询记录",
+    "successMessage": "您的咨询已提交，谢谢。",
+    "category": {
+      "label": "类别",
+      "bug": "Bug报告",
+      "feature": "功能建议",
+      "other": "其他"
+    },
+    "subject": {
+      "label": "主题",
+      "placeholder": "咨询主题"
+    },
+    "message": {
+      "label": "内容",
+      "placeholder": "请详细描述您的问题"
+    },
+    "image": {
+      "label": "附加图片",
+      "optional": "可选，最多{{max}}张",
+      "maxReached": "最多允许{{max}}张图片",
+      "dropzone": "拖放或点击选择",
+      "formats": "JPEG、PNG、GIF、WebP（每张最大5MB）",
+      "typeError": "仅支持JPEG、PNG、GIF、WebP格式",
+      "sizeError": "文件大小不能超过5MB",
+      "uploadError": "上传图片失败",
+      "delete": "删除",
+      "enlarged": "放大图片"
+    },
+    "validation": {
+      "subjectRequired": "请输入主题",
+      "messageRequired": "请输入内容",
+      "replyRequired": "请输入回复"
+    },
+    "submit": "提交",
+    "sending": "发送中...",
+    "loading": "加载中...",
+    "noHistory": "暂无咨询记录",
+    "status": {
+      "pending": "待处理",
+      "in_progress": "处理中",
+      "resolved": "已解决",
+      "closed": "已关闭"
+    },
+    "replies": "对话",
+    "sender": {
+      "admin": "管理员",
+      "user": "您"
+    },
+    "reply": "回复",
+    "replyPlaceholder": "输入您的回复...",
+    "cancel": "取消",
+    "closedMessage": "此咨询已关闭",
+    "required": "必填"
+  },
+  "legal": {
+    "backToTop": "← 返回首页",
+    "terms": {
+      "title": "服务条款",
+      "effectiveDate": "生效日期：{{date}}"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "effectiveDate": "生效日期：{{date}}"
+    },
+    "licenses": {
+      "title": "开源许可",
+      "description": "本服务使用以下开源软件。感谢所有作者和贡献者。",
+      "library": "库",
+      "version": "版本",
+      "repository": "仓库",
+      "note": "以上仅列出主要依赖。完整许可文本请参阅各仓库。",
+      "descriptions": {
+        "MIT": "MIT许可 - 可自由使用、复制、修改和分发，需保留版权和许可声明。",
+        "Apache-2.0": "Apache许可2.0 - 需保留版权声明、许可声明和变更声明。包含专利授权。",
+        "MPL-2.0": "Mozilla公共许可2.0 - 文件级copyleft。修改的文件必须以MPL发布。",
+        "0BSD": "零条款BSD - 可自由使用，无任何限制。",
+        "ISC": "ISC许可 - 类似MIT。需保留版权和许可声明。",
+        "BSD-3-Clause": "BSD 3条款许可 - 需保留版权和许可声明。"
+      }
+    }
+  },
+  "circle": {
+    "create": {
+      "pageTitle": "创建圈子",
+      "noPermission": "没有创建圈子的权限",
+      "noPermissionHint": "创建圈子需要战队管理员权限。",
+      "teamLabel": "选择战队",
+      "teamHint": "使用选定的战队创建圈子",
+      "nameLabel": "圈子名称",
+      "namePlaceholder": "输入圈子名称",
+      "nameCount": "{{count}}/50",
+      "descriptionLabel": "描述（可选）",
+      "descriptionPlaceholder": "输入圈子描述",
+      "descriptionCount": "{{count}}/500",
+      "cancel": "取消",
+      "creating": "创建中...",
+      "createButton": "创建"
+    },
+    "roles": {
+      "circle_admin": "管理员",
+      "member_manager": "成员管理员",
+      "member": "成员"
+    },
+    "actions": {
+      "create": "创建圈子",
+      "join": "加入",
+      "leave": "离开",
+      "kick": "踢出",
+      "role_change": "角色变更",
+      "update": "设置变更",
+      "dissolve": "解散",
+      "update_info": "更新信息",
+      "regenerate_code": "重新生成邀请码",
+      "join_request": "加入申请",
+      "join_request_approved": "申请已批准",
+      "join_request_rejected": "申请已拒绝",
+      "join_request_cancelled": "申请已取消"
+    },
+    "ui": {
+      "memberCount": "战队：{{count}}",
+      "membersTab": "成员",
+      "scrimsTab": "训练赛招募",
+      "requestsTab": "加入申请",
+      "settingsTab": "设置",
+      "logsTab": "日志",
+      "memberList": "成员列表",
+      "yourTeam": "（您的战队）",
+      "myTeamBadge": "我的战队",
+      "noRequests": "暂无待处理的加入申请",
+      "leaveCircle": "离开圈子",
+      "dissolveCircle": "解散圈子",
+      "kickButton": "踢出",
+      "adminTransferNote": "* 如果您是最后一名管理员，请在离开前将管理员权限转让给其他战队",
+      "circleScrimPosts": "圈子内训练赛招募",
+      "noScrimPosts": "暂无训练赛招募",
+      "ratingRequirement": "评价要求",
+      "applications": "申请",
+      "requestedBy": "申请者",
+      "approve": "批准",
+      "reject": "拒绝",
+      "circleSettings": "圈子设置",
+      "circleName": "圈子名称",
+      "description": "描述",
+      "edit": "编辑",
+      "cancel": "取消",
+      "save": "保存",
+      "notSet": "（未设置）",
+      "inviteCode": "邀请码",
+      "copyCode": "复制邀请码",
+      "copyUrl": "复制URL",
+      "regenerate": "重新生成",
+      "inviteDescription": "分享邀请码或URL以邀请战队",
+      "dangerZone": "危险操作",
+      "cannotUndo": "* 此操作无法撤销",
+      "operationLogs": "操作日志",
+      "noLogs": "暂无操作日志",
+      "circleNotFound": "圈子不存在",
+      "backToCircles": "返回圈子列表",
+      "pageTitle": "训练赛圈子",
+      "createCircle": "创建圈子",
+      "joinByCode": "通过邀请码加入",
+      "inviteCodePlaceholder": "输入邀请码",
+      "checking": "验证中...",
+      "join": "加入",
+      "invalidCode": "无效的邀请码",
+      "myCircles": "我的圈子",
+      "noCircles": "您不在任何圈子中",
+      "noCirclesHint": "输入邀请码或创建新圈子",
+      "teamCountLabel": "战队"
+    },
+    "confirm": {
+      "kick": "将{{name}}踢出圈子吗？",
+      "leave": "离开此圈子吗？",
+      "dissolve1": "解散此圈子吗？此操作无法撤销。",
+      "dissolve2": "确定要解散吗？",
+      "approveRequest": "批准此加入申请吗？",
+      "rejectRequest": "拒绝此加入申请吗？",
+      "regenerateCode": "重新生成邀请码？现有邀请码将失效。"
+    }
+  },
+  "user": {
+    "error": {
+      "fetch": "获取用户信息失败",
+      "notFound": "用户不存在",
+      "report": "发送举报失败",
+      "delete": "删除账号时出错"
+    },
+    "success": {
+      "report": "举报已提交"
+    },
+    "detail": {
+      "pageTitle": "用户资料",
+      "teamCount": "战队",
+      "scrimCount": "已完成训练赛：{{count}}",
+      "registeredDate": "注册时间",
+      "backToMypage": "返回我的页面",
+      "ownProfile": "这是您的个人资料",
+      "viewMypage": "前往我的页面",
+      "report": {
+        "sectionTitle": "举报",
+        "description": "如果此用户存在问题，您可以向管理员举报。",
+        "withdrawnNote": "* 此用户已注销，但您仍可以举报其过去的行为。",
+        "button": "举报此用户",
+        "modalTitle": "举报用户",
+        "target": "举报对象",
+        "reasonLabel": "举报原因",
+        "selectReason": "请选择",
+        "detailLabel": "详情（可选）",
+        "detailPlaceholder": "请描述问题...",
+        "imageLabel": "证据图片（可选，最多{{max}}张）",
+        "imageMax": "最多{{max}}张",
+        "imageDrop": "点击或拖放",
+        "imageFormats": "JPEG、PNG、GIF、WebP（每张最大5MB）",
+        "attachedImage": "附加图片",
+        "cancel": "取消",
+        "submitting": "提交中...",
+        "submit": "提交举报",
+        "success": "举报已提交",
+        "thanks": "感谢您的举报"
+      },
+      "reasons": {
+        "harassment": "言语攻击/诽谤",
+        "stalking": "骚扰/跟踪",
+        "impersonation": "冒充他人",
+        "spam": "垃圾信息/广告",
+        "no_show": "缺席/未出席",
+        "rank_fraud": "段位造假",
+        "other": "其他"
+      },
+      "validation": {
+        "fileTypeError": "仅支持JPEG、PNG、GIF、WebP格式",
+        "fileSizeError": "文件大小不能超过5MB",
+        "uploadError": "上传图片失败"
+      }
+    }
+  },
+  "mypage": {
+    "tabs": {
+      "scrim": "训练赛",
+      "teams": "战队",
+      "lft": "找队",
+      "profile": "资料"
+    },
+    "scrim": {
+      "viewCalendar": "查看日历 →",
+      "upcomingScrims": "即将进行的训练赛",
+      "noScrims": "暂无已安排的训练赛",
+      "externalScrim": "外部",
+      "applications": "申请：{{count}}",
+      "applying": "申请中",
+      "applyingAs": "以{{team}}身份申请中"
+    },
+    "requests": {
+      "title": "待处理的加入申请",
+      "fromRecruitment": "来自招募",
+      "fromInviteCode": "通过邀请码",
+      "fromUrl": "通过URL",
+      "cancelling": "取消中...",
+      "cancel": "取消",
+      "cancelConfirm": "取消此申请吗？",
+      "waitForApproval": "等待管理员批准"
+    },
+    "teams": {
+      "noTeams": "您不属于任何战队",
+      "memberCount": "成员：{{count}}",
+      "avgRank": "平均段位："
+    },
+    "lft": {
+      "manage": "管理帖子",
+      "create": "创建帖子",
+      "expiredWarning": "此帖子已超过100天，不再显示在列表中。",
+      "expiredHint": "如需继续找队，请删除后重新发布。",
+      "yourPost": "您的帖子",
+      "expired": "已过期",
+      "recruiting": "招募中",
+      "closed": "已关闭",
+      "createdAt": "创建时间：",
+      "contactCount": "{{count}}个联系",
+      "contactingTeams": "正在联系的战队",
+      "active": "进行中",
+      "ended": "已结束",
+      "noPostHint": "如果您正在找队，创建帖子后可以收到战队的联系。"
+    },
+    "profile": {
+      "title": "资料",
+      "displayName": "显示名称",
+      "battleTag": "BattleTag",
+      "rank": "段位",
+      "tank": "坦克：",
+      "damage": "输出：",
+      "support": "辅助：",
+      "settingsTitle": "设置",
+      "settingsDescription": "编辑您的资料、段位、通知设置等。",
+      "editSettings": "编辑设置"
+    }
+  },
+  "settings": {
+    "language": {
+      "title": "显示语言",
+      "label": "选择语言",
+      "current": "当前设置",
+      "options": {
+        "ja": "日本語",
+        "en": "English",
+        "ko": "한국어",
+        "zh": "中文"
+      }
+    },
+    "pageTitle": "用户设置",
+    "tabs": {
+      "settings": "设置",
+      "withdraw": "删除账号"
+    },
+    "profile": {
+      "title": "资料与联系方式",
+      "displayName": "显示名称",
+      "displayNamePlaceholder": "玩家名称",
+      "displayNameHint": "如未设置，将使用您的Discord名称",
+      "charCount": "（{{current}}/{{max}}）",
+      "shareToTeam": "与队友共享",
+      "shareToScrim": "与训练赛对手共享"
+    },
+    "rank": {
+      "title": "各角色段位",
+      "tank": "坦克",
+      "damage": "输出",
+      "support": "辅助"
+    },
+    "region": {
+      "title": "地区",
+      "popularLabel": "常用地区"
+    },
+    "timezone": {
+      "title": "时区",
+      "label": "显示时区",
+      "popularLabel": "常用时区",
+      "currentSetting": "当前设置：",
+      "currentTime": "当前时间："
+    },
+    "discord": {
+      "title": "Discord通知设置",
+      "description": "设置Discord Webhook以在Discord接收通知。",
+      "webhookUrl": "Webhook URL",
+      "testSend": "测试发送",
+      "sending": "发送中...",
+      "howToGetUrl": "如何获取Webhook URL",
+      "howToStep1": "1. 创建您自己的Discord服务器（或使用现有的）",
+      "howToStep2": "2. 打开要接收通知的频道设置",
+      "howToStep3": "3. 前往「整合」→「Webhooks」→「新建Webhook」",
+      "howToStep4": "4. 复制Webhook URL并粘贴到此处",
+      "notifyItems": "通知项目",
+      "notifyHint": "设置Webhook URL后可接收以下通知",
+      "inquiryReply": "咨询回复",
+      "lftContact": "找队联系（战队联系请求）",
+      "lftMessage": "新的找队对话消息",
+      "joinRequestResult": "战队加入申请结果（通过/拒绝）",
+      "tournamentOrganizerTitle": "比赛主办方通知",
+      "tournamentApplication": "队伍报名",
+      "tournamentApplicationCancel": "报名取消",
+      "tournamentTeamMessage": "来自队伍的消息",
+      "tournamentOrganizerRequest": "协办方申请",
+      "tournamentReminder": "比赛开始提醒",
+      "reminder24h": "24小时前",
+      "reminder12h": "12小时前",
+      "reminder1h": "1小时前",
+      "reminder10m": "10分钟前"
+    },
+    "save": {
+      "button": "保存设置",
+      "saving": "保存中...",
+      "success": "设置已保存",
+      "error": "发生错误"
+    },
+    "withdraw": {
+      "title": "删除账号",
+      "description": "删除账号后将：",
+      "effect1": "从所有战队中移除您",
+      "effect2": "如果您是唯一管理员，将管理员权限转让给最老成员",
+      "effect3": "解散您是唯一成员的战队",
+      "effect4": "无法再次登录",
+      "warning": "此操作无法撤销。",
+      "button": "删除账号",
+      "confirmText": "删除",
+      "confirmPrompt": "确定吗？请输入「{{text}}」确认。",
+      "confirmError": "请输入「{{text}}」",
+      "confirm": "确认删除",
+      "processing": "处理中...",
+      "cancel": "取消",
+      "error": "删除账号时发生错误"
+    },
+    "alertTitle": {
+      "error": "错误",
+      "success": "成功"
+    }
+  },
+  "notification": {
+    "error": {
+      "save": "保存设置失败",
+      "testSend": "测试发送时出错",
+      "webhookUrlRequired": "请输入Webhook URL",
+      "webhookUrlInvalid": "请输入有效的Discord Webhook URL"
+    },
+    "success": {
+      "save": "设置已保存",
+      "testSend": "测试消息已发送，请查看Discord。"
+    }
+  },
+  "rating": {
+    "error": {
+      "send": "发送评价失败",
+      "update": "更新评价失败",
+      "delete": "删除失败",
+      "replySend": "发送回复失败",
+      "replyUpdate": "更新回复失败"
+    },
+    "success": {
+      "send": "评价已提交",
+      "update": "评价已更新",
+      "delete": "评价已删除",
+      "replySend": "回复已发送",
+      "replyUpdate": "回复已更新"
+    }
+  }
+}

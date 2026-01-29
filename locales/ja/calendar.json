@@ -1,0 +1,109 @@
+{
+  "calendar": {
+    "error": {
+      "add": "追加に失敗しました",
+      "update": "更新に失敗しました",
+      "delete": "削除に失敗しました",
+      "bulkSet": "一括設定に失敗しました"
+    },
+    "success": {
+      "add": "追加しました",
+      "update": "更新しました",
+      "delete": "削除しました",
+      "bulkSet": "一括設定しました",
+      "debugSet": "{{count}}件の空き時間を設定しました"
+    },
+    "validation": {
+      "duplicateSchedule": "同じ日時の予定が既に存在します",
+      "dayOfWeekRequired": "曜日を選択してください",
+      "noTargetDates": "設定対象の日付がありません"
+    },
+    "ui": {
+      "title": "カレンダー",
+      "days": {
+        "sun": "日",
+        "mon": "月",
+        "tue": "火",
+        "wed": "水",
+        "thu": "木",
+        "fri": "金",
+        "sat": "土"
+      },
+      "zoom": {
+        "compact": "コンパクト",
+        "standard": "標準",
+        "expanded": "拡大"
+      },
+      "events": {
+        "cancelled": "[キャンセル]",
+        "scrimScheduled": "📅 スクリム予定",
+        "available": "スクリム可能",
+        "recruiting": "[募集中]",
+        "applicationCount": "({{count}}件)"
+      },
+      "legend": {
+        "title": "凡例",
+        "confirmed": "開催決定",
+        "scrimScheduled": "スクリム予定",
+        "recruiting": "募集中",
+        "available": "スクリム可能"
+      },
+      "display": {
+        "title": "表示",
+        "showAvailability": "スクリム可能時間を表示"
+      },
+      "operations": {
+        "title": "操作",
+        "bulkSettings": "一括設定",
+        "debugRandom": "🧪 1ヶ月分ランダム設定"
+      },
+      "settingsDrawer": {
+        "title": "設定"
+      },
+      "slotModal": {
+        "addTitle": "スクリム可能時間を追加",
+        "editTitle": "スクリム可能時間を編集",
+        "date": "日付",
+        "startTime": "開始時刻",
+        "endTime": "終了時刻",
+        "deleteSlot": "この予定を削除",
+        "deleteConfirm": "この予定を削除しますか？",
+        "cancel": "キャンセル",
+        "add": "追加",
+        "update": "更新",
+        "adding": "追加中...",
+        "updating": "更新中..."
+      },
+      "bulkModal": {
+        "title": "一括設定",
+        "startDate": "開始日",
+        "endDate": "終了日",
+        "targetDays": "対象曜日",
+        "deleteAll": "期間内を全削除",
+        "deleteConfirmTitle": "一括削除の確認",
+        "deleteConfirmMessage": "{{startDate}} 〜 {{endDate}} の予定を全て削除しますか？",
+        "deleteButton": "削除する",
+        "bulkAdd": "一括追加",
+        "setting": "設定中..."
+      },
+      "debug": {
+        "title": "デバッグ用データ生成",
+        "message": "1ヶ月分のランダムな空き時間を設定しますか？\n（既存の空き時間はそのまま維持されます）\n\n各日に複数のスロットが設定され、時間帯の重複テストができます。"
+      }
+    }
+  },
+  "outsideAvailability": {
+    "title": "自分の空き時間外です",
+    "dialogTitle": "空き時間外",
+    "description": "このスクリムはあなたの登録した空き時間外です。",
+    "hint": "カレンダーページで空き時間を設定・確認できます。",
+    "close": "閉じる",
+    "goToCalendar": "カレンダーへ"
+  },
+  "pendingRatings": {
+    "title": "未評価のスクリム ({{count}}件)",
+    "description": "終了したスクリムの評価をお願いします。評価は今後のマッチングの参考になります。",
+    "rate": "評価する",
+    "moreItems": "他 {{count}}件"
+  }
+}

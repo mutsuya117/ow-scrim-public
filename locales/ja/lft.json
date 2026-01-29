@@ -1,0 +1,165 @@
+{
+  "lft": {
+    "error": {
+      "create": "募集の作成に失敗しました",
+      "update": "更新に失敗しました",
+      "close": "募集の終了に失敗しました",
+      "delete": "募集の削除に失敗しました",
+      "fetch": "募集の取得に失敗しました",
+      "startConversation": "連絡の開始に失敗しました"
+    },
+    "success": {
+      "create": "募集を作成しました",
+      "update": "更新しました",
+      "close": "募集を終了しました",
+      "delete": "募集を削除しました"
+    },
+    "create": {
+      "pageTitle": "チーム募集を作成",
+      "infoMessage1": "チームを探していることを公開します。チームの管理者からメッセージで連絡が届きます。",
+      "infoMessage2": "募集は作成から100日後に自動的に非表示になります。",
+      "rolesLabel": "募集ロール",
+      "rolesHint": "募集するロールを選択してください。プレイヤーロールのランクはプロフィールの設定が使用されます。",
+      "playerRoles": "プレイヤーロール",
+      "staffRoles": "スタッフロール",
+      "notSet": "未設定",
+      "setOtherRanks": "他のロールのランクを設定するには",
+      "profileSettings": "プロフィール設定",
+      "setOtherRanksEnd": "へ",
+      "languageLabel": "使用可能言語",
+      "popularLanguages": "よく使う言語",
+      "regionLabel": "居住地域",
+      "popularRegions": "よく使う地域",
+      "descriptionLabel": "自己紹介・コメント",
+      "descriptionPlaceholder": "自己紹介、希望するチームの雰囲気、活動時間帯など...",
+      "contactLabel": "連絡先の公開",
+      "contactHint": "公開した連絡先は、募集一覧を見ている全員に表示されます。",
+      "showDiscordId": "Discord IDを公開",
+      "showBattleTag": "BattleTagを公開",
+      "cancel": "キャンセル",
+      "creating": "作成中...",
+      "submit": "募集を作成",
+      "validation": {
+        "atLeastOneRole": "少なくとも1つのロールを設定してください"
+      },
+      "alreadyExists": "既に募集を作成済みです。先に既存の募集を削除してください。"
+    },
+    "list": {
+      "title": "チーム募集",
+      "description": "チームを探しているプレイヤーの一覧です。チームの管理者（admin権限）がメッセージで連絡できます。",
+      "createTeam": "チーム作成",
+      "viewMyPost": "自分の募集を確認",
+      "createPost": "募集を作成",
+      "filter": "絞り込み",
+      "recruitingRoles": "募集ロール",
+      "playerRoles": "プレイヤー",
+      "staffRoles": "スタッフ",
+      "filterByLanguageRegion": "使用言語・居住地域で絞り込む",
+      "language": "使用言語",
+      "region": "居住地域",
+      "popularLanguages": "よく使う言語",
+      "popularRegions": "よく使う地域",
+      "resetFilters": "フィルターをリセット",
+      "noResults": "条件に一致する募集が見つかりませんでした",
+      "noPosts": "現在チームを探している募集はありません",
+      "createPostAction": "募集を作成する",
+      "expiredWarning": "この募集は100日経過のため一覧に表示されていません",
+      "selfBadge": "自分",
+      "expiredBadge": "期限切れ",
+      "rankNotSet": "未設定",
+      "languageLabel": "言語:",
+      "regionLabel": "居住:",
+      "editManage": "編集・管理",
+      "viewAndContact": "詳細を見る・連絡する",
+      "viewDetails": "詳細を見る",
+      "loginRequired": "ログインが必要です",
+      "loginToCreate": "募集を作成するにはログインしてください。",
+      "loginToViewUser": "ユーザーの詳細を見るにはログインしてください。",
+      "loginToViewDetails": "募集の詳細を見るにはログインしてください。"
+    },
+    "detail": {
+      "notFound": "募集が見つかりませんでした",
+      "ownPost": "自分の募集",
+      "userPost": "{{name}}さんの募集",
+      "backToList": "一覧に戻る",
+      "closed": "この募集は終了しました",
+      "expiredWarning": "この募集は作成から100日が経過したため、一覧に表示されていません。",
+      "expiredHint": "引き続き募集を行う場合は、一度削除して再作成してください。",
+      "edit": {
+        "title": "募集を編集",
+        "recruitingRoles": "募集ロール",
+        "roleRankHint": "プレイヤーロールのランクはプロフィールの設定が使用されます",
+        "playerRoles": "プレイヤーロール",
+        "staffRoles": "スタッフロール",
+        "rankNotSet": "未設定",
+        "setOtherRanks": "他のロールのランクを設定するには",
+        "profileSettings": "プロフィール設定",
+        "setOtherRanksEnd": "へ",
+        "language": "使用言語",
+        "region": "居住地域",
+        "popularLanguages": "よく使う言語",
+        "popularRegions": "よく使う地域",
+        "description": "自己紹介",
+        "descriptionPlaceholder": "プレイスタイル、活動時間帯、目標など...",
+        "shareDiscord": "Discord IDを公開",
+        "shareBattleTag": "BattleTagを公開",
+        "cancel": "キャンセル",
+        "saving": "保存中...",
+        "save": "保存"
+      },
+      "view": {
+        "roleRank": "ロール・ランク",
+        "languageLabel": "言語:",
+        "regionLabel": "居住:",
+        "editButton": "編集",
+        "closeButton": "募集を終了",
+        "deleteButton": "削除",
+        "contactButton": "チームから連絡する"
+      },
+      "contacts": {
+        "title": "連絡中のチーム",
+        "closedBadge": "終了"
+      },
+      "messages": {
+        "title": "メッセージ",
+        "empty": "メッセージはありません",
+        "teamLabel": "(チーム)",
+        "inputPlaceholder": "メッセージを入力...",
+        "sending": "送信中...",
+        "send": "送信",
+        "waitingForTeam": "チームからの連絡を待っています",
+        "clickToStart": "連絡を開始するには「チームから連絡する」ボタンを押してください",
+        "adminOnly": "チームの管理者（admin権限）のみメッセージを送信できます"
+      },
+      "inviteButton": {
+        "sending": "送信中...",
+        "send": "チーム招待を送信"
+      },
+      "startModal": {
+        "title": "連絡を開始",
+        "teamLabel": "連絡元のチーム",
+        "messageLabel": "最初のメッセージ",
+        "messagePlaceholder": "チームの紹介や募集条件など...",
+        "cancel": "キャンセル",
+        "sending": "送信中...",
+        "send": "連絡を開始"
+      },
+      "inviteModal": {
+        "title": "チーム招待を送信",
+        "description": "への招待リンクとコードをメッセージで送信します。",
+        "hint": "招待を受け取った相手はリンクをクリックするだけでチームに参加できます。",
+        "cancel": "キャンセル",
+        "sending": "送信中...",
+        "send": "招待を送信"
+      },
+      "confirm": {
+        "closeTitle": "募集を終了",
+        "closeMessage": "募集を終了しますか？関連するコンタクトも終了になります。",
+        "deleteTitle": "募集を削除",
+        "deleteMessage": "募集を削除しますか？この操作は取り消せません。",
+        "alreadyContacted": "このチームからは既に連絡済みです"
+      },
+      "inviteMessage": "【{{teamName}}への招待】\n\nここからチーム参加を申請できます: {{inviteUrl}}\n\n招待コード: {{inviteCode}}"
+    }
+  }
+}

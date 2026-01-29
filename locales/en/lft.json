@@ -1,0 +1,165 @@
+{
+  "lft": {
+    "error": {
+      "create": "Failed to create LFT post",
+      "update": "Failed to update",
+      "close": "Failed to close LFT post",
+      "delete": "Failed to delete LFT post",
+      "fetch": "Failed to fetch LFT posts",
+      "startConversation": "Failed to start conversation"
+    },
+    "success": {
+      "create": "LFT post created",
+      "update": "Updated",
+      "close": "LFT post closed",
+      "delete": "LFT post deleted"
+    },
+    "create": {
+      "pageTitle": "Create Team Search Post",
+      "infoMessage1": "You will be listed as a player looking for a team. Team admins can contact you via messages.",
+      "infoMessage2": "Posts are automatically hidden after 100 days.",
+      "rolesLabel": "Offering Roles",
+      "rolesHint": "Select roles you can play. Player role ranks are taken from your profile settings.",
+      "playerRoles": "Player Roles",
+      "staffRoles": "Staff Roles",
+      "notSet": "Not Set",
+      "setOtherRanks": "To set ranks for other roles, go to",
+      "profileSettings": "Profile Settings",
+      "setOtherRanksEnd": "",
+      "languageLabel": "Languages",
+      "popularLanguages": "Popular Languages",
+      "regionLabel": "Region",
+      "popularRegions": "Popular Regions",
+      "descriptionLabel": "About Me",
+      "descriptionPlaceholder": "Introduce yourself, preferred team atmosphere, availability...",
+      "contactLabel": "Share Contact Info",
+      "contactHint": "Shared contacts will be visible to everyone viewing the listings.",
+      "showDiscordId": "Share Discord ID",
+      "showBattleTag": "Share BattleTag",
+      "cancel": "Cancel",
+      "creating": "Creating...",
+      "submit": "Create Post",
+      "validation": {
+        "atLeastOneRole": "Please select at least one role"
+      },
+      "alreadyExists": "You already have an active post. Please delete the existing post first."
+    },
+    "list": {
+      "title": "Looking for Team",
+      "description": "List of players looking for teams. Team admins can send messages to contact them.",
+      "createTeam": "Create Team",
+      "viewMyPost": "View My Post",
+      "createPost": "Create Post",
+      "filter": "Filter",
+      "recruitingRoles": "Offering Roles",
+      "playerRoles": "Player",
+      "staffRoles": "Staff",
+      "filterByLanguageRegion": "Filter by language and region",
+      "language": "Language",
+      "region": "Region",
+      "popularLanguages": "Popular Languages",
+      "popularRegions": "Popular Regions",
+      "resetFilters": "Reset Filters",
+      "noResults": "No posts matching your criteria",
+      "noPosts": "No players currently looking for teams",
+      "createPostAction": "Create Post",
+      "expiredWarning": "This post is over 100 days old and not shown in listings",
+      "selfBadge": "You",
+      "expiredBadge": "Expired",
+      "rankNotSet": "Not Set",
+      "languageLabel": "Language:",
+      "regionLabel": "Region:",
+      "editManage": "Edit & Manage",
+      "viewAndContact": "View & Contact",
+      "viewDetails": "View Details",
+      "loginRequired": "Login Required",
+      "loginToCreate": "Please login to create a post.",
+      "loginToViewUser": "Please login to view user details.",
+      "loginToViewDetails": "Please login to view post details."
+    },
+    "detail": {
+      "notFound": "Post not found",
+      "ownPost": "Your Post",
+      "userPost": "{{name}}'s Post",
+      "backToList": "Back to List",
+      "closed": "This post has been closed",
+      "expiredWarning": "This post is over 100 days old and not shown in listings.",
+      "expiredHint": "To continue recruiting, please delete and recreate the post.",
+      "edit": {
+        "title": "Edit Post",
+        "recruitingRoles": "Offering Roles",
+        "roleRankHint": "Ranks for player roles are taken from your profile settings",
+        "playerRoles": "Player Roles",
+        "staffRoles": "Staff Roles",
+        "rankNotSet": "Not Set",
+        "setOtherRanks": "To set ranks for other roles, go to",
+        "profileSettings": "Profile Settings",
+        "setOtherRanksEnd": "",
+        "language": "Languages",
+        "region": "Region",
+        "popularLanguages": "Popular Languages",
+        "popularRegions": "Popular Regions",
+        "description": "About Me",
+        "descriptionPlaceholder": "Playstyle, availability, goals...",
+        "shareDiscord": "Share Discord ID",
+        "shareBattleTag": "Share BattleTag",
+        "cancel": "Cancel",
+        "saving": "Saving...",
+        "save": "Save"
+      },
+      "view": {
+        "roleRank": "Roles & Ranks",
+        "languageLabel": "Languages:",
+        "regionLabel": "Region:",
+        "editButton": "Edit",
+        "closeButton": "Close Post",
+        "deleteButton": "Delete",
+        "contactButton": "Contact from Team"
+      },
+      "contacts": {
+        "title": "Teams in Contact",
+        "closedBadge": "Closed"
+      },
+      "messages": {
+        "title": "Messages",
+        "empty": "No messages yet",
+        "teamLabel": "(Team)",
+        "inputPlaceholder": "Type a message...",
+        "sending": "Sending...",
+        "send": "Send",
+        "waitingForTeam": "Waiting for teams to contact you",
+        "clickToStart": "Click \"Contact from Team\" to start a conversation",
+        "adminOnly": "Only team admins can send messages"
+      },
+      "inviteButton": {
+        "sending": "Sending...",
+        "send": "Send Team Invite"
+      },
+      "startModal": {
+        "title": "Start Conversation",
+        "teamLabel": "Contact from Team",
+        "messageLabel": "First Message",
+        "messagePlaceholder": "Introduce your team, requirements...",
+        "cancel": "Cancel",
+        "sending": "Sending...",
+        "send": "Start Conversation"
+      },
+      "inviteModal": {
+        "title": "Send Team Invite",
+        "description": "Send an invite link and code via message to",
+        "hint": "The recipient can join your team by clicking the link.",
+        "cancel": "Cancel",
+        "sending": "Sending...",
+        "send": "Send Invite"
+      },
+      "confirm": {
+        "closeTitle": "Close Post",
+        "closeMessage": "Close this post? All related conversations will also be closed.",
+        "deleteTitle": "Delete Post",
+        "deleteMessage": "Delete this post? This cannot be undone.",
+        "alreadyContacted": "You have already contacted from this team"
+      },
+      "inviteMessage": "【Invite to {{teamName}}】\n\nJoin the team here: {{inviteUrl}}\n\nInvite Code: {{inviteCode}}"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "calendar": {
+    "error": {
+      "add": "添加失败",
+      "update": "更新失败",
+      "delete": "删除失败",
+      "bulkSet": "批量设置失败"
+    },
+    "success": {
+      "add": "已添加",
+      "update": "已更新",
+      "delete": "已删除",
+      "bulkSet": "批量设置完成",
+      "debugSet": "已设置{{count}}个空闲时段"
+    },
+    "validation": {
+      "duplicateSchedule": "此时间已有日程",
+      "dayOfWeekRequired": "请选择星期几",
+      "noTargetDates": "没有可设置的目标日期"
+    },
+    "ui": {
+      "title": "日历",
+      "days": {
+        "sun": "日",
+        "mon": "一",
+        "tue": "二",
+        "wed": "三",
+        "thu": "四",
+        "fri": "五",
+        "sat": "六"
+      },
+      "zoom": {
+        "compact": "紧凑",
+        "standard": "标准",
+        "expanded": "展开"
+      },
+      "events": {
+        "cancelled": "[已取消]",
+        "scrimScheduled": "📅 训练赛已安排",
+        "available": "空闲",
+        "recruiting": "[招募中]",
+        "applicationCount": "（{{count}}）"
+      },
+      "legend": {
+        "title": "图例",
+        "confirmed": "已确认",
+        "scrimScheduled": "训练赛已安排",
+        "recruiting": "招募中",
+        "available": "空闲"
+      },
+      "display": {
+        "title": "显示",
+        "showAvailability": "显示空闲时间"
+      },
+      "operations": {
+        "title": "操作",
+        "bulkSettings": "批量设置",
+        "debugRandom": "🧪 随机设置1个月"
+      },
+      "settingsDrawer": {
+        "title": "设置"
+      },
+      "slotModal": {
+        "addTitle": "添加空闲时间",
+        "editTitle": "编辑空闲时间",
+        "date": "日期",
+        "startTime": "开始时间",
+        "endTime": "结束时间",
+        "deleteSlot": "删除此时段",
+        "deleteConfirm": "删除此时段吗？",
+        "cancel": "取消",
+        "add": "添加",
+        "update": "更新",
+        "adding": "添加中...",
+        "updating": "更新中..."
+      },
+      "bulkModal": {
+        "title": "批量设置",
+        "startDate": "开始日期",
+        "endDate": "结束日期",
+        "targetDays": "目标星期",
+        "deleteAll": "删除范围内全部",
+        "deleteConfirmTitle": "确认批量删除",
+        "deleteConfirmMessage": "删除{{startDate}}到{{endDate}}的所有时段吗？",
+        "deleteButton": "删除",
+        "bulkAdd": "批量添加",
+        "setting": "设置中..."
+      },
+      "debug": {
+        "title": "生成调试数据",
+        "message": "随机设置1个月的空闲时间吗？\n（现有空闲时间将保留）\n\n每天将设置多个时段用于重叠测试。"
+      }
+    }
+  },
+  "outsideAvailability": {
+    "title": "超出您的空闲时间",
+    "dialogTitle": "超出空闲时间",
+    "description": "此训练赛超出您登记的空闲时间。",
+    "hint": "您可以在日历页面设置和查看您的空闲时间。",
+    "close": "关闭",
+    "goToCalendar": "前往日历"
+  },
+  "pendingRatings": {
+    "title": "待评价（{{count}}）",
+    "description": "请对已完成的训练赛进行评价。您的评价有助于改善未来的匹配。",
+    "rate": "评价",
+    "moreItems": "还有{{count}}个"
+  }
+}

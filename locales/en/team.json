@@ -1,0 +1,585 @@
+{
+  "team": {
+    "pastScrims": {
+      "title": "Past Scrims",
+      "subtitle": "History of completed scrims, posts, and applications",
+      "noData": "No past scrims",
+      "backToTeam": "Back to",
+      "backToTeams": "Back to Teams",
+      "notMember": "You are not a member of this team",
+      "ofPost": "'s post",
+      "typeSchedule": "Completed",
+      "typePost": "Post",
+      "typeApplication": "Application"
+    },
+    "error": {
+      "create": "Failed to create team",
+      "update": "Failed to update team",
+      "leave": "Failed to leave team",
+      "memberRemove": "Failed to remove member",
+      "roleUpdate": "Failed to update role",
+      "inviteCancel": "Failed to cancel invitation",
+      "inviteFetch": "Failed to fetch invitations",
+      "inviteValidate": "Failed to validate invite code",
+      "requestCancel": "Failed to cancel request",
+      "notFound": "Team not found",
+      "permissionDenied": "You don't have permission to access this feature"
+    },
+    "success": {
+      "create": "Team created",
+      "update": "Team updated",
+      "leave": "Left the team",
+      "memberRemove": "Member removed",
+      "roleUpdate": "Role updated",
+      "inviteCancel": "Invitation cancelled",
+      "inviteCodeCopy": "Invite code copied",
+      "inviteUrlCopy": "Invite URL copied"
+    },
+    "validation": {
+      "adminRequired": "Admin permission required",
+      "needAdminBeforeLeave": "The team needs at least one admin. Please assign admin permission to another member before leaving."
+    },
+    "create": {
+      "pageTitle": "Create Team",
+      "nameLabel": "Team Name",
+      "namePlaceholder": "Enter team name",
+      "publicProfileLabel": "Public Profile",
+      "publicProfilePlaceholder": "Team introduction (visible to everyone)",
+      "creating": "Creating...",
+      "submit": "Create Team",
+      "cancel": "Cancel",
+      "validation": {
+        "nameRequired": "Please enter team name"
+      }
+    },
+    "join": {
+      "pageTitle": "Team Invitation",
+      "loginRequired": "Please login to join a team.",
+      "goToLogin": "Go to Login",
+      "requestSent": "Request Sent!",
+      "requestSentDescription": "Your request to join has been sent.",
+      "waitForApproval": "Please wait for admin approval.",
+      "backToMypage": "Back to My Page",
+      "sendingAs": "You will send a join request to this team as",
+      "messageLabel": "Message (optional)",
+      "messagePlaceholder": "Introduce yourself or explain why you want to join...",
+      "contactSettings": "Contact Info (shown in request)",
+      "showDiscordId": "Show Discord ID",
+      "showBattleTag": "Show BattleTag",
+      "cancel": "Cancel",
+      "sending": "Sending...",
+      "sendRequest": "Send Request",
+      "error": {
+        "invalid": "Invalid invite code",
+        "expired": "Invite code has expired",
+        "maxUses": "Invite code has reached maximum uses",
+        "memberLimit": "This team has reached the member limit ({{max}})",
+        "alreadyMember": "You are already a member of this team",
+        "pendingRequest": "You already have a pending request for this team",
+        "invalidOrExpired": "Invite code is invalid or expired"
+      }
+    },
+    "edit": {
+      "pageTitle": "Edit Team",
+      "notFound": "Team not found",
+      "backToTeams": "Back to Teams",
+      "noPermission": "You don't have permission to edit this team",
+      "backToDetail": "Back to Team",
+      "back": "Back",
+      "basicInfo": "Basic Information",
+      "nameLabel": "Team Name *",
+      "namePlaceholder": "Enter team name",
+      "publicProfileLabel": "Public Profile",
+      "publicProfilePlaceholder": "Team introduction (visible to everyone)",
+      "saving": "Saving...",
+      "save": "Save",
+      "cancel": "Cancel",
+      "announcement": {
+        "title": "Team Announcement",
+        "description": "Share important updates, goals, or rules with your team members.",
+        "label": "Announcement Content",
+        "placeholder": "Team updates, goals, rules, etc...",
+        "charCount": "{{count}}/1000 characters",
+        "save": "Save Announcement"
+      },
+      "members": {
+        "title": "Member Management",
+        "rolesButton": "Role Settings",
+        "tableHeaders": {
+          "name": "Name",
+          "playerRole": "Player Role",
+          "titleRole": "Title",
+          "permission": "Permission",
+          "actions": "Actions"
+        },
+        "removeButton": "Remove",
+        "removeConfirm": "Remove {{name}} from the team? This action cannot be undone.",
+        "removeError": "Failed to remove member",
+        "lastAdmin": "At least one admin is required",
+        "cannotRemoveSelf": "You cannot remove yourself"
+      },
+      "activityLog": {
+        "title": "Activity Log",
+        "viewButton": "View Log",
+        "description": "View history of member joins, leaves, role changes, etc."
+      },
+      "validation": {
+        "nameRequired": "Please enter a team name"
+      },
+      "success": {
+        "announcementUpdated": "Announcement updated"
+      },
+      "error": {
+        "announcementUpdate": "Failed to update announcement"
+      }
+    },
+    "roles": {
+      "pageTitle": "Role Settings",
+      "back": "Back",
+      "notFound": "Team not found",
+      "backToTeams": "Back to Teams",
+      "noPermission": "You don't have permission to edit this team",
+      "backToDetail": "Back to Team",
+      "batchOperations": {
+        "title": "Batch Operations",
+        "clearPlayerRoles": "Clear Player Roles",
+        "clearTitleRoles": "Clear Title Roles"
+      },
+      "memberList": {
+        "title": "Member Role List",
+        "playerRoleCount": "Player Roles: {{current}}/{{max}}",
+        "adminCount": "Admins: {{count}}"
+      },
+      "labels": {
+        "playerRole": "Player Role",
+        "titleRole": "Title",
+        "permission": "Permission",
+        "name": "Name"
+      },
+      "validation": {
+        "adminRequired": "At least one admin is required",
+        "playerRoleLimit": "Player roles can only be assigned to {{max}} members",
+        "currentPlayerCount": "Currently assigned to {{current}} members. Please remove player roles from {{excess}} members."
+      },
+      "dialog": {
+        "playerLimitTitle": "Player Role Limit Exceeded",
+        "permissionHelpTitle": "Permission Descriptions",
+        "adminDescription": "Full access (member management, role settings, team settings, etc.)",
+        "scrimManagerDescription": "Scrim operations only (create posts, approve applications, etc.)",
+        "close": "Close"
+      },
+      "success": {
+        "rolesUpdated": "Updated roles for {{count}} members"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "saving": "Saving...",
+        "saveChanges": "Save Changes",
+        "noChanges": "No Changes"
+      }
+    },
+    "activityLog": {
+      "pageTitle": "{{name}} - Activity Log",
+      "totalCount": "Total: {{count}}",
+      "backToDetail": "Back to Team",
+      "back": "Back",
+      "noLogs": "No activity logs yet",
+      "none": "None",
+      "currentName": "Current: {{name}}",
+      "actionTypes": {
+        "member_join": "Joined",
+        "member_leave": "Left",
+        "member_removed": "Member Removed",
+        "roles_updated": "Roles Updated",
+        "announcement_updated": "Announcement Edited",
+        "team_name_updated": "Team Name Changed",
+        "team_public_profile_updated": "Public Profile Changed"
+      },
+      "descriptions": {
+        "member_join": "{{user}} joined the team",
+        "member_leave": "{{user}} left the team",
+        "member_removed": "{{actor}} removed {{target}} from the team",
+        "roles_updated": "{{actor}} changed {{target}}'s roles",
+        "announcement_updated": "{{actor}} edited the announcement",
+        "team_name_updated": "{{actor}} changed the team name from \"{{oldName}}\" to \"{{newName}}\"",
+        "team_public_profile_updated": "{{actor}} changed the public profile",
+        "unknown": "Unknown action"
+      },
+      "roleChanges": {
+        "playerRole": "Player Role: {{old}} → {{new}}",
+        "titleRole": "Title: {{old}} → {{new}}",
+        "permission": "Permission: {{old}} → {{new}}"
+      },
+      "pagination": {
+        "prev": "Previous",
+        "next": "Next"
+      }
+    },
+    "detail": {
+      "tabs": {
+        "scrim": "Scrims",
+        "members": "Members",
+        "info": "Info",
+        "notifications": "Notifications",
+        "settings": "Settings"
+      },
+      "avgRank": "Average Rank:",
+      "scrimCount": "Scrims Completed:",
+      "createdAt": "Created:",
+      "showComposition": "▶ Show Composition Details",
+      "hideComposition": "▼ Hide Composition Details",
+      "fromPost": "From Post",
+      "fromInvite": "Invite Code",
+      "memberLimitReached": "Team is at maximum capacity",
+      "showInviteLink": "▶ Show Invite Link",
+      "hideInviteLink": "▼ Hide Invite Link",
+      "showContact": "▶ Show Contact",
+      "hideContact": "▼ Hide Contact",
+      "lftConversation": {
+        "active": "Active",
+        "closed": "Closed"
+      },
+      "recruitment": {
+        "editButton": "Edit Recruitment",
+        "createButton": "Create Recruitment",
+        "notRecruiting": "Not currently recruiting members.",
+        "createPrompt": "Create a recruitment post to list your team on the team join page."
+      },
+      "notifications": {
+        "saveSuccess": "Discord notification settings saved",
+        "saveSuccessTitle": "Saved",
+        "saveError": "Failed to save settings",
+        "webhookRequired": "Please enter Webhook URL",
+        "webhookInvalid": "Please enter a valid Discord Webhook URL",
+        "testSuccess": "Test message sent. Check Discord.",
+        "testSuccessTitle": "Success",
+        "testError": "Failed to send",
+        "testSendError": "Error during test send",
+        "testSending": "Sending...",
+        "testSend": "Test Send",
+        "saving": "Saving...",
+        "saveButton": "Save Notification Settings"
+      },
+      "leave": {
+        "title": "Leave Team",
+        "message": "Are you sure you want to leave this team? This action cannot be undone.",
+        "confirm": "Leave",
+        "leaving": "Leaving...",
+        "button": "Leave Team"
+      },
+      "joinRequest": {
+        "confirmApprove": "Approve this request?",
+        "confirmReject": "Reject this join request?",
+        "approve": "Approve",
+        "reject": "Reject",
+        "noPending": "No pending requests"
+      },
+      "inviteCode": {
+        "regenerating": "Regenerating...",
+        "regenerate": "Regenerate"
+      },
+      "backToTeams": "Back to Teams",
+      "backToJoin": "Back to Team Join",
+      "info": {
+        "title": "Team Info",
+        "publicProfile": "About Team",
+        "noPublicProfile": "No public profile set",
+        "recruiting": "Recruiting Members",
+        "requiredRoles": "Required Roles",
+        "inviteRequired": "To join this team, you need to receive an invite link from a team member."
+      },
+      "rating": {
+        "title": "Team Rating"
+      },
+      "memberCount": "{{count}} members",
+      "scrimCountUnit": "{{count}}",
+      "announcement": "Team Announcement",
+      "actions": {
+        "schedule": "Schedule",
+        "scheduleDesc": "Check member availability",
+        "createScrim": "Create Post",
+        "createScrimDesc": "Find opponents",
+        "scrimList": "Scrim Posts",
+        "externalScrim": "Register External",
+        "invitations": "Invitations",
+        "pastScrims": "Past Scrims"
+      },
+      "upcomingScrims": "Upcoming Scrims",
+      "noScrims": "No scrims scheduled",
+      "tournamentMessages": {
+        "title": "Messages from Tournaments",
+        "description": "You have messages from tournament organizers.",
+        "count": "{{count}}"
+      },
+      "lftContacts": {
+        "title": "LFT Contacts",
+        "description": "Conversations with players looking for a team.",
+        "viewList": "View List",
+        "moreContacts": "{{count}} more contacts"
+      },
+      "noNotifications": "No notifications",
+      "members": {
+        "title": "Members ({{current}}/{{max}})",
+        "roleSettings": "Role Settings",
+        "generateInviteLink": "Generate Invite Link",
+        "memberLimitWarning": "Team is at maximum capacity ({{max}} members). Remove existing members to add new ones.",
+        "showInviteLink": "▶ Show Invite Link",
+        "hideInviteLink": "▼ Hide Invite Link",
+        "code": "Code:",
+        "copyCode": "Copy code",
+        "url": "URL:",
+        "copyUrl": "Copy URL",
+        "regenerateLink": "Regenerate Link",
+        "inviteLinkDescription": "Share this URL with your team members. Regenerating will invalidate previous links.",
+        "showContact": "▶ Show Contact",
+        "hideContact": "▼ Hide Contact",
+        "table": {
+          "name": "Name",
+          "playerRole": "Player Role",
+          "titleRole": "Title",
+          "permission": "Permission"
+        },
+        "recruitmentTitle": "Member Recruitment",
+        "recruitingStatus": "Recruiting",
+        "expiredWarning": "This recruitment has been inactive for 100 days and is not shown in the list.",
+        "expiredWarningAction": "To continue recruiting, please delete and recreate the post."
+      },
+      "settings": {
+        "editTitle": "Edit Team",
+        "editDescription": "Edit team name, public profile and other basic information.",
+        "editButton": "Edit Team Info",
+        "discordTitle": "Discord Notifications",
+        "discordDescription": "Set up a Discord Webhook to receive team notifications on Discord.",
+        "webhookLabel": "Webhook URL",
+        "webhookHelpTitle": "How to get Webhook URL",
+        "webhookStep1": "1. Create a notification channel in your Discord server",
+        "webhookStep2": "2. Open channel settings",
+        "webhookStep3": "3. Go to 'Integrations' → 'Webhooks' → 'New Webhook'",
+        "webhookStep4": "4. Copy the Webhook URL and paste it here",
+        "notifyItemsLabel": "Notification Items",
+        "scrimApplication": "Scrim applications",
+        "scrimResult": "Scrim application results (approved/rejected)",
+        "joinRequest": "Team join requests",
+        "tournamentMessage": "Tournament messages",
+        "lftMessage": "New LFT conversation messages (team side)",
+        "scrimReminderTitle": "Scrim Reminders",
+        "tournamentReminderTitle": "Tournament Reminders",
+        "hours24": "24 hours before",
+        "hours12": "12 hours before",
+        "hour1": "1 hour before",
+        "minutes10": "10 minutes before",
+        "activityTitle": "Activity Log",
+        "activityDescription": "View team activity history (member joins/leaves, role changes, etc.).",
+        "activityButton": "View Activity Log",
+        "leaveTitle": "Leave Team",
+        "leaveDescription": "Leave this team. You will no longer have access to team scrims or contact information.",
+        "lastAdminWarning": "You are the only admin of this team. Please assign admin permission to another member before leaving.",
+        "regenerateModal": {
+          "title": "Regenerate invite link?",
+          "description": "Generating a new invite link will invalidate the current one. Anyone with the old link will no longer be able to join.",
+          "cancel": "Cancel"
+        }
+      }
+    }
+  },
+  "teamBar": {
+    "label": "Teams:",
+    "moreTeams": "+{{count}} more...",
+    "allTeams": "All teams"
+  },
+  "teamSchedule": {
+    "notFound": "Team not found",
+    "notMember": "You are not a member of this team",
+    "backToTeams": "Back to teams",
+    "filter": {
+      "title": "Filter",
+      "all": "All",
+      "fiveRoles": "5 Roles",
+      "fourRolesPlus": "4+ Roles",
+      "threeRolesPlus": "3+ Roles"
+    },
+    "display": {
+      "title": "Display"
+    },
+    "members": {
+      "title": "Members",
+      "selectAll": "Select All",
+      "deselectAll": "Deselect All"
+    },
+    "settingsDrawer": {
+      "title": "Settings"
+    },
+    "events": {
+      "roles": "{{count}} Roles",
+      "rolesWithMembers": "{{roles}} ({{count}})",
+      "recruiting": "📢 Recruiting",
+      "recruitingWithCount": "📢 Recruiting ({{count}})",
+      "applicationPending": "📝 Applied:",
+      "applicationCount": "{{count}}"
+    },
+    "modal": {
+      "title": "Create Scrim Post",
+      "confirmMessage": "Create a scrim post for this time slot?",
+      "timeSeparator": " - ",
+      "availableMembers": "Available Members",
+      "noAvailableMembers": "No members available for this time slot",
+      "composition": "Team Composition",
+      "compositionRoles": "({{count}} roles)",
+      "average": "Avg",
+      "highest": "Best:",
+      "lowest": "Worst:",
+      "tank": "Tank:",
+      "damage": "Damage:",
+      "support": "Support:",
+      "searchScrim": "Search Scrims",
+      "createPost": "Create Post",
+      "close": "Close"
+    },
+    "calendarButtons": {
+      "day": "Day",
+      "week": "Week"
+    }
+  },
+  "teamAvailability": {
+    "loading": "Loading availability...",
+    "noData": "No availability data",
+    "fiveRoles": "5 Roles",
+    "roles": "Roles",
+    "people": "players",
+    "title": "Team Availability",
+    "composition": "Comp:",
+    "highest": "Highest:",
+    "lowest": "Lowest:",
+    "avg": "Avg",
+    "roleSummary": "{{roleCount}} Roles / {{playerCount}} players",
+    "note": "* Number of members available during this time slot",
+    "roleLabels": {
+      "tank": "Tank",
+      "damage": "Damage",
+      "support": "Support"
+    }
+  },
+  "teamActivityLog": {
+    "actionTypes": {
+      "member_join": "Member Joined",
+      "member_leave": "Member Left",
+      "member_removed": "Member Removed",
+      "roles_updated": "Role Changed",
+      "announcement_updated": "Announcement Edited",
+      "team_name_updated": "Team Name Changed",
+      "team_public_profile_updated": "Public Profile Changed"
+    },
+    "roleLabels": {
+      "tank": "Tank",
+      "damage": "Damage",
+      "support": "Support",
+      "owner": "Owner",
+      "manager": "Manager",
+      "coach": "Coach",
+      "admin": "Admin",
+      "scrim_manager": "Scrim Manager"
+    },
+    "none": "None",
+    "currentPrefix": " (now: {{name}})",
+    "noLogs": "No activity logs yet",
+    "loadMore": "Load More",
+    "unknownAction": "Unknown action",
+    "descriptions": {
+      "member_join": "{{user}} joined the team",
+      "member_leave": "{{user}} left the team",
+      "member_removed": "{{removedBy}} removed {{target}} from the team",
+      "roles_updated": "{{updatedBy}} changed {{target}}'s roles",
+      "announcement_updated": "{{updatedBy}} edited the announcement",
+      "team_name_updated": "{{updatedBy}} changed team name from \"{{oldName}}\" to \"{{newName}}\"",
+      "team_public_profile_updated": "{{updatedBy}} changed public profile"
+    },
+    "roleChanges": {
+      "playerRole": "Player Role: {{from}} → {{to}}",
+      "titleRole": "Title: {{from}} → {{to}}",
+      "permissionRole": "Permission: {{from}} → {{to}}"
+    }
+  },
+  "teamInvitations": {
+    "title": "Scrim Invitations",
+    "backToTeam": "← Back to {{name}}",
+    "createNewInvitation": "Create New Invitation",
+    "noInvitations": "No invitations issued",
+    "createInvitation": "Create Invitation",
+    "matchFormat": "Format:",
+    "note": "Note:",
+    "acceptedBy": "Accepted by {{name}}",
+    "viewSchedule": "View Schedule →",
+    "expiresAt": "Expires:",
+    "cancelConfirm": "Cancel this invitation?",
+    "cancelling": "Cancelling...",
+    "cancel": "Cancel",
+    "statusPending": "Pending",
+    "statusAccepted": "Accepted",
+    "statusCancelled": "Cancelled",
+    "statusExpired": "Expired"
+  },
+  "teamRatingHistory": {
+    "title": "{{teamName}} Rating History",
+    "subtitle": "Showing last 50 ratings",
+    "noRatings": "No ratings yet",
+    "close": "Close",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "update": "Update",
+    "updating": "Updating...",
+    "fromTeam": "Rating from {{team}}",
+    "fromAnonymousTeam": "Rating from opponent team",
+    "fromTournamentOrganizer": "Rating from \"{{tournament}}\" organizer",
+    "scrimTime": "Scrim: {{time}}",
+    "notHeldNote": "Scrim not held (not counted in rating)",
+    "notHeldButton": "➖ Not Held",
+    "selectRating": "Select rating",
+    "selectReasons": "Select reasons (multiple allowed)",
+    "reasonLabel": "Reasons:",
+    "otherReasonPlaceholder": "Enter other reason",
+    "replyFrom": "Reply from {{team}}:",
+    "editReplyPlaceholder": "Edit reply (max 500 characters)",
+    "replyPlaceholder": "Enter reply to rating (max 500 characters)",
+    "replyToRating": "Reply to this rating",
+    "reply": "Reply",
+    "replying": "Sending...",
+    "alert": {
+      "replyEmptyTitle": "Error",
+      "replyEmptyMessage": "Please enter reply content",
+      "replySentTitle": "Reply sent",
+      "replySentMessage": "Your reply to the rating has been sent",
+      "badReasonRequiredMessage": "Please select at least one reason for Bad rating",
+      "otherReasonRequiredMessage": "Please enter the reason when \"Other\" is selected",
+      "editRatingTitle": "Edit Rating",
+      "editRatingMessage": "Are you sure you want to update this rating?",
+      "ratingUpdatedTitle": "Rating Updated",
+      "ratingUpdatedMessage": "The rating has been successfully updated",
+      "editReplyTitle": "Edit Reply",
+      "editReplyMessage": "Are you sure you want to update this reply?",
+      "replyUpdatedTitle": "Reply Updated",
+      "replyUpdatedMessage": "The reply has been successfully updated"
+    }
+  },
+  "teamRatingSummary": {
+    "noRating": "No ratings",
+    "summary": "({{percentage}}% Good / Last {{count}})",
+    "viewHistory": "View history"
+  },
+  "teamRecruitmentEdit": {
+    "createTitle": "Create Member Recruitment",
+    "editTitle": "Edit Member Recruitment",
+    "deleteConfirm": "Delete this recruitment?",
+    "expiredWarning": "This recruitment is over 100 days old and no longer displayed in listings.",
+    "expiredHint": "To continue recruiting, please delete and recreate the post.",
+    "expiryNotice": "Recruitments are automatically hidden 100 days after creation.",
+    "rolesLabel": "Roles to Recruit",
+    "playerRoles": "Players",
+    "staffRoles": "Staff",
+    "descriptionLabel": "Details (Optional)",
+    "descriptionPlaceholder": "Team atmosphere, activity hours, required skills, etc...",
+    "languagesLabel": "Languages (Optional)",
+    "popularLanguages": "Popular Languages",
+    "regionsLabel": "Regions (Optional)",
+    "popularRegions": "Popular Regions"
+  }
+}

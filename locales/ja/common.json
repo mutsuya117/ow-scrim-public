@@ -1,4 +1,39 @@
 {
+  "common": {
+    "delete": "削除",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "saving": "保存中...",
+    "error": "エラー",
+    "success": "成功",
+    "pagination": {
+      "prev": "前へ",
+      "next": "次へ",
+      "showing": "全 {{total}} 件中 {{from}} - {{to}} 件を表示",
+      "pageNumber": "{{page}} ページ"
+    },
+    "fileSizeLimit": "ファイルサイズは{{size}}MB以下にしてください",
+    "moreThan": "以上",
+    "lessThan": "以下",
+    "approximate": "付近",
+    "noSpecification": "指定なし",
+    "range": "{{min}} 〜 {{max}}",
+    "deleteConfirm": "{{target}}の予定を全て削除しますか？",
+    "timeRange": {
+      "morningToNoon": "朝〜昼",
+      "fullDay": "10:00〜22:00"
+    },
+    "webhookDescription": "Webhook URLを設定すると、以下の通知を受け取れます",
+    "notSet": "未設定"
+  },
+  "label": {
+    "team": "チーム",
+    "unknownTeam": "[不明なチーム]",
+    "dissolvedTeam": "[解散済みチーム]",
+    "apply": "申し込み",
+    "operation": "操作",
+    "send": "送信"
+  },
   "error": {
     "generic": "エラーが発生しました",
     "unknown": "不明なエラーが発生しました",
@@ -34,182 +69,196 @@
     "copy": "コピーしました",
     "action": "{{action}}しました"
   },
-  "team": {
-    "error": {
-      "create": "チームの作成に失敗しました",
-      "update": "チームの更新に失敗しました",
-      "leave": "チームの脱退に失敗しました",
-      "memberRemove": "メンバーの削除に失敗しました",
-      "roleUpdate": "ロールの更新に失敗しました",
-      "inviteCancel": "招待の取り消しに失敗しました",
-      "inviteFetch": "招待一覧の取得に失敗しました",
-      "inviteValidate": "招待コードの検証に失敗しました",
-      "requestCancel": "リクエストの取り消しに失敗しました",
-      "notFound": "チームが見つかりません",
-      "permissionDenied": "この機能にアクセスする権限がありません"
+  "errorBoundary": {
+    "title": "エラーが発生しました",
+    "description": "予期しないエラーが発生しました。ページを再読み込みしてください。",
+    "errorIdLabel": "エラーID（お問い合わせ時にお伝えください）",
+    "clickToCopy": "クリックしてコピー",
+    "copied": "コピーしました",
+    "reload": "再読み込み"
+  },
+  "duration": {
+    "minutes_60": "1時間",
+    "minutes_90": "1.5時間",
+    "minutes_120": "2時間",
+    "minutes_150": "2.5時間",
+    "minutes_180": "3時間",
+    "minutes_210": "3.5時間",
+    "minutes_240": "4時間",
+    "minutes_300": "5時間"
+  },
+  "conflictWarning": {
+    "title": "同じ時間に{{count}}件予定が重なっています。"
+  },
+  "updateBanner": {
+    "title": "新しいバージョンが利用可能です",
+    "description": "最新の機能を利用するにはページを更新してください",
+    "updateNow": "今すぐ更新",
+    "later": "後で"
+  },
+  "multiSelect": {
+    "popularLabel": "よく使う",
+    "selectAll": "全選択",
+    "deselectAll": "全解除",
+    "selectedCount": "{{count}}件選択中"
+  },
+  "roles": {
+    "player": {
+      "tank": "タンク",
+      "damage": "ダメージ",
+      "support": "サポート"
     },
-    "success": {
-      "create": "チームを作成しました",
-      "update": "チームを更新しました",
-      "leave": "チームを脱退しました",
-      "memberRemove": "メンバーを削除しました",
-      "roleUpdate": "ロールを更新しました",
-      "inviteCancel": "招待を取り消しました",
-      "inviteCodeCopy": "招待コードをコピーしました",
-      "inviteUrlCopy": "招待URLをコピーしました"
+    "title": {
+      "owner": "オーナー",
+      "manager": "チームマネージャー",
+      "coach": "コーチ",
+      "player": "選手",
+      "sub": "サブ"
     },
-    "validation": {
-      "adminRequired": "管理者権限が必要です",
-      "needAdminBeforeLeave": "チームには最低1人の管理者が必要です。脱退する前に他のメンバーに管理者権限を付与してください。"
+    "permission": {
+      "admin": "管理者",
+      "scrim_manager": "スクリム担当"
     }
   },
-  "scrim": {
-    "error": {
-      "create": "募集の作成に失敗しました",
-      "apply": "申込みに失敗しました",
-      "cancel": "キャンセルに失敗しました",
-      "withdraw": "取り下げに失敗しました",
-      "approve": "承認に失敗しました",
-      "reject": "拒否に失敗しました",
-      "timeChange": "時間変更リクエストに失敗しました",
-      "fetch": "募集の取得に失敗しました",
-      "messageFetch": "メッセージの取得に失敗しました",
-      "messageSend": "メッセージの送信に失敗しました",
-      "invitationCancel": "招待の取り消しに失敗しました",
-      "invitationFetch": "招待一覧の取得に失敗しました",
-      "register": "登録に失敗しました"
+  "nav": {
+    "home": "ホーム",
+    "mypage": "マイページ",
+    "scrims": "スクリム",
+    "scrimPosts": "スクリム募集",
+    "recruitments": "募集",
+    "teamRecruitments": "チーム募集",
+    "tournaments": "大会",
+    "calendar": "カレンダー",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "settings": "設定",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "privacyShort": "プライバシー",
+    "contact": "お問い合わせ",
+    "admin": "管理"
+  },
+  "rank": {
+    "notSet": "未設定",
+    "tier": {
+      "bronze": "ブロンズ",
+      "silver": "シルバー",
+      "gold": "ゴールド",
+      "platinum": "プラチナ",
+      "diamond": "ダイヤモンド",
+      "master": "マスター",
+      "grandmaster": "グランドマスター",
+      "champion": "チャンピオン"
     },
-    "success": {
-      "create": "募集を作成しました",
-      "apply": "申し込みました",
-      "cancel": "キャンセルしました",
-      "withdraw": "取り下げました",
-      "approve": "承認しました",
-      "reject": "拒否しました"
+    "short": {
+      "bronze": "B",
+      "silver": "S",
+      "gold": "G",
+      "platinum": "P",
+      "diamond": "D",
+      "master": "M",
+      "grandmaster": "GM",
+      "champion": "C"
+    },
+    "withNumber": "{{tier}} {{number}}"
+  },
+  "timezone": {
+    "group": {
+      "asiaPacific": "アジア・太平洋",
+      "northAmerica": "北米",
+      "southAmerica": "南米",
+      "europe": "ヨーロッパ",
+      "middleEastAfrica": "中東・アフリカ",
+      "other": "その他"
+    },
+    "zone": {
+      "Asia/Tokyo": "日本標準時 (JST)",
+      "Asia/Seoul": "韓国標準時 (KST)",
+      "Asia/Shanghai": "中国標準時 (CST)",
+      "Asia/Hong_Kong": "香港時間 (HKT)",
+      "Asia/Taipei": "台湾標準時 (TST)",
+      "Asia/Singapore": "シンガポール標準時 (SGT)",
+      "Asia/Manila": "フィリピン標準時 (PHT)",
+      "Asia/Bangkok": "インドシナ時間 (ICT)",
+      "Asia/Ho_Chi_Minh": "ベトナム時間 (ICT)",
+      "Asia/Jakarta": "インドネシア西部時間 (WIB)",
+      "Asia/Kolkata": "インド標準時 (IST)",
+      "Australia/Sydney": "オーストラリア東部標準時 (AEST)",
+      "Australia/Melbourne": "メルボルン時間 (AEST)",
+      "Australia/Perth": "オーストラリア西部標準時 (AWST)",
+      "Pacific/Auckland": "ニュージーランド標準時 (NZST)",
+      "America/Los_Angeles": "太平洋時間 (PT)",
+      "America/Denver": "山岳部時間 (MT)",
+      "America/Chicago": "中部時間 (CT)",
+      "America/New_York": "東部時間 (ET)",
+      "America/Toronto": "トロント時間 (ET)",
+      "America/Vancouver": "バンクーバー時間 (PT)",
+      "America/Mexico_City": "メキシコシティ時間 (CST)",
+      "America/Sao_Paulo": "ブラジリア時間 (BRT)",
+      "America/Argentina/Buenos_Aires": "アルゼンチン時間 (ART)",
+      "America/Santiago": "チリ時間 (CLT)",
+      "America/Lima": "ペルー時間 (PET)",
+      "America/Bogota": "コロンビア時間 (COT)",
+      "Europe/London": "イギリス時間 (GMT/BST)",
+      "Europe/Paris": "中央ヨーロッパ時間 (CET)",
+      "Europe/Berlin": "ドイツ時間 (CET)",
+      "Europe/Amsterdam": "オランダ時間 (CET)",
+      "Europe/Madrid": "スペイン時間 (CET)",
+      "Europe/Rome": "イタリア時間 (CET)",
+      "Europe/Stockholm": "スウェーデン時間 (CET)",
+      "Europe/Warsaw": "ポーランド時間 (CET)",
+      "Europe/Athens": "東ヨーロッパ時間 (EET)",
+      "Europe/Helsinki": "フィンランド時間 (EET)",
+      "Europe/Moscow": "モスクワ標準時 (MSK)",
+      "Europe/Kiev": "ウクライナ時間 (EET)",
+      "Asia/Dubai": "湾岸標準時 (GST)",
+      "Asia/Riyadh": "アラビア標準時 (AST)",
+      "Asia/Jerusalem": "イスラエル標準時 (IST)",
+      "Africa/Cairo": "エジプト標準時 (EET)",
+      "Africa/Johannesburg": "南アフリカ標準時 (SAST)",
+      "Africa/Lagos": "西アフリカ時間 (WAT)",
+      "UTC": "協定世界時 (UTC)"
     }
   },
-  "lft": {
-    "error": {
-      "create": "募集の作成に失敗しました",
-      "update": "更新に失敗しました",
-      "close": "募集の終了に失敗しました",
-      "delete": "募集の削除に失敗しました",
-      "fetch": "募集の取得に失敗しました",
-      "startConversation": "連絡の開始に失敗しました"
-    },
-    "success": {
-      "create": "募集を作成しました",
-      "update": "更新しました",
-      "close": "募集を終了しました",
-      "delete": "募集を削除しました"
+  "region": {
+    "group": {
+      "eastAsia": "東アジア",
+      "southeastAsia": "東南アジア",
+      "southAsia": "南アジア",
+      "northAmerica": "北米",
+      "latinAmerica": "中南米",
+      "westernEurope": "西欧",
+      "northernEurope": "北欧",
+      "easternEurope": "東欧",
+      "oceania": "オセアニア",
+      "middleEast": "中東",
+      "africa": "アフリカ",
+      "other": "その他"
     }
   },
-  "tournament": {
-    "error": {
-      "create": "大会の作成に失敗しました",
-      "update": "大会の更新に失敗しました",
-      "delete": "削除に失敗しました",
-      "publish": "公開に失敗しました",
-      "close": "締切に失敗しました",
-      "lottery": "抽選に失敗しました",
-      "complete": "終了に失敗しました",
-      "cancel": "中止に失敗しました",
-      "apply": "申し込みに失敗しました",
-      "approve": "承認に失敗しました",
-      "reject": "拒否に失敗しました",
-      "promote": "繰り上げに失敗しました",
-      "disqualify": "失格処理に失敗しました",
-      "export": "エクスポートに失敗しました",
-      "rankFetch": "順位の取得に失敗しました",
-      "operation": "操作に失敗しました"
+  "auth": {
+    "banned": {
+      "title": "アカウントが停止されています",
+      "message": "あなたのアカウントは利用規約違反のため停止されています。",
+      "contactHint": "心当たりがない場合は、お問い合わせください。",
+      "contact": "お問い合わせ",
+      "logout": "ログアウト"
     },
-    "success": {
-      "create": "大会を作成しました",
-      "update": "大会を更新しました",
-      "delete": "大会を削除しました",
-      "publish": "大会を公開しました",
-      "close": "応募を締め切りました",
-      "lottery": "抽選を実行しました",
-      "complete": "大会を終了しました",
-      "cancel": "大会を中止しました"
+    "suspended": {
+      "title": "アカウントが一時停止中です",
+      "message": "あなたのアカウントは利用規約違反のため一時的に停止されています。",
+      "until": "停止期限",
+      "autoResume": "この日時を過ぎると自動的に利用を再開できます",
+      "contactHint": "心当たりがない場合は、お問い合わせください。",
+      "contact": "お問い合わせ",
+      "logout": "ログアウト"
     },
-    "validation": {
-      "dateRequired": "開催日時を1つ以上設定してください",
-      "challongeLoginRequired": "先にChallongeにログインしてください",
-      "noAdvancingTeams": "進出チームがありません"
-    }
-  },
-  "circle": {
-    "error": {
-      "create": "サークルの作成に失敗しました",
-      "joinRequest": "参加リクエストの送信に失敗しました",
-      "generic": "エラーが発生しました"
-    },
-    "success": {
-      "create": "サークルを作成しました",
-      "joinRequest": "参加リクエストを送信しました",
-      "inviteCodeCopy": "招待コードをコピーしました",
-      "inviteUrlCopy": "招待URLをコピーしました",
-      "inviteRegenerate": "招待コードを再生成しました",
-      "settingsSave": "設定を保存しました"
-    }
-  },
-  "notification": {
-    "error": {
-      "save": "設定の保存に失敗しました",
-      "testSend": "テスト送信中にエラーが発生しました",
-      "webhookUrlRequired": "Webhook URLを入力してください",
-      "webhookUrlInvalid": "有効なDiscord Webhook URLを入力してください"
-    },
-    "success": {
-      "save": "設定を保存しました",
-      "testSend": "テストメッセージを送信しました。Discordを確認してください。"
-    }
-  },
-  "rating": {
-    "error": {
-      "send": "評価の送信に失敗しました",
-      "update": "評価の更新に失敗しました",
-      "delete": "削除に失敗しました",
-      "replySend": "返信の送信に失敗しました",
-      "replyUpdate": "返信の更新に失敗しました"
-    },
-    "success": {
-      "send": "評価を送信しました",
-      "update": "評価を更新しました",
-      "delete": "評価を削除しました",
-      "replySend": "返信を送信しました",
-      "replyUpdate": "返信を更新しました"
-    }
-  },
-  "user": {
-    "error": {
-      "fetch": "ユーザー情報の取得に失敗しました",
-      "notFound": "ユーザーが見つかりません",
-      "report": "通報の送信に失敗しました",
-      "delete": "退会処理中にエラーが発生しました"
-    },
-    "success": {
-      "report": "通報を送信しました"
-    }
-  },
-  "calendar": {
-    "error": {
-      "add": "追加に失敗しました",
-      "update": "更新に失敗しました",
-      "delete": "削除に失敗しました",
-      "bulkSet": "一括設定に失敗しました"
-    },
-    "success": {
-      "add": "追加しました",
-      "update": "更新しました",
-      "delete": "削除しました",
-      "bulkSet": "一括設定しました"
-    },
-    "validation": {
-      "duplicateSchedule": "同じ日時の予定が既に存在します",
-      "dayOfWeekRequired": "曜日を選択してください",
-      "noTargetDates": "設定対象の日付がありません"
+    "challonge": {
+      "processing": "Challonge認証を処理中...",
+      "success": "認証が完了しました",
+      "autoClose": "このウィンドウは自動的に閉じます",
+      "error": "認証に失敗しました",
+      "close": "閉じる"
     }
   }
 }

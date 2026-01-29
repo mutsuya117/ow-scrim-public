@@ -1,0 +1,585 @@
+{
+  "team": {
+    "pastScrims": {
+      "title": "지난 스크림",
+      "subtitle": "진행된 스크림, 모집, 신청 기록",
+      "noData": "지난 스크림이 없습니다",
+      "backToTeam": "(으)로 돌아가기",
+      "backToTeams": "팀 목록으로 돌아가기",
+      "notMember": "이 팀의 멤버가 아닙니다",
+      "ofPost": " 모집",
+      "typeSchedule": "진행됨",
+      "typePost": "모집",
+      "typeApplication": "신청"
+    },
+    "error": {
+      "create": "팀 생성에 실패했습니다",
+      "update": "팀 업데이트에 실패했습니다",
+      "leave": "팀 탈퇴에 실패했습니다",
+      "memberRemove": "멤버 삭제에 실패했습니다",
+      "roleUpdate": "역할 업데이트에 실패했습니다",
+      "inviteCancel": "초대 취소에 실패했습니다",
+      "inviteFetch": "초대 목록을 불러오는 데 실패했습니다",
+      "inviteValidate": "초대 코드 검증에 실패했습니다",
+      "requestCancel": "요청 취소에 실패했습니다",
+      "notFound": "팀을 찾을 수 없습니다",
+      "permissionDenied": "이 기능에 접근할 권한이 없습니다"
+    },
+    "success": {
+      "create": "팀이 생성되었습니다",
+      "update": "팀이 업데이트되었습니다",
+      "leave": "팀에서 탈퇴했습니다",
+      "memberRemove": "멤버가 삭제되었습니다",
+      "roleUpdate": "역할이 업데이트되었습니다",
+      "inviteCancel": "초대가 취소되었습니다",
+      "inviteCodeCopy": "초대 코드가 복사되었습니다",
+      "inviteUrlCopy": "초대 URL이 복사되었습니다"
+    },
+    "validation": {
+      "adminRequired": "관리자 권한이 필요합니다",
+      "needAdminBeforeLeave": "팀에는 최소 1명의 관리자가 필요합니다. 탈퇴 전에 다른 멤버에게 관리자 권한을 부여해 주세요."
+    },
+    "create": {
+      "pageTitle": "새 팀 만들기",
+      "nameLabel": "팀 이름",
+      "namePlaceholder": "팀 이름을 입력하세요",
+      "publicProfileLabel": "공개 프로필",
+      "publicProfilePlaceholder": "팀 소개 (모든 사용자에게 공개)",
+      "creating": "생성 중...",
+      "submit": "팀 만들기",
+      "cancel": "취소",
+      "validation": {
+        "nameRequired": "팀 이름을 입력해 주세요"
+      }
+    },
+    "join": {
+      "pageTitle": "팀 초대",
+      "loginRequired": "팀에 가입하려면 로그인이 필요합니다.",
+      "goToLogin": "로그인 페이지로",
+      "requestSent": "요청 전송 완료!",
+      "requestSentDescription": "가입 요청이 전송되었습니다.",
+      "waitForApproval": "관리자의 승인을 기다려 주세요.",
+      "backToMypage": "마이페이지로 돌아가기",
+      "sendingAs": "(으)로 이 팀에 가입 요청을 전송합니다.",
+      "messageLabel": "메시지 (선택)",
+      "messagePlaceholder": "자기소개나 가입 사유 등...",
+      "contactSettings": "연락처 표시 (요청에 표시됨)",
+      "showDiscordId": "Discord ID 표시",
+      "showBattleTag": "BattleTag 표시",
+      "cancel": "취소",
+      "sending": "전송 중...",
+      "sendRequest": "요청 전송",
+      "error": {
+        "invalid": "유효하지 않은 초대 코드입니다",
+        "expired": "초대 코드가 만료되었습니다",
+        "maxUses": "초대 코드 사용 횟수가 초과되었습니다",
+        "memberLimit": "이 팀은 최대 멤버 수({{max}}명)에 도달했습니다",
+        "alreadyMember": "이미 이 팀의 멤버입니다",
+        "pendingRequest": "이미 이 팀에 가입 요청을 전송했습니다",
+        "invalidOrExpired": "초대 코드가 유효하지 않거나 만료되었습니다"
+      }
+    },
+    "edit": {
+      "pageTitle": "팀 편집",
+      "notFound": "팀을 찾을 수 없습니다",
+      "backToTeams": "팀 목록으로 돌아가기",
+      "noPermission": "이 팀을 편집할 권한이 없습니다",
+      "backToDetail": "팀 상세로 돌아가기",
+      "back": "뒤로",
+      "basicInfo": "기본 정보",
+      "nameLabel": "팀 이름 *",
+      "namePlaceholder": "팀 이름을 입력하세요",
+      "publicProfileLabel": "공개 프로필",
+      "publicProfilePlaceholder": "팀 소개 (모든 사용자에게 공개)",
+      "saving": "저장 중...",
+      "save": "저장",
+      "cancel": "취소",
+      "announcement": {
+        "title": "팀 공지",
+        "description": "팀 멤버 전원에게 전달하고 싶은 연락이나 팀 목표 등을 작성할 수 있습니다.",
+        "label": "공지 내용",
+        "placeholder": "팀 연락, 목표, 규칙 등...",
+        "charCount": "{{count}}/1000자",
+        "save": "공지 저장"
+      },
+      "members": {
+        "title": "멤버 관리",
+        "rolesButton": "역할 설정",
+        "tableHeaders": {
+          "name": "이름",
+          "playerRole": "선수 역할",
+          "titleRole": "직책",
+          "permission": "권한",
+          "actions": "작업"
+        },
+        "removeButton": "삭제",
+        "removeConfirm": "{{name}}님을 팀에서 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+        "removeError": "멤버 삭제에 실패했습니다",
+        "lastAdmin": "관리자(admin 권한)가 최소 1명 필요합니다",
+        "cannotRemoveSelf": "자기 자신은 삭제할 수 없습니다"
+      },
+      "activityLog": {
+        "title": "활동 로그",
+        "viewButton": "로그 확인",
+        "description": "멤버 가입/탈퇴, 역할 변경 등의 기록을 확인할 수 있습니다."
+      },
+      "validation": {
+        "nameRequired": "팀 이름을 입력해 주세요"
+      },
+      "success": {
+        "announcementUpdated": "공지가 업데이트되었습니다"
+      },
+      "error": {
+        "announcementUpdate": "공지 업데이트에 실패했습니다"
+      }
+    },
+    "roles": {
+      "pageTitle": "역할 설정",
+      "back": "뒤로",
+      "notFound": "팀을 찾을 수 없습니다",
+      "backToTeams": "팀 목록으로 돌아가기",
+      "noPermission": "이 팀을 편집할 권한이 없습니다",
+      "backToDetail": "팀 상세로 돌아가기",
+      "batchOperations": {
+        "title": "일괄 작업",
+        "clearPlayerRoles": "선수 역할 초기화",
+        "clearTitleRoles": "직책 초기화"
+      },
+      "memberList": {
+        "title": "멤버 역할 목록",
+        "playerRoleCount": "선수 역할: {{current}}/{{max}}명",
+        "adminCount": "관리자: {{count}}명"
+      },
+      "labels": {
+        "playerRole": "선수 역할",
+        "titleRole": "직책",
+        "permission": "권한",
+        "name": "이름"
+      },
+      "validation": {
+        "adminRequired": "관리자가 최소 1명 필요합니다",
+        "playerRoleLimit": "선수 역할은 {{max}}명까지만 설정할 수 있습니다",
+        "currentPlayerCount": "현재 {{current}}명에게 설정되어 있습니다. {{excess}}명의 선수 역할을 해제해 주세요."
+      },
+      "dialog": {
+        "playerLimitTitle": "선수 역할 한도 초과",
+        "permissionHelpTitle": "권한 설명",
+        "adminDescription": "모든 작업 가능 (멤버 관리, 역할 설정, 팀 설정 등)",
+        "scrimManagerDescription": "스크림 관련만 가능 (모집 생성, 신청 승인 등)",
+        "close": "닫기"
+      },
+      "success": {
+        "rolesUpdated": "{{count}}명의 역할이 업데이트되었습니다"
+      },
+      "buttons": {
+        "cancel": "취소",
+        "saving": "저장 중...",
+        "saveChanges": "변경 저장",
+        "noChanges": "변경 없음"
+      }
+    },
+    "activityLog": {
+      "pageTitle": "{{name}} - 활동 로그",
+      "totalCount": "총 {{count}}건",
+      "backToDetail": "팀 상세로 돌아가기",
+      "back": "뒤로",
+      "noLogs": "활동 로그가 아직 없습니다",
+      "none": "없음",
+      "currentName": "현재: {{name}}",
+      "actionTypes": {
+        "member_join": "팀 가입",
+        "member_leave": "팀 탈퇴",
+        "member_removed": "멤버 삭제",
+        "roles_updated": "역할 변경",
+        "announcement_updated": "공지 편집",
+        "team_name_updated": "팀 이름 변경",
+        "team_public_profile_updated": "공개 프로필 변경"
+      },
+      "descriptions": {
+        "member_join": "{{user}}님이 팀에 가입했습니다",
+        "member_leave": "{{user}}님이 팀에서 탈퇴했습니다",
+        "member_removed": "{{actor}}님이 {{target}}님을 팀에서 삭제했습니다",
+        "roles_updated": "{{actor}}님이 {{target}}님의 역할을 변경했습니다",
+        "announcement_updated": "{{actor}}님이 공지를 편집했습니다",
+        "team_name_updated": "{{actor}}님이 팀 이름을 \"{{oldName}}\"에서 \"{{newName}}\"(으)로 변경했습니다",
+        "team_public_profile_updated": "{{actor}}님이 공개 프로필을 변경했습니다",
+        "unknown": "알 수 없는 작업"
+      },
+      "roleChanges": {
+        "playerRole": "선수 역할: {{old}} → {{new}}",
+        "titleRole": "직책: {{old}} → {{new}}",
+        "permission": "권한: {{old}} → {{new}}"
+      },
+      "pagination": {
+        "prev": "이전",
+        "next": "다음"
+      }
+    },
+    "detail": {
+      "tabs": {
+        "scrim": "스크림",
+        "members": "멤버",
+        "info": "정보",
+        "notifications": "알림",
+        "settings": "설정"
+      },
+      "avgRank": "평균 랭크:",
+      "scrimCount": "스크림 성사 건수:",
+      "createdAt": "팀 생성일:",
+      "showComposition": "▶ 구성 상세 보기",
+      "hideComposition": "▼ 구성 상세 숨기기",
+      "fromPost": "모집에서",
+      "fromInvite": "초대 코드",
+      "memberLimitReached": "멤버 수가 최대에 도달했습니다",
+      "showInviteLink": "▶ 초대 링크 보기",
+      "hideInviteLink": "▼ 초대 링크 숨기기",
+      "showContact": "▶ 연락처 보기",
+      "hideContact": "▼ 연락처 숨기기",
+      "lftConversation": {
+        "active": "대화 중",
+        "closed": "종료"
+      },
+      "recruitment": {
+        "editButton": "모집 편집",
+        "createButton": "모집 생성",
+        "notRecruiting": "현재 멤버를 모집하지 않습니다.",
+        "createPrompt": "모집을 생성하여 팀 가입 페이지에 팀을 게시하세요."
+      },
+      "notifications": {
+        "saveSuccess": "Discord 알림 설정이 저장되었습니다",
+        "saveSuccessTitle": "저장 완료",
+        "saveError": "설정 저장에 실패했습니다",
+        "webhookRequired": "Webhook URL을 입력해 주세요",
+        "webhookInvalid": "유효한 Discord Webhook URL을 입력해 주세요",
+        "testSuccess": "테스트 메시지를 전송했습니다. Discord를 확인해 주세요.",
+        "testSuccessTitle": "성공",
+        "testError": "전송에 실패했습니다",
+        "testSendError": "테스트 전송 중 오류가 발생했습니다",
+        "testSending": "전송 중...",
+        "testSend": "테스트 전송",
+        "saving": "저장 중...",
+        "saveButton": "알림 설정 저장"
+      },
+      "leave": {
+        "title": "팀 탈퇴",
+        "message": "정말로 이 팀에서 탈퇴하시겠습니까? 이 작업은 취소할 수 없습니다.",
+        "confirm": "탈퇴",
+        "leaving": "탈퇴 중...",
+        "button": "팀 탈퇴"
+      },
+      "joinRequest": {
+        "confirmApprove": "이 요청을 승인하시겠습니까?",
+        "confirmReject": "이 가입 요청을 거절하시겠습니까?",
+        "approve": "승인",
+        "reject": "거절",
+        "noPending": "대기 중인 요청이 없습니다"
+      },
+      "inviteCode": {
+        "regenerating": "재생성 중...",
+        "regenerate": "재생성"
+      },
+      "backToTeams": "팀 목록으로 돌아가기",
+      "backToJoin": "팀 가입으로 돌아가기",
+      "info": {
+        "title": "팀 정보",
+        "publicProfile": "팀 소개",
+        "noPublicProfile": "공개 프로필이 설정되지 않았습니다",
+        "recruiting": "멤버 모집 중",
+        "requiredRoles": "모집 역할",
+        "inviteRequired": "이 팀에 가입하려면 팀 멤버로부터 초대 링크를 받아야 합니다."
+      },
+      "rating": {
+        "title": "팀 평가"
+      },
+      "memberCount": "{{count}}명",
+      "scrimCountUnit": "{{count}}건",
+      "announcement": "팀 공지",
+      "actions": {
+        "schedule": "일정 조정",
+        "scheduleDesc": "멤버 가능 시간 확인",
+        "createScrim": "모집 생성",
+        "createScrimDesc": "상대팀 모집",
+        "scrimList": "모집 목록",
+        "externalScrim": "외부 스크림 등록",
+        "invitations": "초대 목록",
+        "pastScrims": "지난 스크림"
+      },
+      "upcomingScrims": "예정된 스크림",
+      "noScrims": "예정된 스크림이 없습니다",
+      "tournamentMessages": {
+        "title": "대회 메시지",
+        "description": "신청 중인 대회에서 주최자의 메시지가 있습니다.",
+        "count": "{{count}}건"
+      },
+      "lftContacts": {
+        "title": "팀 모집 연락",
+        "description": "팀을 찾는 플레이어와의 대화입니다.",
+        "viewList": "목록 보기",
+        "moreContacts": "외 {{count}}건"
+      },
+      "noNotifications": "알림이 없습니다",
+      "members": {
+        "title": "멤버 ({{current}}/{{max}}명)",
+        "roleSettings": "역할 설정",
+        "generateInviteLink": "초대 링크 생성",
+        "memberLimitWarning": "멤버 수가 최대({{max}}명)에 도달했습니다. 새 멤버를 추가하려면 기존 멤버를 삭제해 주세요.",
+        "showInviteLink": "▶ 초대 링크 보기",
+        "hideInviteLink": "▼ 초대 링크 숨기기",
+        "code": "코드:",
+        "copyCode": "코드 복사",
+        "url": "URL:",
+        "copyUrl": "URL 복사",
+        "regenerateLink": "링크 재생성",
+        "inviteLinkDescription": "이 URL을 팀 멤버와 공유해 주세요. 재생성하면 이전 링크는 무효화됩니다.",
+        "showContact": "▶ 연락처 보기",
+        "hideContact": "▼ 연락처 숨기기",
+        "table": {
+          "name": "이름",
+          "playerRole": "선수 역할",
+          "titleRole": "직책",
+          "permission": "권한"
+        },
+        "recruitmentTitle": "멤버 모집",
+        "recruitingStatus": "모집 중",
+        "expiredWarning": "이 모집은 생성 후 100일이 경과하여 목록에 표시되지 않습니다.",
+        "expiredWarningAction": "계속 모집하려면 삭제 후 다시 생성해 주세요."
+      },
+      "settings": {
+        "editTitle": "팀 편집",
+        "editDescription": "팀 이름, 공개 프로필 등 기본 정보를 편집할 수 있습니다.",
+        "editButton": "팀 정보 편집",
+        "discordTitle": "Discord 알림 설정",
+        "discordDescription": "Discord Webhook을 설정하면 팀 알림을 Discord에서 받을 수 있습니다.",
+        "webhookLabel": "Webhook URL",
+        "webhookHelpTitle": "Webhook URL 얻는 방법",
+        "webhookStep1": "1. 팀 Discord 서버에서 알림용 채널 생성",
+        "webhookStep2": "2. 채널 설정 열기",
+        "webhookStep3": "3. '연동' → '웹후크' → '새 웹후크'",
+        "webhookStep4": "4. '웹후크 URL 복사'하여 여기에 붙여넣기",
+        "notifyItemsLabel": "알림 항목",
+        "scrimApplication": "스크림 신청",
+        "scrimResult": "스크림 신청 결과 (승인/거절)",
+        "joinRequest": "팀 가입 요청",
+        "tournamentMessage": "대회 메시지",
+        "lftMessage": "LFT 대화 새 메시지 (팀 측)",
+        "scrimReminderTitle": "스크림 리마인더",
+        "tournamentReminderTitle": "대회 리마인더",
+        "hours24": "24시간 전",
+        "hours12": "12시간 전",
+        "hour1": "1시간 전",
+        "minutes10": "10분 전",
+        "activityTitle": "활동 로그",
+        "activityDescription": "팀 활동 기록(멤버 가입/탈퇴, 역할 변경 등)을 확인할 수 있습니다.",
+        "activityButton": "활동 로그 확인",
+        "leaveTitle": "팀 탈퇴",
+        "leaveDescription": "이 팀에서 탈퇴합니다. 탈퇴 후에는 팀의 스크림이나 연락처에 접근할 수 없습니다.",
+        "lastAdminWarning": "당신은 이 팀의 유일한 관리자입니다. 탈퇴 전에 다른 멤버에게 관리자 권한을 부여해 주세요.",
+        "regenerateModal": {
+          "title": "초대 링크를 재생성하시겠습니까?",
+          "description": "새 초대 링크를 생성하면 현재 초대 링크는 무효화됩니다. 이미 공유된 링크로는 팀에 가입할 수 없게 됩니다.",
+          "cancel": "취소"
+        }
+      }
+    }
+  },
+  "teamBar": {
+    "label": "팀:",
+    "moreTeams": "외 {{count}}팀...",
+    "allTeams": "모든 팀"
+  },
+  "teamSchedule": {
+    "notFound": "팀을 찾을 수 없습니다",
+    "notMember": "이 팀의 멤버가 아닙니다",
+    "backToTeams": "팀 목록으로 돌아가기",
+    "filter": {
+      "title": "필터",
+      "all": "전체",
+      "fiveRoles": "5역할",
+      "fourRolesPlus": "4역할+",
+      "threeRolesPlus": "3역할+"
+    },
+    "display": {
+      "title": "표시"
+    },
+    "members": {
+      "title": "멤버",
+      "selectAll": "전체 선택",
+      "deselectAll": "전체 해제"
+    },
+    "settingsDrawer": {
+      "title": "설정"
+    },
+    "events": {
+      "roles": "{{count}}역할",
+      "rolesWithMembers": "{{roles}}({{count}}명)",
+      "recruiting": "📢 모집 중",
+      "recruitingWithCount": "📢 모집 중({{count}}건)",
+      "applicationPending": "📝 신청 중:",
+      "applicationCount": "{{count}}건"
+    },
+    "modal": {
+      "title": "스크림 모집 생성",
+      "confirmMessage": "이 시간에 스크림 모집을 생성하시겠습니까?",
+      "timeSeparator": " ~ ",
+      "availableMembers": "참여 가능 멤버",
+      "noAvailableMembers": "이 시간대에 참여 가능한 멤버가 없습니다",
+      "composition": "팀 구성",
+      "compositionRoles": "({{count}}역할)",
+      "average": "평균",
+      "highest": "최고:",
+      "lowest": "최저:",
+      "tank": "탱커:",
+      "damage": "딜러:",
+      "support": "힐러:",
+      "searchScrim": "스크림 검색",
+      "createPost": "모집 생성",
+      "close": "닫기"
+    },
+    "calendarButtons": {
+      "day": "일",
+      "week": "주"
+    }
+  },
+  "teamAvailability": {
+    "loading": "가능 시간 로딩 중...",
+    "noData": "가능 시간 데이터가 없습니다",
+    "fiveRoles": "5역할",
+    "roles": "역할",
+    "people": "명",
+    "title": "팀 가능 시간",
+    "composition": "구성:",
+    "highest": "최고:",
+    "lowest": "최저:",
+    "avg": "평균",
+    "roleSummary": "{{roleCount}}역할 / {{playerCount}}명",
+    "note": "※ 이 시간대에 일정이 비어있는 멤버 수",
+    "roleLabels": {
+      "tank": "탱커",
+      "damage": "딜러",
+      "support": "힐러"
+    }
+  },
+  "teamActivityLog": {
+    "actionTypes": {
+      "member_join": "멤버 가입",
+      "member_leave": "멤버 탈퇴",
+      "member_removed": "멤버 삭제",
+      "roles_updated": "역할 변경",
+      "announcement_updated": "공지 편집",
+      "team_name_updated": "팀 이름 변경",
+      "team_public_profile_updated": "공개 프로필 변경"
+    },
+    "roleLabels": {
+      "tank": "탱커",
+      "damage": "딜러",
+      "support": "힐러",
+      "owner": "오너",
+      "manager": "매니저",
+      "coach": "코치",
+      "admin": "관리자",
+      "scrim_manager": "스크림 담당"
+    },
+    "none": "없음",
+    "currentPrefix": " (현재: {{name}})",
+    "noLogs": "활동 로그가 아직 없습니다",
+    "loadMore": "더 보기",
+    "unknownAction": "알 수 없는 작업",
+    "descriptions": {
+      "member_join": "{{user}}님이 팀에 가입했습니다",
+      "member_leave": "{{user}}님이 팀에서 탈퇴했습니다",
+      "member_removed": "{{removedBy}}님이 {{target}}님을 팀에서 삭제했습니다",
+      "roles_updated": "{{updatedBy}}님이 {{target}}님의 역할을 변경했습니다",
+      "announcement_updated": "{{updatedBy}}님이 공지를 편집했습니다",
+      "team_name_updated": "{{updatedBy}}님이 팀 이름을 \"{{oldName}}\"에서 \"{{newName}}\"(으)로 변경했습니다",
+      "team_public_profile_updated": "{{updatedBy}}님이 공개 프로필을 변경했습니다"
+    },
+    "roleChanges": {
+      "playerRole": "선수 역할: {{from}} → {{to}}",
+      "titleRole": "직책: {{from}} → {{to}}",
+      "permissionRole": "권한: {{from}} → {{to}}"
+    }
+  },
+  "teamInvitations": {
+    "title": "스크림 초대 목록",
+    "backToTeam": "← {{name}}(으)로 돌아가기",
+    "createNewInvitation": "새 초대 생성",
+    "noInvitations": "발행한 초대가 없습니다",
+    "createInvitation": "초대 생성",
+    "matchFormat": "대전 형식:",
+    "note": "비고:",
+    "acceptedBy": "{{name}}님이 수락했습니다",
+    "viewSchedule": "일정 확인 →",
+    "expiresAt": "만료:",
+    "cancelConfirm": "이 초대를 취소하시겠습니까?",
+    "cancelling": "취소 중...",
+    "cancel": "취소",
+    "statusPending": "미사용",
+    "statusAccepted": "수락됨",
+    "statusCancelled": "취소됨",
+    "statusExpired": "만료됨"
+  },
+  "teamRatingHistory": {
+    "title": "{{teamName}} 평가 기록",
+    "subtitle": "최근 50건 표시",
+    "noRatings": "아직 평가가 없습니다",
+    "close": "닫기",
+    "edit": "편집",
+    "cancel": "취소",
+    "update": "업데이트",
+    "updating": "업데이트 중...",
+    "fromTeam": "{{team}}의 평가",
+    "fromAnonymousTeam": "상대 팀의 평가",
+    "fromTournamentOrganizer": "대회 \"{{tournament}}\" 주최자의 평가",
+    "scrimTime": "스크림: {{time}}",
+    "notHeldNote": "진행되지 않은 스크림 (평가에 반영되지 않음)",
+    "notHeldButton": "➖ 미진행",
+    "selectRating": "평가 선택",
+    "selectReasons": "사유 선택 (복수 선택 가능)",
+    "reasonLabel": "사유:",
+    "otherReasonPlaceholder": "기타 사유 입력",
+    "replyFrom": "{{team}}의 답변:",
+    "editReplyPlaceholder": "답변 내용 편집 (500자 이내)",
+    "replyPlaceholder": "평가에 대한 답변 입력 (500자 이내)",
+    "replyToRating": "이 평가에 답변하기",
+    "reply": "답변",
+    "replying": "전송 중...",
+    "alert": {
+      "replyEmptyTitle": "오류",
+      "replyEmptyMessage": "답변 내용을 입력해 주세요",
+      "replySentTitle": "답변 전송됨",
+      "replySentMessage": "평가에 대한 답변을 전송했습니다",
+      "badReasonRequiredMessage": "Bad의 경우 사유를 1개 이상 선택해 주세요",
+      "otherReasonRequiredMessage": "'기타'를 선택한 경우 사유를 입력해 주세요",
+      "editRatingTitle": "평가 편집",
+      "editRatingMessage": "평가를 업데이트하시겠습니까?",
+      "ratingUpdatedTitle": "평가 업데이트됨",
+      "ratingUpdatedMessage": "평가가 성공적으로 업데이트되었습니다",
+      "editReplyTitle": "답변 편집",
+      "editReplyMessage": "답변을 업데이트하시겠습니까?",
+      "replyUpdatedTitle": "답변 업데이트됨",
+      "replyUpdatedMessage": "답변이 성공적으로 업데이트되었습니다"
+    }
+  },
+  "teamRatingSummary": {
+    "noRating": "평가 없음",
+    "summary": "({{percentage}}% Good / 최근 {{count}}건)",
+    "viewHistory": "기록 보기"
+  },
+  "teamRecruitmentEdit": {
+    "createTitle": "멤버 모집 생성",
+    "editTitle": "멤버 모집 편집",
+    "deleteConfirm": "모집을 삭제하시겠습니까?",
+    "expiredWarning": "이 모집은 생성 후 100일이 경과하여 목록에 표시되지 않습니다.",
+    "expiredHint": "계속 모집하려면 삭제 후 다시 생성해 주세요.",
+    "expiryNotice": "모집은 생성 후 100일이 지나면 자동으로 숨겨집니다.",
+    "rolesLabel": "모집 역할",
+    "playerRoles": "선수",
+    "staffRoles": "스태프",
+    "descriptionLabel": "모집 상세 (선택)",
+    "descriptionPlaceholder": "팀 분위기, 활동 시간, 필요 스킬 등...",
+    "languagesLabel": "사용 언어 (선택)",
+    "popularLanguages": "자주 사용하는 언어",
+    "regionsLabel": "거주 지역 (선택)",
+    "popularRegions": "자주 사용하는 지역"
+  }
+}

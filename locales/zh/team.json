@@ -1,0 +1,585 @@
+{
+  "team": {
+    "pastScrims": {
+      "title": "历史训练赛",
+      "subtitle": "已完成的训练赛、招募和申请记录",
+      "noData": "暂无历史训练赛",
+      "backToTeam": "返回",
+      "backToTeams": "返回战队列表",
+      "notMember": "您不是此战队的成员",
+      "ofPost": "的招募",
+      "typeSchedule": "已完成",
+      "typePost": "招募",
+      "typeApplication": "申请"
+    },
+    "error": {
+      "create": "创建战队失败",
+      "update": "更新战队失败",
+      "leave": "退出战队失败",
+      "memberRemove": "移除成员失败",
+      "roleUpdate": "更新角色失败",
+      "inviteCancel": "取消邀请失败",
+      "inviteFetch": "获取邀请失败",
+      "inviteValidate": "验证邀请码失败",
+      "requestCancel": "取消申请失败",
+      "notFound": "战队不存在",
+      "permissionDenied": "您没有权限访问此功能"
+    },
+    "success": {
+      "create": "战队已创建",
+      "update": "战队已更新",
+      "leave": "已退出战队",
+      "memberRemove": "成员已移除",
+      "roleUpdate": "角色已更新",
+      "inviteCancel": "邀请已取消",
+      "inviteCodeCopy": "邀请码已复制",
+      "inviteUrlCopy": "邀请链接已复制"
+    },
+    "validation": {
+      "adminRequired": "需要管理员权限",
+      "needAdminBeforeLeave": "战队需要至少一名管理员。请在离开前将管理员权限转让给其他成员。"
+    },
+    "create": {
+      "pageTitle": "创建战队",
+      "nameLabel": "战队名称",
+      "namePlaceholder": "请输入战队名称",
+      "publicProfileLabel": "公开简介",
+      "publicProfilePlaceholder": "战队介绍（所有人可见）",
+      "creating": "创建中...",
+      "submit": "创建战队",
+      "cancel": "取消",
+      "validation": {
+        "nameRequired": "请输入战队名称"
+      }
+    },
+    "join": {
+      "pageTitle": "战队邀请",
+      "loginRequired": "请登录后加入战队。",
+      "goToLogin": "前往登录",
+      "requestSent": "申请已发送！",
+      "requestSentDescription": "您的加入申请已发送。",
+      "waitForApproval": "请等待管理员审批。",
+      "backToMypage": "返回我的页面",
+      "sendingAs": "您将以此身份向此战队发送加入申请",
+      "messageLabel": "留言（可选）",
+      "messagePlaceholder": "自我介绍或说明加入理由...",
+      "contactSettings": "联系方式（申请中可见）",
+      "showDiscordId": "显示Discord ID",
+      "showBattleTag": "显示BattleTag",
+      "cancel": "取消",
+      "sending": "发送中...",
+      "sendRequest": "发送申请",
+      "error": {
+        "invalid": "无效的邀请码",
+        "expired": "邀请码已过期",
+        "maxUses": "邀请码已达使用上限",
+        "memberLimit": "此战队已达成员上限（{{max}}人）",
+        "alreadyMember": "您已是此战队成员",
+        "pendingRequest": "您已有待处理的加入申请",
+        "invalidOrExpired": "邀请码无效或已过期"
+      }
+    },
+    "edit": {
+      "pageTitle": "编辑战队",
+      "notFound": "战队不存在",
+      "backToTeams": "返回战队列表",
+      "noPermission": "您没有权限编辑此战队",
+      "backToDetail": "返回战队",
+      "back": "返回",
+      "basicInfo": "基本信息",
+      "nameLabel": "战队名称 *",
+      "namePlaceholder": "请输入战队名称",
+      "publicProfileLabel": "公开简介",
+      "publicProfilePlaceholder": "战队介绍（所有人可见）",
+      "saving": "保存中...",
+      "save": "保存",
+      "cancel": "取消",
+      "announcement": {
+        "title": "战队公告",
+        "description": "向队员分享重要通知、目标或规则。",
+        "label": "公告内容",
+        "placeholder": "战队动态、目标、规则等...",
+        "charCount": "{{count}}/1000 字符",
+        "save": "保存公告"
+      },
+      "members": {
+        "title": "成员管理",
+        "rolesButton": "角色设置",
+        "tableHeaders": {
+          "name": "名称",
+          "playerRole": "游戏角色",
+          "titleRole": "职位",
+          "permission": "权限",
+          "actions": "操作"
+        },
+        "removeButton": "移除",
+        "removeConfirm": "确定要将{{name}}移出战队吗？此操作无法撤销。",
+        "removeError": "移除成员失败",
+        "lastAdmin": "战队至少需要一名管理员",
+        "cannotRemoveSelf": "您不能移除自己"
+      },
+      "activityLog": {
+        "title": "活动日志",
+        "viewButton": "查看日志",
+        "description": "查看成员加入、离开、角色变更等历史记录。"
+      },
+      "validation": {
+        "nameRequired": "请输入战队名称"
+      },
+      "success": {
+        "announcementUpdated": "公告已更新"
+      },
+      "error": {
+        "announcementUpdate": "更新公告失败"
+      }
+    },
+    "roles": {
+      "pageTitle": "角色设置",
+      "back": "返回",
+      "notFound": "战队不存在",
+      "backToTeams": "返回战队列表",
+      "noPermission": "您没有权限编辑此战队",
+      "backToDetail": "返回战队",
+      "batchOperations": {
+        "title": "批量操作",
+        "clearPlayerRoles": "清除游戏角色",
+        "clearTitleRoles": "清除职位"
+      },
+      "memberList": {
+        "title": "成员角色列表",
+        "playerRoleCount": "游戏角色：{{current}}/{{max}}",
+        "adminCount": "管理员：{{count}}人"
+      },
+      "labels": {
+        "playerRole": "游戏角色",
+        "titleRole": "职位",
+        "permission": "权限",
+        "name": "名称"
+      },
+      "validation": {
+        "adminRequired": "战队至少需要一名管理员",
+        "playerRoleLimit": "游戏角色最多只能分配给{{max}}名成员",
+        "currentPlayerCount": "当前已分配给{{current}}名成员。请移除{{excess}}名成员的游戏角色。"
+      },
+      "dialog": {
+        "playerLimitTitle": "游戏角色超出上限",
+        "permissionHelpTitle": "权限说明",
+        "adminDescription": "完全访问权限（成员管理、角色设置、战队设置等）",
+        "scrimManagerDescription": "仅限训练赛操作（发布招募、审批申请等）",
+        "close": "关闭"
+      },
+      "success": {
+        "rolesUpdated": "已更新{{count}}名成员的角色"
+      },
+      "buttons": {
+        "cancel": "取消",
+        "saving": "保存中...",
+        "saveChanges": "保存更改",
+        "noChanges": "无更改"
+      }
+    },
+    "activityLog": {
+      "pageTitle": "{{name}} - 活动日志",
+      "totalCount": "共 {{count}} 条",
+      "backToDetail": "返回战队",
+      "back": "返回",
+      "noLogs": "暂无活动日志",
+      "none": "无",
+      "currentName": "当前：{{name}}",
+      "actionTypes": {
+        "member_join": "加入",
+        "member_leave": "离开",
+        "member_removed": "被移除",
+        "roles_updated": "角色变更",
+        "announcement_updated": "公告编辑",
+        "team_name_updated": "战队更名",
+        "team_public_profile_updated": "公开简介变更"
+      },
+      "descriptions": {
+        "member_join": "{{user}} 加入了战队",
+        "member_leave": "{{user}} 离开了战队",
+        "member_removed": "{{actor}} 将 {{target}} 移出了战队",
+        "roles_updated": "{{actor}} 更改了 {{target}} 的角色",
+        "announcement_updated": "{{actor}} 编辑了公告",
+        "team_name_updated": "{{actor}} 将战队名称从「{{oldName}}」改为「{{newName}}」",
+        "team_public_profile_updated": "{{actor}} 更改了公开简介",
+        "unknown": "未知操作"
+      },
+      "roleChanges": {
+        "playerRole": "游戏角色：{{old}} → {{new}}",
+        "titleRole": "职位：{{old}} → {{new}}",
+        "permission": "权限：{{old}} → {{new}}"
+      },
+      "pagination": {
+        "prev": "上一页",
+        "next": "下一页"
+      }
+    },
+    "detail": {
+      "tabs": {
+        "scrim": "训练赛",
+        "members": "成员",
+        "info": "信息",
+        "notifications": "通知",
+        "settings": "设置"
+      },
+      "avgRank": "平均段位：",
+      "scrimCount": "已完成训练赛：",
+      "createdAt": "创建时间：",
+      "showComposition": "▶ 显示阵容详情",
+      "hideComposition": "▼ 隐藏阵容详情",
+      "fromPost": "来自招募",
+      "fromInvite": "邀请码",
+      "memberLimitReached": "战队已满员",
+      "showInviteLink": "▶ 显示邀请链接",
+      "hideInviteLink": "▼ 隐藏邀请链接",
+      "showContact": "▶ 显示联系方式",
+      "hideContact": "▼ 隐藏联系方式",
+      "lftConversation": {
+        "active": "进行中",
+        "closed": "已关闭"
+      },
+      "recruitment": {
+        "editButton": "编辑招募",
+        "createButton": "创建招募",
+        "notRecruiting": "目前未在招募成员。",
+        "createPrompt": "创建招募帖以在战队加入页面展示您的战队。"
+      },
+      "notifications": {
+        "saveSuccess": "Discord通知设置已保存",
+        "saveSuccessTitle": "已保存",
+        "saveError": "保存设置失败",
+        "webhookRequired": "请输入Webhook URL",
+        "webhookInvalid": "请输入有效的Discord Webhook URL",
+        "testSuccess": "测试消息已发送，请查看Discord。",
+        "testSuccessTitle": "成功",
+        "testError": "发送失败",
+        "testSendError": "测试发送时出错",
+        "testSending": "发送中...",
+        "testSend": "测试发送",
+        "saving": "保存中...",
+        "saveButton": "保存通知设置"
+      },
+      "leave": {
+        "title": "退出战队",
+        "message": "确定要退出此战队吗？此操作无法撤销。",
+        "confirm": "退出",
+        "leaving": "退出中...",
+        "button": "退出战队"
+      },
+      "joinRequest": {
+        "confirmApprove": "批准此申请吗？",
+        "confirmReject": "拒绝此加入申请吗？",
+        "approve": "批准",
+        "reject": "拒绝",
+        "noPending": "暂无待处理申请"
+      },
+      "inviteCode": {
+        "regenerating": "重新生成中...",
+        "regenerate": "重新生成"
+      },
+      "backToTeams": "返回战队列表",
+      "backToJoin": "返回加入战队",
+      "info": {
+        "title": "战队信息",
+        "publicProfile": "战队介绍",
+        "noPublicProfile": "未设置公开简介",
+        "recruiting": "招募成员中",
+        "requiredRoles": "招募角色",
+        "inviteRequired": "加入此战队需要从战队成员处获取邀请链接。"
+      },
+      "rating": {
+        "title": "战队评价"
+      },
+      "memberCount": "{{count}} 名成员",
+      "scrimCountUnit": "{{count}}",
+      "announcement": "战队公告",
+      "actions": {
+        "schedule": "日程",
+        "scheduleDesc": "查看成员空闲时间",
+        "createScrim": "发布招募",
+        "createScrimDesc": "寻找对手",
+        "scrimList": "训练赛招募",
+        "externalScrim": "登记外部训练赛",
+        "invitations": "邀请",
+        "pastScrims": "历史训练赛"
+      },
+      "upcomingScrims": "即将进行的训练赛",
+      "noScrims": "暂无已安排的训练赛",
+      "tournamentMessages": {
+        "title": "比赛消息",
+        "description": "您有来自比赛主办方的消息。",
+        "count": "{{count}}"
+      },
+      "lftContacts": {
+        "title": "找队联系",
+        "description": "与正在找队的选手的对话。",
+        "viewList": "查看列表",
+        "moreContacts": "还有 {{count}} 个联系"
+      },
+      "noNotifications": "暂无通知",
+      "members": {
+        "title": "成员（{{current}}/{{max}}）",
+        "roleSettings": "角色设置",
+        "generateInviteLink": "生成邀请链接",
+        "memberLimitWarning": "战队已满员（{{max}}人）。如需添加新成员，请先移除现有成员。",
+        "showInviteLink": "▶ 显示邀请链接",
+        "hideInviteLink": "▼ 隐藏邀请链接",
+        "code": "邀请码：",
+        "copyCode": "复制邀请码",
+        "url": "URL：",
+        "copyUrl": "复制URL",
+        "regenerateLink": "重新生成链接",
+        "inviteLinkDescription": "将此URL分享给您的队员。重新生成将使之前的链接失效。",
+        "showContact": "▶ 显示联系方式",
+        "hideContact": "▼ 隐藏联系方式",
+        "table": {
+          "name": "名称",
+          "playerRole": "游戏角色",
+          "titleRole": "职位",
+          "permission": "权限"
+        },
+        "recruitmentTitle": "成员招募",
+        "recruitingStatus": "招募中",
+        "expiredWarning": "此招募已超过100天未活动，不再显示在列表中。",
+        "expiredWarningAction": "如需继续招募，请删除后重新发布。"
+      },
+      "settings": {
+        "editTitle": "编辑战队",
+        "editDescription": "编辑战队名称、公开简介等基本信息。",
+        "editButton": "编辑战队信息",
+        "discordTitle": "Discord通知",
+        "discordDescription": "设置Discord Webhook以在Discord接收战队通知。",
+        "webhookLabel": "Webhook URL",
+        "webhookHelpTitle": "如何获取Webhook URL",
+        "webhookStep1": "1. 在您的Discord服务器中创建通知频道",
+        "webhookStep2": "2. 打开频道设置",
+        "webhookStep3": "3. 前往「整合」→「Webhooks」→「新建Webhook」",
+        "webhookStep4": "4. 复制Webhook URL并粘贴到此处",
+        "notifyItemsLabel": "通知项目",
+        "scrimApplication": "训练赛申请",
+        "scrimResult": "训练赛申请结果（通过/拒绝）",
+        "joinRequest": "战队加入申请",
+        "tournamentMessage": "比赛消息",
+        "lftMessage": "新的找队对话消息（战队方）",
+        "scrimReminderTitle": "训练赛提醒",
+        "tournamentReminderTitle": "比赛提醒",
+        "hours24": "24小时前",
+        "hours12": "12小时前",
+        "hour1": "1小时前",
+        "minutes10": "10分钟前",
+        "activityTitle": "活动日志",
+        "activityDescription": "查看战队活动历史（成员加入/离开、角色变更等）。",
+        "activityButton": "查看活动日志",
+        "leaveTitle": "退出战队",
+        "leaveDescription": "退出此战队。您将无法再访问战队训练赛和联系信息。",
+        "lastAdminWarning": "您是此战队唯一的管理员。请在离开前将管理员权限转让给其他成员。",
+        "regenerateModal": {
+          "title": "重新生成邀请链接？",
+          "description": "生成新的邀请链接将使当前链接失效。持有旧链接的人将无法加入。",
+          "cancel": "取消"
+        }
+      }
+    }
+  },
+  "teamBar": {
+    "label": "战队：",
+    "moreTeams": "还有{{count}}个...",
+    "allTeams": "所有战队"
+  },
+  "teamSchedule": {
+    "notFound": "战队不存在",
+    "notMember": "您不是此战队的成员",
+    "backToTeams": "返回战队列表",
+    "filter": {
+      "title": "筛选",
+      "all": "全部",
+      "fiveRoles": "5角色",
+      "fourRolesPlus": "4角色以上",
+      "threeRolesPlus": "3角色以上"
+    },
+    "display": {
+      "title": "显示"
+    },
+    "members": {
+      "title": "成员",
+      "selectAll": "全选",
+      "deselectAll": "取消全选"
+    },
+    "settingsDrawer": {
+      "title": "设置"
+    },
+    "events": {
+      "roles": "{{count}}个角色",
+      "rolesWithMembers": "{{roles}}（{{count}}人）",
+      "recruiting": "📢 招募中",
+      "recruitingWithCount": "📢 招募中（{{count}}）",
+      "applicationPending": "📝 已申请：",
+      "applicationCount": "{{count}}"
+    },
+    "modal": {
+      "title": "发布训练赛招募",
+      "confirmMessage": "为此时段创建训练赛招募吗？",
+      "timeSeparator": " - ",
+      "availableMembers": "可用成员",
+      "noAvailableMembers": "此时段无可用成员",
+      "composition": "阵容",
+      "compositionRoles": "（{{count}}个角色）",
+      "average": "平均",
+      "highest": "最高：",
+      "lowest": "最低：",
+      "tank": "坦克：",
+      "damage": "输出：",
+      "support": "辅助：",
+      "searchScrim": "搜索训练赛",
+      "createPost": "发布招募",
+      "close": "关闭"
+    },
+    "calendarButtons": {
+      "day": "日",
+      "week": "周"
+    }
+  },
+  "teamAvailability": {
+    "loading": "加载空闲时间中...",
+    "noData": "暂无空闲时间数据",
+    "fiveRoles": "5角色",
+    "roles": "角色",
+    "people": "人",
+    "title": "战队空闲时间",
+    "composition": "阵容：",
+    "highest": "最高：",
+    "lowest": "最低：",
+    "avg": "平均",
+    "roleSummary": "{{roleCount}}个角色 / {{playerCount}}人",
+    "note": "* 此时段可用成员数量",
+    "roleLabels": {
+      "tank": "坦克",
+      "damage": "输出",
+      "support": "辅助"
+    }
+  },
+  "teamActivityLog": {
+    "actionTypes": {
+      "member_join": "成员加入",
+      "member_leave": "成员离开",
+      "member_removed": "成员被移除",
+      "roles_updated": "角色变更",
+      "announcement_updated": "公告编辑",
+      "team_name_updated": "战队更名",
+      "team_public_profile_updated": "公开简介变更"
+    },
+    "roleLabels": {
+      "tank": "坦克",
+      "damage": "输出",
+      "support": "辅助",
+      "owner": "队长",
+      "manager": "经理",
+      "coach": "教练",
+      "admin": "管理员",
+      "scrim_manager": "训练赛负责人"
+    },
+    "none": "无",
+    "currentPrefix": "（当前：{{name}}）",
+    "noLogs": "暂无活动日志",
+    "loadMore": "加载更多",
+    "unknownAction": "未知操作",
+    "descriptions": {
+      "member_join": "{{user}} 加入了战队",
+      "member_leave": "{{user}} 离开了战队",
+      "member_removed": "{{removedBy}} 将 {{target}} 移出了战队",
+      "roles_updated": "{{updatedBy}} 更改了 {{target}} 的角色",
+      "announcement_updated": "{{updatedBy}} 编辑了公告",
+      "team_name_updated": "{{updatedBy}} 将战队名称从「{{oldName}}」改为「{{newName}}」",
+      "team_public_profile_updated": "{{updatedBy}} 更改了公开简介"
+    },
+    "roleChanges": {
+      "playerRole": "游戏角色：{{from}} → {{to}}",
+      "titleRole": "职位：{{from}} → {{to}}",
+      "permissionRole": "权限：{{from}} → {{to}}"
+    }
+  },
+  "teamInvitations": {
+    "title": "训练赛邀请",
+    "backToTeam": "← 返回 {{name}}",
+    "createNewInvitation": "创建新邀请",
+    "noInvitations": "暂无已发出的邀请",
+    "createInvitation": "创建邀请",
+    "matchFormat": "模式：",
+    "note": "备注：",
+    "acceptedBy": "{{name}}已接受",
+    "viewSchedule": "查看日程 →",
+    "expiresAt": "过期时间：",
+    "cancelConfirm": "取消此邀请吗？",
+    "cancelling": "取消中...",
+    "cancel": "取消",
+    "statusPending": "待处理",
+    "statusAccepted": "已接受",
+    "statusCancelled": "已取消",
+    "statusExpired": "已过期"
+  },
+  "teamRatingHistory": {
+    "title": "{{teamName}} 评价记录",
+    "subtitle": "显示最近50条评价",
+    "noRatings": "暂无评价",
+    "close": "关闭",
+    "edit": "编辑",
+    "cancel": "取消",
+    "update": "更新",
+    "updating": "更新中...",
+    "fromTeam": "来自 {{team}} 的评价",
+    "fromAnonymousTeam": "来自对手队伍的评价",
+    "fromTournamentOrganizer": "来自「{{tournament}}」主办方的评价",
+    "scrimTime": "训练赛：{{time}}",
+    "notHeldNote": "训练赛未进行（不计入评价）",
+    "notHeldButton": "➖ 未进行",
+    "selectRating": "选择评价",
+    "selectReasons": "选择原因（可多选）",
+    "reasonLabel": "原因：",
+    "otherReasonPlaceholder": "输入其他原因",
+    "replyFrom": "{{team}}的回复：",
+    "editReplyPlaceholder": "编辑回复（最多500字符）",
+    "replyPlaceholder": "输入对评价的回复（最多500字符）",
+    "replyToRating": "回复此评价",
+    "reply": "回复",
+    "replying": "发送中...",
+    "alert": {
+      "replyEmptyTitle": "错误",
+      "replyEmptyMessage": "请输入回复内容",
+      "replySentTitle": "回复已发送",
+      "replySentMessage": "您对评价的回复已发送",
+      "badReasonRequiredMessage": "差评需要选择至少一个原因",
+      "otherReasonRequiredMessage": "选择「其他」时请输入原因",
+      "editRatingTitle": "编辑评价",
+      "editRatingMessage": "确定要更新此评价吗？",
+      "ratingUpdatedTitle": "评价已更新",
+      "ratingUpdatedMessage": "评价已成功更新",
+      "editReplyTitle": "编辑回复",
+      "editReplyMessage": "确定要更新此回复吗？",
+      "replyUpdatedTitle": "回复已更新",
+      "replyUpdatedMessage": "回复已成功更新"
+    }
+  },
+  "teamRatingSummary": {
+    "noRating": "暂无评价",
+    "summary": "（{{percentage}}%好评 / 最近{{count}}条）",
+    "viewHistory": "查看记录"
+  },
+  "teamRecruitmentEdit": {
+    "createTitle": "创建成员招募",
+    "editTitle": "编辑成员招募",
+    "deleteConfirm": "删除此招募吗？",
+    "expiredWarning": "此招募已超过100天，不再显示在列表中。",
+    "expiredHint": "如需继续招募，请删除后重新发布。",
+    "expiryNotice": "招募将在创建100天后自动隐藏。",
+    "rolesLabel": "招募角色",
+    "playerRoles": "选手",
+    "staffRoles": "工作人员",
+    "descriptionLabel": "详情（可选）",
+    "descriptionPlaceholder": "战队氛围、活动时间、技能要求等...",
+    "languagesLabel": "语言（可选）",
+    "popularLanguages": "常用语言",
+    "regionsLabel": "地区（可选）",
+    "popularRegions": "常用地区"
+  }
+}

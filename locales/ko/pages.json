@@ -1,0 +1,641 @@
+{
+  "home": {
+    "hero": {
+      "title1": " 스크림의 모든 것을,",
+      "title2": "여기서 관리",
+      "subtitle1": "오버워치 팀 간의 스크림을",
+      "subtitle2": "더 쉽게, 더 원활하게",
+      "loginWithDiscord": "Discord로 로그인",
+      "browseWithoutLogin": "로그인 없이 둘러보기",
+      "freeAndEasy": "무료, 가입 없이 바로 시작할 수 있습니다",
+      "loginError": "로그인에 실패했습니다. 다시 시도해 주세요."
+    },
+    "features": {
+      "title": "주요 기능",
+      "scrimMatching": {
+        "title": "스크림 매칭",
+        "description": "랭크, 시간, 경기 형식으로 필터링하여 조건에 맞는 팀을 쉽게 검색할 수 있습니다. 신청부터 승인까지 원활하게 진행됩니다."
+      },
+      "availability": {
+        "title": "멤버 가능 시간 확인",
+        "description": "팀 멤버의 가능 시간을 한눈에 확인할 수 있습니다. 스크림 일정 조정이 쉬워지고, 5명이 모두 참여 가능한 시간대를 바로 알 수 있습니다."
+      },
+      "discord": {
+        "title": "Discord 알림",
+        "description1": "중요한 알림을 ",
+        "description2": "Discord",
+        "description3": "로 받을 수 있습니다. 놓치지 않고 확인하세요.",
+        "item1": "・스크림 신청・승인・거절",
+        "item2": "・스크림 시작 리마인더 (10분 전/1시간 전/12시간 전/24시간 전)",
+        "item3": "・대회 당첨・탈락・추가 선발",
+        "item4": "・대회 시작 리마인더 (10분 전/1시간 전/12시간 전/24시간 전)"
+      }
+    },
+    "interface": {
+      "title": "사용하기 쉬운 인터페이스",
+      "subtitle": "심플하고 직관적인 디자인으로 금방 익숙해집니다",
+      "scrimList": "스크림 모집 목록",
+      "teamDetail": "팀 상세",
+      "teamSchedule": "팀 일정",
+      "teamAverage": "팀 평균",
+      "memberAvailability": "멤버 가능 상황",
+      "teamDetailCalc": "팀 상세・랭크 계산",
+      "memberAvailabilityCheck": "멤버 가능 시간 확인",
+      "fulltime": "풀타임",
+      "mutual2map": "상호 2맵",
+      "fiveOk": "5명 OK",
+      "shortage": "인원 부족",
+      "available": "5명 참여 가능",
+      "unavailable": "참여 불가 있음",
+      "days": {
+        "mon": "월",
+        "tue": "화",
+        "wed": "수",
+        "thu": "목",
+        "fri": "금",
+        "sat": "토",
+        "sun": "일"
+      },
+      "mockTime1": "12/21 (토) 20:00~",
+      "mockTime2": "12/21 (토) 21:00~",
+      "mockTime3": "12/22 (일) 19:00~"
+    },
+    "otherFeatures": {
+      "title": "기타 기능",
+      "subtitle": "스크림 운영에 필요한 다양한 기능을 지원합니다",
+      "scrim": {
+        "title": "스크림",
+        "item1": "경기 형식 선택 (풀타임/상호 2맵/기타)",
+        "item2": "시간 충돌 감지 및 경고 표시",
+        "item3": "거주 지역 필터",
+        "item4": "외부 팀과의 스크림 일정 등록",
+        "item5": "상대 팀 평가 (Good/Bad) 및 이력 확인"
+      },
+      "team": {
+        "title": "팀 관리",
+        "item1": "팀 생성・편집",
+        "item2": "멤버 역할 설정 (탱커/딜러/힐러)",
+        "item3": "팀 랭크 자동 계산 (모든 조합에서 최저~최고 산출)",
+        "item4": "직책・권한 관리 (오너/매니저 등)",
+        "item5": "팀 공지 기능"
+      },
+      "circle": {
+        "title": "스크림 서클",
+        "item1": "팀 간 프라이빗 그룹 생성",
+        "item2": "서클 한정 스크림 모집",
+        "item3": "초대 코드로 참여"
+      },
+      "tournament": {
+        "title": "대회",
+        "item1": "대회 생성・응모・추첨",
+        "item2": "공동 주최자 설정",
+        "item3": "서클 한정 공개",
+        "item4": "Challonge 연동"
+      },
+      "recruitment": {
+        "title": "멤버 모집・팀 찾기",
+        "item1": "팀이 플레이어를 모집",
+        "item2": "플레이어가 팀을 찾음 (LFT)",
+        "item3": "역할・언어・지역으로 필터"
+      },
+      "other": {
+        "title": "기타",
+        "item1": "개인 캘린더 (내 일정 목록 보기)",
+        "item2": "마이페이지 (예정된 일정・요청 관리)"
+      }
+    },
+    "cta": {
+      "title": "지금 바로 시작하세요",
+      "subtitle": "Discord 계정만 있으면 바로 팀을 만들고 스크림을 모집할 수 있습니다",
+      "startFree": "무료로 지금 시작하기"
+    },
+    "footer": {
+      "terms": "이용약관",
+      "privacy": "개인정보 처리방침",
+      "licenses": "OSS 라이선스",
+      "admin": "관리"
+    },
+    "consent": {
+      "title": "이용약관 동의",
+      "description": "본 서비스를 이용하려면 아래 약관에 동의해야 합니다.",
+      "viewTerms": "이용약관 확인하기 →",
+      "viewPrivacy": "개인정보 처리방침 확인하기 →",
+      "agree": "이용약관 및 개인정보 처리방침에 동의합니다",
+      "cancel": "취소",
+      "agreeAndLogin": "동의하고 로그인"
+    }
+  },
+  "recruitment": {
+    "memberTab": "멤버 모집",
+    "memberTabHint": "팀이 멤버를 모집",
+    "playerTab": "팀 찾기",
+    "playerTabHint": "플레이어가 팀을 찾음 (LFT)",
+    "filter": "필터",
+    "list": {
+      "title": "멤버 모집",
+      "description": "플레이어를 모집하는 팀 목록입니다. 참여 요청을 보내고 관리자 승인을 기다리세요.",
+      "createTeam": "팀 만들기",
+      "joinByCode": "초대 코드로 참여",
+      "createRecruitment": "모집 생성",
+      "filter": "필터",
+      "recruitingRoles": "모집 역할",
+      "playerRoles": "플레이어",
+      "staffRoles": "스태프",
+      "filterByLanguageRegion": "사용 언어・거주 지역으로 필터",
+      "language": "사용 언어",
+      "region": "거주 지역",
+      "popularLanguages": "자주 사용하는 언어",
+      "popularRegions": "자주 사용하는 지역",
+      "resetFilters": "필터 초기화",
+      "noResults": "조건에 맞는 모집이 없습니다",
+      "noRecruitments": "현재 모집 중인 팀이 없습니다",
+      "createTeamAction": "팀 만들기",
+      "memberBadge": "소속 중",
+      "pendingBadge": "신청 중",
+      "recruitingRolesLabel": "모집 역할",
+      "languageLabel": "언어:",
+      "regionLabel": "거주:",
+      "avgRank": "평균 랭크:",
+      "goToTeamPage": "팀 페이지로 이동",
+      "waitingForApproval": "관리자 승인을 기다리고 있습니다",
+      "sendJoinRequest": "참여 요청 보내기",
+      "loginRequired": "로그인이 필요합니다",
+      "loginToCreate": "팀을 만들려면 로그인해 주세요.",
+      "loginToViewTeam": "팀 상세를 보려면 로그인해 주세요.",
+      "loginToJoin": "팀에 참여하려면 로그인해 주세요."
+    },
+    "invite": {
+      "title": "초대 코드로 참여",
+      "description": "팀에서 공유한 초대 코드를 입력해 주세요.",
+      "placeholder": "초대 코드 입력",
+      "cancel": "취소",
+      "validating": "확인 중...",
+      "next": "다음",
+      "invalidCode": "초대 코드가 유효하지 않습니다",
+      "expired": "초대 코드가 만료되었습니다",
+      "maxUsesReached": "초대 코드 사용 횟수가 한도에 도달했습니다",
+      "teamNotFound": "팀 정보를 가져올 수 없습니다",
+      "teamDissolved": "이 팀은 해체되었습니다",
+      "alreadyMember": "이미 이 팀의 멤버입니다",
+      "alreadyRequested": "이미 이 팀에 참여 요청을 보냈습니다",
+      "validationFailed": "초대 코드 검증에 실패했습니다"
+    },
+    "joinRequest": {
+      "title": "참여 요청",
+      "successTitle": "요청 전송 완료!",
+      "successMessage": "{{teamName}}에 참여 요청을 보냈습니다.",
+      "waitForApproval": "관리자 승인을 기다려 주세요.",
+      "close": "닫기",
+      "messageLabel": "메시지 (선택)",
+      "messagePlaceholder": "자기소개나 참여 이유 등...",
+      "contactSettings": "연락처 표시 (요청에 표시됨)",
+      "showDiscordId": "Discord ID 표시",
+      "showBattleTag": "BattleTag 표시",
+      "back": "뒤로",
+      "submitting": "전송 중...",
+      "submit": "요청 보내기",
+      "alreadyMember": "이미 이 팀의 멤버입니다",
+      "alreadyRequested": "이미 이 팀에 참여 요청을 보냈습니다",
+      "invalidOrExpired": "초대 코드가 유효하지 않거나 만료되었습니다",
+      "memberLimitReached": "이 팀은 멤버 수 한도({{max}}명)에 도달했습니다",
+      "notOpenForRecruitment": "이 팀은 현재 모집하지 않습니다",
+      "submitFailed": "요청 전송에 실패했습니다"
+    },
+    "createGuide": {
+      "title": "멤버 모집 생성",
+      "description": "멤버 모집은 팀 상세 페이지에서 생성할 수 있습니다.",
+      "step1": "팀 상세 페이지를 엽니다",
+      "step2": "\"멤버 모집\" 섹션의 \"모집 편집\" 버튼을 클릭",
+      "step3": "모집 내용을 입력하고 저장",
+      "note": "※ 팀 관리자만 모집을 생성・편집할 수 있습니다",
+      "close": "닫기",
+      "goToTeamList": "팀 목록으로 이동"
+    }
+  },
+  "contact": {
+    "title": "문의하기",
+    "newInquiry": "새 문의",
+    "history": "문의 내역",
+    "successMessage": "문의가 전송되었습니다. 감사합니다.",
+    "category": {
+      "label": "카테고리",
+      "bug": "버그 신고",
+      "feature": "기능 요청",
+      "other": "기타"
+    },
+    "subject": {
+      "label": "제목",
+      "placeholder": "문의 제목"
+    },
+    "message": {
+      "label": "내용",
+      "placeholder": "문의 내용을 자세히 작성해 주세요"
+    },
+    "image": {
+      "label": "이미지 첨부",
+      "optional": "선택, 최대 {{max}}장",
+      "maxReached": "이미지는 최대 {{max}}장까지입니다",
+      "dropzone": "여기에 드래그 앤 드롭 또는 클릭하여 선택",
+      "formats": "JPEG, PNG, GIF, WebP (각 5MB 이하)",
+      "typeError": "JPEG, PNG, GIF, WebP 형식만 지원됩니다",
+      "sizeError": "파일 크기는 5MB 이하여야 합니다",
+      "uploadError": "이미지 업로드에 실패했습니다",
+      "delete": "삭제",
+      "enlarged": "확대 이미지"
+    },
+    "validation": {
+      "subjectRequired": "제목을 입력해 주세요",
+      "messageRequired": "내용을 입력해 주세요",
+      "replyRequired": "답변 내용을 입력해 주세요"
+    },
+    "submit": "전송",
+    "sending": "전송 중...",
+    "loading": "로딩 중...",
+    "noHistory": "문의 내역이 없습니다",
+    "status": {
+      "pending": "대기 중",
+      "in_progress": "처리 중",
+      "resolved": "해결됨",
+      "closed": "종료"
+    },
+    "replies": "대화",
+    "sender": {
+      "admin": "운영팀",
+      "user": "본인"
+    },
+    "reply": "답변하기",
+    "replyPlaceholder": "답변 내용을 입력...",
+    "cancel": "취소",
+    "closedMessage": "이 문의는 종료되었습니다",
+    "required": "필수"
+  },
+  "legal": {
+    "backToTop": "← 처음으로 돌아가기",
+    "terms": {
+      "title": "이용약관",
+      "effectiveDate": "시행일: {{date}}"
+    },
+    "privacy": {
+      "title": "개인정보 처리방침",
+      "effectiveDate": "시행일: {{date}}"
+    },
+    "licenses": {
+      "title": "오픈소스 라이선스",
+      "description": "본 서비스는 다음 오픈소스 소프트웨어를 사용합니다. 모든 저작자와 기여자분들께 감사드립니다.",
+      "library": "라이브러리",
+      "version": "버전",
+      "repository": "저장소",
+      "note": "위에는 주요 의존성만 나열되어 있습니다. 전체 라이선스 본문은 각 저장소를 참조해 주세요.",
+      "descriptions": {
+        "MIT": "MIT 라이선스 - 저작권 표시와 라이선스 표시를 포함하면 자유롭게 사용・복제・수정・배포할 수 있습니다.",
+        "Apache-2.0": "Apache 라이선스 2.0 - 저작권 표시, 라이선스 표시, 변경 사항 명시가 필요합니다. 특허권 부여도 포함됩니다.",
+        "MPL-2.0": "Mozilla 공용 라이선스 2.0 - 파일 단위 카피레프트. 수정된 파일은 MPL로 공개해야 합니다.",
+        "0BSD": "Zero-Clause BSD - 제한 없이 자유롭게 사용할 수 있습니다.",
+        "ISC": "ISC 라이선스 - MIT 라이선스와 거의 동일합니다. 저작권 표시와 라이선스 표시가 필요합니다.",
+        "BSD-3-Clause": "BSD 3-Clause 라이선스 - 저작권 표시와 라이선스 표시가 필요합니다."
+      }
+    }
+  },
+  "circle": {
+    "create": {
+      "pageTitle": "서클 생성",
+      "noPermission": "서클 생성 권한이 없습니다",
+      "noPermissionHint": "서클을 생성하려면 팀 관리자 권한이 필요합니다.",
+      "teamLabel": "팀 선택",
+      "teamHint": "선택한 팀으로 서클을 생성합니다",
+      "nameLabel": "서클 이름",
+      "namePlaceholder": "서클 이름 입력",
+      "nameCount": "{{count}}/50",
+      "descriptionLabel": "설명 (선택사항)",
+      "descriptionPlaceholder": "서클 설명 입력",
+      "descriptionCount": "{{count}}/500",
+      "cancel": "취소",
+      "creating": "생성 중...",
+      "createButton": "생성"
+    },
+    "roles": {
+      "circle_admin": "관리자",
+      "member_manager": "멤버 관리자",
+      "member": "멤버"
+    },
+    "actions": {
+      "create": "서클 생성",
+      "join": "참여",
+      "leave": "탈퇴",
+      "kick": "추방",
+      "role_change": "권한 변경",
+      "update": "설정 변경",
+      "dissolve": "해산",
+      "update_info": "정보 업데이트",
+      "regenerate_code": "초대 코드 재생성",
+      "join_request": "참여 요청",
+      "join_request_approved": "요청 승인",
+      "join_request_rejected": "요청 거절",
+      "join_request_cancelled": "요청 취소"
+    },
+    "ui": {
+      "memberCount": "참여 팀: {{count}}팀",
+      "membersTab": "멤버",
+      "scrimsTab": "스크림 모집",
+      "requestsTab": "참여 요청",
+      "settingsTab": "설정",
+      "logsTab": "활동 로그",
+      "memberList": "멤버 목록",
+      "yourTeam": "(내 팀)",
+      "myTeamBadge": "내 팀",
+      "noRequests": "대기 중인 참여 요청이 없습니다",
+      "leaveCircle": "서클에서 탈퇴",
+      "dissolveCircle": "서클 해산",
+      "kickButton": "추방",
+      "adminTransferNote": "※ 마지막 관리자인 경우 다른 팀에 관리자 권한을 이전한 후 탈퇴해 주세요",
+      "circleScrimPosts": "서클 내 스크림 모집",
+      "noScrimPosts": "현재 모집 중인 스크림이 없습니다",
+      "ratingRequirement": "모집 랭크",
+      "applications": "신청",
+      "requestedBy": "요청자",
+      "approve": "승인",
+      "reject": "거절",
+      "circleSettings": "서클 설정",
+      "circleName": "서클 이름",
+      "description": "설명",
+      "edit": "편집",
+      "cancel": "취소",
+      "save": "저장",
+      "notSet": "(미설정)",
+      "inviteCode": "초대 코드",
+      "copyCode": "코드 복사",
+      "copyUrl": "URL 복사",
+      "regenerate": "재생성",
+      "inviteDescription": "초대 코드 또는 URL을 공유하여 팀을 초대할 수 있습니다",
+      "dangerZone": "위험한 작업",
+      "cannotUndo": "※ 이 작업은 취소할 수 없습니다",
+      "operationLogs": "활동 로그",
+      "noLogs": "활동 로그가 없습니다",
+      "circleNotFound": "서클을 찾을 수 없습니다",
+      "backToCircles": "서클 목록으로 돌아가기",
+      "pageTitle": "스크림 서클",
+      "createCircle": "서클 생성",
+      "joinByCode": "초대 코드로 참여",
+      "inviteCodePlaceholder": "초대 코드 입력",
+      "checking": "확인 중...",
+      "join": "참여",
+      "invalidCode": "유효하지 않은 초대 코드입니다",
+      "myCircles": "소속 서클",
+      "noCircles": "소속된 서클이 없습니다",
+      "noCirclesHint": "초대 코드를 입력하거나 새 서클을 생성해 주세요",
+      "teamCountLabel": "참여 팀"
+    },
+    "confirm": {
+      "kick": "{{name}}을(를) 서클에서 추방하시겠습니까?",
+      "leave": "서클에서 탈퇴하시겠습니까?",
+      "dissolve1": "서클을 해산하시겠습니까? 이 작업은 취소할 수 없습니다.",
+      "dissolve2": "정말로 해산하시겠습니까?",
+      "approveRequest": "이 참여 요청을 승인하시겠습니까?",
+      "rejectRequest": "이 참여 요청을 거절하시겠습니까?",
+      "regenerateCode": "초대 코드를 재생성하시겠습니까? 기존 코드는 무효화됩니다."
+    }
+  },
+  "user": {
+    "error": {
+      "fetch": "사용자 정보를 가져오는 데 실패했습니다",
+      "notFound": "사용자를 찾을 수 없습니다",
+      "report": "신고 전송에 실패했습니다",
+      "delete": "탈퇴 처리 중 오류가 발생했습니다"
+    },
+    "success": {
+      "report": "신고가 전송되었습니다"
+    },
+    "detail": {
+      "pageTitle": "사용자 정보",
+      "teamCount": "소속 팀 수",
+      "scrimCount": "스크림 참여 수: {{count}}건",
+      "registeredDate": "가입일",
+      "backToMypage": "마이페이지로 돌아가기",
+      "ownProfile": "이것은 본인의 프로필입니다",
+      "viewMypage": "마이페이지 보기",
+      "report": {
+        "sectionTitle": "신고",
+        "description": "이 사용자에게 문제가 있는 경우 운영팀에 신고할 수 있습니다.",
+        "withdrawnNote": "※ 탈퇴한 사용자이지만 과거 행위에 대해 신고할 수 있습니다.",
+        "button": "이 사용자 신고하기",
+        "modalTitle": "사용자 신고",
+        "target": "대상",
+        "reasonLabel": "신고 사유",
+        "selectReason": "선택해 주세요",
+        "detailLabel": "상세 내용 (선택)",
+        "detailPlaceholder": "구체적인 내용을 알려주세요...",
+        "imageLabel": "증거 이미지 (선택, 최대 {{max}}장)",
+        "imageMax": "이미지는 최대 {{max}}장까지",
+        "imageDrop": "클릭 또는 드래그 앤 드롭",
+        "imageFormats": "JPEG, PNG, GIF, WebP (각 5MB 이하)",
+        "attachedImage": "첨부 이미지",
+        "cancel": "취소",
+        "submitting": "전송 중...",
+        "submit": "신고하기",
+        "success": "신고가 접수되었습니다",
+        "thanks": "신고해 주셔서 감사합니다"
+      },
+      "reasons": {
+        "harassment": "욕설・비방",
+        "stalking": "괴롭힘・스토킹",
+        "impersonation": "사칭",
+        "spam": "스팸・광고",
+        "no_show": "노쇼・무단 결석",
+        "rank_fraud": "랭크 사기",
+        "other": "기타"
+      },
+      "validation": {
+        "fileTypeError": "JPEG, PNG, GIF, WebP 형식만 지원됩니다",
+        "fileSizeError": "파일 크기는 5MB 이하여야 합니다",
+        "uploadError": "이미지 업로드에 실패했습니다"
+      }
+    }
+  },
+  "mypage": {
+    "tabs": {
+      "scrim": "스크림",
+      "teams": "소속 팀",
+      "lft": "팀 찾기",
+      "profile": "프로필"
+    },
+    "scrim": {
+      "viewCalendar": "캘린더 보기 →",
+      "upcomingScrims": "예정된 스크림",
+      "noScrims": "예정된 스크림이 없습니다",
+      "externalScrim": "외부 스크림",
+      "applications": "신청: {{count}}건",
+      "applying": "신청 중",
+      "applyingAs": "{{team}}으로 신청"
+    },
+    "requests": {
+      "title": "대기 중인 참여 요청",
+      "fromRecruitment": "모집에서 신청",
+      "fromInviteCode": "초대 코드로 신청",
+      "fromUrl": "URL로 신청",
+      "cancelling": "취소 중...",
+      "cancel": "취소",
+      "cancelConfirm": "이 요청을 취소하시겠습니까?",
+      "waitForApproval": "관리자 승인을 기다리고 있습니다"
+    },
+    "teams": {
+      "noTeams": "소속된 팀이 없습니다",
+      "memberCount": "멤버: {{count}}명",
+      "avgRank": "평균 랭크:"
+    },
+    "lft": {
+      "manage": "모집 관리",
+      "create": "모집 생성",
+      "expiredWarning": "이 모집은 생성 후 100일이 경과하여 목록에 표시되지 않습니다.",
+      "expiredHint": "계속 모집하려면 삭제 후 다시 생성해 주세요.",
+      "yourPost": "내 모집",
+      "expired": "만료됨",
+      "recruiting": "모집 중",
+      "closed": "모집 종료",
+      "createdAt": "생성일:",
+      "contactCount": "{{count}}건의 연락",
+      "contactingTeams": "연락 중인 팀",
+      "active": "진행 중",
+      "ended": "종료",
+      "noPostHint": "팀을 찾고 있다면 모집을 생성하여 팀의 연락을 기다리세요."
+    },
+    "profile": {
+      "title": "프로필",
+      "displayName": "표시 이름",
+      "battleTag": "BattleTag",
+      "rank": "랭크",
+      "tank": "탱커:",
+      "damage": "딜러:",
+      "support": "힐러:",
+      "settingsTitle": "설정",
+      "settingsDescription": "프로필, 랭크, 알림 설정 등을 편집할 수 있습니다.",
+      "editSettings": "설정 편집"
+    }
+  },
+  "settings": {
+    "language": {
+      "title": "표시 언어",
+      "label": "언어 선택",
+      "current": "현재 설정",
+      "options": {
+        "ja": "日本語",
+        "en": "English",
+        "ko": "한국어",
+        "zh": "中文"
+      }
+    },
+    "pageTitle": "사용자 설정",
+    "tabs": {
+      "settings": "설정",
+      "withdraw": "탈퇴"
+    },
+    "profile": {
+      "title": "프로필・연락처",
+      "displayName": "표시 이름",
+      "displayNamePlaceholder": "플레이어 이름",
+      "displayNameHint": "미설정 시 Discord 이름이 사용됩니다",
+      "charCount": "({{current}}/{{max}})",
+      "shareToTeam": "팀에 공개",
+      "shareToScrim": "스크림 상대에게 공개"
+    },
+    "rank": {
+      "title": "각 역할의 랭크",
+      "tank": "탱커",
+      "damage": "딜러",
+      "support": "힐러"
+    },
+    "region": {
+      "title": "거주 지역",
+      "popularLabel": "자주 사용하는 지역"
+    },
+    "timezone": {
+      "title": "타임존",
+      "label": "표시 타임존",
+      "popularLabel": "자주 사용하는 타임존",
+      "currentSetting": "현재 설정:",
+      "currentTime": "현재 시간:"
+    },
+    "discord": {
+      "title": "Discord 알림 설정",
+      "description": "Discord Webhook을 설정하면 각종 알림을 Discord로 받을 수 있습니다.",
+      "webhookUrl": "Webhook URL",
+      "testSend": "테스트 전송",
+      "sending": "전송 중...",
+      "howToGetUrl": "Webhook URL 얻는 방법",
+      "howToStep1": "1. 자신만의 Discord 서버를 만듭니다 (또는 기존 서버 사용)",
+      "howToStep2": "2. 알림을 받을 채널의 설정을 엽니다",
+      "howToStep3": "3. '연동' → '웹후크' → '새 웹후크'로 이동",
+      "howToStep4": "4. '웹후크 URL 복사'를 클릭하고 여기에 붙여넣기",
+      "notifyItems": "알림 항목",
+      "notifyHint": "Webhook URL을 설정하면 다음 알림을 받을 수 있습니다",
+      "inquiryReply": "문의에 대한 답변",
+      "lftContact": "LFT 스카우트 (팀의 연락 시작)",
+      "lftMessage": "LFT 대화의 새 메시지",
+      "joinRequestResult": "팀 참여 요청 결과 (승인/거절)",
+      "tournamentOrganizerTitle": "대회 주최자용 알림",
+      "tournamentApplication": "팀 응모",
+      "tournamentApplicationCancel": "응모 취소",
+      "tournamentTeamMessage": "팀의 메시지",
+      "tournamentOrganizerRequest": "공동 주최자 신청",
+      "tournamentReminder": "대회 시작 리마인더",
+      "reminder24h": "24시간 전",
+      "reminder12h": "12시간 전",
+      "reminder1h": "1시간 전",
+      "reminder10m": "10분 전"
+    },
+    "save": {
+      "button": "설정 저장",
+      "saving": "저장 중...",
+      "success": "설정이 저장되었습니다",
+      "error": "오류가 발생했습니다"
+    },
+    "withdraw": {
+      "title": "계정 탈퇴",
+      "description": "계정을 탈퇴하면 다음 처리가 진행됩니다:",
+      "effect1": "소속된 모든 팀에서 탈퇴합니다",
+      "effect2": "유일한 관리자인 팀에서는 가장 오래된 멤버에게 관리자 권한이 이전됩니다",
+      "effect3": "본인만 있는 팀은 해체됩니다",
+      "effect4": "로그인이 불가능해집니다",
+      "warning": "이 작업은 취소할 수 없습니다.",
+      "button": "탈퇴하기",
+      "confirmText": "탈퇴",
+      "confirmPrompt": "정말로 탈퇴하시겠습니까? 확인을 위해 \"{{text}}\"(을)를 입력해 주세요.",
+      "confirmError": "\"{{text}}\"(을)를 입력해 주세요",
+      "confirm": "탈퇴 확정",
+      "processing": "처리 중...",
+      "cancel": "취소",
+      "error": "탈퇴 처리 중 오류가 발생했습니다"
+    },
+    "alertTitle": {
+      "error": "오류",
+      "success": "성공"
+    }
+  },
+  "notification": {
+    "error": {
+      "save": "설정 저장에 실패했습니다",
+      "testSend": "테스트 전송 중 오류가 발생했습니다",
+      "webhookUrlRequired": "Webhook URL을 입력해 주세요",
+      "webhookUrlInvalid": "유효한 Discord Webhook URL을 입력해 주세요"
+    },
+    "success": {
+      "save": "설정이 저장되었습니다",
+      "testSend": "테스트 메시지를 전송했습니다. Discord를 확인해 주세요."
+    }
+  },
+  "rating": {
+    "error": {
+      "send": "평가 전송에 실패했습니다",
+      "update": "평가 업데이트에 실패했습니다",
+      "delete": "삭제에 실패했습니다",
+      "replySend": "답변 전송에 실패했습니다",
+      "replyUpdate": "답변 업데이트에 실패했습니다"
+    },
+    "success": {
+      "send": "평가가 전송되었습니다",
+      "update": "평가가 업데이트되었습니다",
+      "delete": "평가가 삭제되었습니다",
+      "replySend": "답변이 전송되었습니다",
+      "replyUpdate": "답변이 업데이트되었습니다"
+    }
+  }
+}

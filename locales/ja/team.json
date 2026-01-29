@@ -1,0 +1,585 @@
+{
+  "team": {
+    "pastScrims": {
+      "title": "過去のスクリム",
+      "subtitle": "開催済み・募集・申し込みの履歴",
+      "noData": "過去のスクリムはありません",
+      "backToTeam": "に戻る",
+      "backToTeams": "チーム一覧に戻る",
+      "notMember": "このチームのメンバーではありません",
+      "ofPost": "の募集",
+      "typeSchedule": "開催済み",
+      "typePost": "募集",
+      "typeApplication": "申し込み"
+    },
+    "error": {
+      "create": "チームの作成に失敗しました",
+      "update": "チームの更新に失敗しました",
+      "leave": "チームの脱退に失敗しました",
+      "memberRemove": "メンバーの削除に失敗しました",
+      "roleUpdate": "ロールの更新に失敗しました",
+      "inviteCancel": "招待の取り消しに失敗しました",
+      "inviteFetch": "招待一覧の取得に失敗しました",
+      "inviteValidate": "招待コードの検証に失敗しました",
+      "requestCancel": "リクエストの取り消しに失敗しました",
+      "notFound": "チームが見つかりません",
+      "permissionDenied": "この機能にアクセスする権限がありません"
+    },
+    "success": {
+      "create": "チームを作成しました",
+      "update": "チームを更新しました",
+      "leave": "チームを脱退しました",
+      "memberRemove": "メンバーを削除しました",
+      "roleUpdate": "ロールを更新しました",
+      "inviteCancel": "招待を取り消しました",
+      "inviteCodeCopy": "招待コードをコピーしました",
+      "inviteUrlCopy": "招待URLをコピーしました"
+    },
+    "validation": {
+      "adminRequired": "管理者権限が必要です",
+      "needAdminBeforeLeave": "チームには最低1人の管理者が必要です。脱退する前に他のメンバーに管理者権限を付与してください。"
+    },
+    "create": {
+      "pageTitle": "新規チーム作成",
+      "nameLabel": "チーム名",
+      "namePlaceholder": "チーム名を入力",
+      "publicProfileLabel": "公開プロフィール",
+      "publicProfilePlaceholder": "チームの紹介文（誰でも閲覧可）",
+      "creating": "作成中...",
+      "submit": "チームを作成",
+      "cancel": "キャンセル",
+      "validation": {
+        "nameRequired": "チーム名を入力してください"
+      }
+    },
+    "join": {
+      "pageTitle": "チームへの招待",
+      "loginRequired": "チームに参加するにはログインが必要です。",
+      "goToLogin": "ログインページへ",
+      "requestSent": "リクエスト送信完了!",
+      "requestSentDescription": "への参加リクエストを送信しました。",
+      "waitForApproval": "管理者の承認をお待ちください。",
+      "backToMypage": "マイページに戻る",
+      "sendingAs": "として このチームへの参加リクエストを送信します。",
+      "messageLabel": "メッセージ（任意）",
+      "messagePlaceholder": "自己紹介や参加理由など...",
+      "contactSettings": "連絡先の表示（リクエストに表示）",
+      "showDiscordId": "Discord IDを表示",
+      "showBattleTag": "BattleTagを表示",
+      "cancel": "キャンセル",
+      "sending": "送信中...",
+      "sendRequest": "リクエストを送信",
+      "error": {
+        "invalid": "招待コードが無効です",
+        "expired": "招待コードの有効期限が切れています",
+        "maxUses": "招待コードの使用回数が上限に達しています",
+        "memberLimit": "このチームはメンバー数の上限（{{max}}人）に達しています",
+        "alreadyMember": "既にこのチームのメンバーです",
+        "pendingRequest": "既にこのチームへの参加リクエストを送信済みです",
+        "invalidOrExpired": "招待コードが無効または期限切れです"
+      }
+    },
+    "edit": {
+      "pageTitle": "チーム編集",
+      "notFound": "チームが見つかりません",
+      "backToTeams": "チーム一覧に戻る",
+      "noPermission": "このチームを編集する権限がありません",
+      "backToDetail": "チーム詳細に戻る",
+      "back": "戻る",
+      "basicInfo": "基本情報",
+      "nameLabel": "チーム名 *",
+      "namePlaceholder": "チーム名を入力",
+      "publicProfileLabel": "公開プロフィール",
+      "publicProfilePlaceholder": "チームの紹介文（誰でも閲覧可）",
+      "saving": "保存中...",
+      "save": "保存",
+      "cancel": "キャンセル",
+      "announcement": {
+        "title": "チームお知らせ",
+        "description": "チームメンバー全員に伝えたい連絡やチームの目標などを記載できます。",
+        "label": "お知らせ内容",
+        "placeholder": "チームへの連絡、目標、ルールなど...",
+        "charCount": "{{count}}/1000文字",
+        "save": "お知らせを保存"
+      },
+      "members": {
+        "title": "メンバー管理",
+        "rolesButton": "ロール設定",
+        "tableHeaders": {
+          "name": "名前",
+          "playerRole": "選手ロール",
+          "titleRole": "役職",
+          "permission": "権限",
+          "actions": "操作"
+        },
+        "removeButton": "削除",
+        "removeConfirm": "{{name}} をチームから削除しますか？この操作は取り消せません。",
+        "removeError": "メンバーの削除に失敗しました",
+        "lastAdmin": "管理者（admin権限）が最低1人必要です",
+        "cannotRemoveSelf": "自分自身は削除できません"
+      },
+      "activityLog": {
+        "title": "操作ログ",
+        "viewButton": "ログを確認",
+        "description": "メンバーの参加・脱退、ロール変更などの履歴を確認できます。"
+      },
+      "validation": {
+        "nameRequired": "チーム名を入力してください"
+      },
+      "success": {
+        "announcementUpdated": "お知らせを更新しました"
+      },
+      "error": {
+        "announcementUpdate": "お知らせの更新に失敗しました"
+      }
+    },
+    "roles": {
+      "pageTitle": "ロール設定",
+      "back": "戻る",
+      "notFound": "チームが見つかりません",
+      "backToTeams": "チーム一覧に戻る",
+      "noPermission": "このチームを編集する権限がありません",
+      "backToDetail": "チーム詳細に戻る",
+      "batchOperations": {
+        "title": "一括操作",
+        "clearPlayerRoles": "選手ロールをクリア",
+        "clearTitleRoles": "役職ロールをクリア"
+      },
+      "memberList": {
+        "title": "メンバーロール一覧",
+        "playerRoleCount": "選手ロール: {{current}}/{{max}}人",
+        "adminCount": "管理者: {{count}}人"
+      },
+      "labels": {
+        "playerRole": "選手ロール",
+        "titleRole": "役職",
+        "permission": "権限",
+        "name": "名前"
+      },
+      "validation": {
+        "adminRequired": "管理者は最低1人必要です",
+        "playerRoleLimit": "選手ロールは{{max}}人までしか設定できません",
+        "currentPlayerCount": "現在{{current}}人に設定されています。{{excess}}人分の選手ロールを解除してください。"
+      },
+      "dialog": {
+        "playerLimitTitle": "選手ロールの上限超過",
+        "permissionHelpTitle": "権限の説明",
+        "adminDescription": "全操作可能（メンバー管理、ロール設定、チーム設定など）",
+        "scrimManagerDescription": "スクリム関連のみ可能（募集作成、申込み承認など）",
+        "close": "閉じる"
+      },
+      "success": {
+        "rolesUpdated": "{{count}}人のロールを更新しました"
+      },
+      "buttons": {
+        "cancel": "キャンセル",
+        "saving": "保存中...",
+        "saveChanges": "変更を保存",
+        "noChanges": "変更なし"
+      }
+    },
+    "activityLog": {
+      "pageTitle": "{{name}} - 操作ログ",
+      "totalCount": "全 {{count}} 件",
+      "backToDetail": "チーム詳細に戻る",
+      "back": "戻る",
+      "noLogs": "操作ログはまだありません",
+      "none": "なし",
+      "currentName": "現在: {{name}}",
+      "actionTypes": {
+        "member_join": "チーム参加",
+        "member_leave": "チーム脱退",
+        "member_removed": "メンバー削除",
+        "roles_updated": "ロール変更",
+        "announcement_updated": "お知らせ編集",
+        "team_name_updated": "チーム名変更",
+        "team_public_profile_updated": "公開プロフィール変更"
+      },
+      "descriptions": {
+        "member_join": "{{user}} がチームに参加しました",
+        "member_leave": "{{user}} がチームを脱退しました",
+        "member_removed": "{{actor}} が {{target}} をチームから削除しました",
+        "roles_updated": "{{actor}} が {{target}} のロールを変更しました",
+        "announcement_updated": "{{actor}} がお知らせを編集しました",
+        "team_name_updated": "{{actor}} がチーム名を「{{oldName}}」から「{{newName}}」に変更しました",
+        "team_public_profile_updated": "{{actor}} が公開プロフィールを変更しました",
+        "unknown": "不明な操作"
+      },
+      "roleChanges": {
+        "playerRole": "選手ロール: {{old}} → {{new}}",
+        "titleRole": "役職: {{old}} → {{new}}",
+        "permission": "権限: {{old}} → {{new}}"
+      },
+      "pagination": {
+        "prev": "前へ",
+        "next": "次へ"
+      }
+    },
+    "detail": {
+      "tabs": {
+        "scrim": "スクリム",
+        "members": "メンバー",
+        "info": "情報",
+        "notifications": "通知",
+        "settings": "設定"
+      },
+      "avgRank": "平均ランク:",
+      "scrimCount": "スクリム成立件数:",
+      "createdAt": "チーム作成日:",
+      "showComposition": "▶ 編成詳細を表示",
+      "hideComposition": "▼ 編成詳細を隠す",
+      "fromPost": "募集から",
+      "fromInvite": "招待コード",
+      "memberLimitReached": "メンバー数が上限に達しています",
+      "showInviteLink": "▶ 招待リンクを表示",
+      "hideInviteLink": "▼ 招待リンクを隠す",
+      "showContact": "▶ 連絡先を表示",
+      "hideContact": "▼ 連絡先を隠す",
+      "lftConversation": {
+        "active": "やり取り中",
+        "closed": "終了"
+      },
+      "recruitment": {
+        "editButton": "募集を編集",
+        "createButton": "募集を作成",
+        "notRecruiting": "現在メンバーを募集していません。",
+        "createPrompt": "募集を作成して、チーム参加ページにチームを掲載しましょう。"
+      },
+      "notifications": {
+        "saveSuccess": "Discord通知設定を保存しました",
+        "saveSuccessTitle": "保存完了",
+        "saveError": "設定の保存に失敗しました",
+        "webhookRequired": "Webhook URLを入力してください",
+        "webhookInvalid": "有効なDiscord Webhook URLを入力してください",
+        "testSuccess": "テストメッセージを送信しました。Discordを確認してください。",
+        "testSuccessTitle": "成功",
+        "testError": "送信に失敗しました",
+        "testSendError": "テスト送信中にエラーが発生しました",
+        "testSending": "送信中...",
+        "testSend": "テスト送信",
+        "saving": "保存中...",
+        "saveButton": "通知設定を保存"
+      },
+      "leave": {
+        "title": "チームから脱退",
+        "message": "本当にこのチームを脱退しますか？この操作は取り消せません。",
+        "confirm": "脱退する",
+        "leaving": "脱退中...",
+        "button": "チームを脱退する"
+      },
+      "joinRequest": {
+        "confirmApprove": "このリクエストを承認しますか？",
+        "confirmReject": "この参加リクエストを拒否しますか？",
+        "approve": "承認",
+        "reject": "拒否",
+        "noPending": "保留中のリクエストはありません"
+      },
+      "inviteCode": {
+        "regenerating": "再生成中...",
+        "regenerate": "再生成する"
+      },
+      "backToTeams": "チーム一覧に戻る",
+      "backToJoin": "チーム参加に戻る",
+      "info": {
+        "title": "チーム情報",
+        "publicProfile": "チーム紹介",
+        "noPublicProfile": "公開プロフィールが設定されていません",
+        "recruiting": "メンバー募集中",
+        "requiredRoles": "募集ロール",
+        "inviteRequired": "このチームに参加するには、チームメンバーから招待リンクを受け取る必要があります。"
+      },
+      "rating": {
+        "title": "チーム評価"
+      },
+      "memberCount": "{{count}}人",
+      "scrimCountUnit": "{{count}}件",
+      "announcement": "チームからのお知らせ",
+      "actions": {
+        "schedule": "日程調整",
+        "scheduleDesc": "メンバーの空き時間を確認",
+        "createScrim": "募集を作成",
+        "createScrimDesc": "対戦相手を募集する",
+        "scrimList": "募集一覧",
+        "externalScrim": "外部スクリム登録",
+        "invitations": "招待一覧",
+        "pastScrims": "過去スクリム"
+      },
+      "upcomingScrims": "今後のスクリム",
+      "noScrims": "予定されているスクリムはありません",
+      "tournamentMessages": {
+        "title": "大会からのメッセージ",
+        "description": "応募中の大会から主催者のメッセージがあります。",
+        "count": "{{count}}件"
+      },
+      "lftContacts": {
+        "title": "チーム募集からの連絡",
+        "description": "チームを探しているプレイヤーとのやり取りです。",
+        "viewList": "募集一覧を見る",
+        "moreContacts": "他 {{count}} 件のコンタクト"
+      },
+      "noNotifications": "通知はありません",
+      "members": {
+        "title": "メンバー ({{current}}/{{max}}人)",
+        "roleSettings": "ロール設定",
+        "generateInviteLink": "招待リンクを生成",
+        "memberLimitWarning": "メンバー数が上限（{{max}}人）に達しています。新しいメンバーを追加するには、既存のメンバーを削除してください。",
+        "showInviteLink": "▶ 招待リンクを表示",
+        "hideInviteLink": "▼ 招待リンクを隠す",
+        "code": "コード:",
+        "copyCode": "コードをコピー",
+        "url": "URL:",
+        "copyUrl": "URLをコピー",
+        "regenerateLink": "リンクを再生成",
+        "inviteLinkDescription": "このURLをチームメンバーに共有してください。再生成すると過去のリンクは無効になります。",
+        "showContact": "▶ 連絡先を表示",
+        "hideContact": "▼ 連絡先を隠す",
+        "table": {
+          "name": "名前",
+          "playerRole": "選手ロール",
+          "titleRole": "役職",
+          "permission": "権限"
+        },
+        "recruitmentTitle": "メンバー募集",
+        "recruitingStatus": "募集中",
+        "expiredWarning": "この募集は作成から100日が経過したため、一覧に表示されていません。",
+        "expiredWarningAction": "引き続き募集を行う場合は、一度削除して再作成してください。"
+      },
+      "settings": {
+        "editTitle": "チーム編集",
+        "editDescription": "チーム名、公開プロフィールなどの基本情報を編集できます。",
+        "editButton": "チーム情報を編集",
+        "discordTitle": "Discord通知設定",
+        "discordDescription": "Discord Webhookを設定すると、チームへの通知をDiscordで受け取れます。",
+        "webhookLabel": "Webhook URL",
+        "webhookHelpTitle": "Webhook URLの取得方法",
+        "webhookStep1": "1. チームのDiscordサーバーで通知用チャンネルを作成",
+        "webhookStep2": "2. チャンネル設定を開く",
+        "webhookStep3": "3. 「連携サービス」→「ウェブフック」→「新しいウェブフック」",
+        "webhookStep4": "4. 「ウェブフックURLをコピー」してここに貼り付け",
+        "notifyItemsLabel": "通知する項目",
+        "scrimApplication": "スクリム申し込み",
+        "scrimResult": "スクリム申し込み結果（承認/却下）",
+        "joinRequest": "チーム参加リクエスト",
+        "tournamentMessage": "大会メッセージ",
+        "lftMessage": "LFT会話の新着メッセージ（チーム側）",
+        "scrimReminderTitle": "スクリムリマインダー",
+        "tournamentReminderTitle": "大会リマインダー",
+        "hours24": "24時間前",
+        "hours12": "12時間前",
+        "hour1": "1時間前",
+        "minutes10": "10分前",
+        "activityTitle": "操作ログ",
+        "activityDescription": "チームの操作履歴（メンバーの参加・脱退、ロール変更など）を確認できます。",
+        "activityButton": "操作ログを確認",
+        "leaveTitle": "チームを脱退",
+        "leaveDescription": "このチームから脱退します。脱退後はチームのスクリムや連絡先にアクセスできなくなります。",
+        "lastAdminWarning": "あなたはこのチームの唯一の管理者です。脱退する前に他のメンバーに管理者権限を付与してください。",
+        "regenerateModal": {
+          "title": "招待リンクを再生成しますか？",
+          "description": "新しい招待リンクを生成すると、現在の招待リンクは無効になります。既に共有済みのリンクからはチームに参加できなくなります。",
+          "cancel": "キャンセル"
+        }
+      }
+    }
+  },
+  "teamBar": {
+    "label": "チーム:",
+    "moreTeams": "他{{count}}チーム...",
+    "allTeams": "すべてのチーム"
+  },
+  "teamSchedule": {
+    "notFound": "チームが見つかりません",
+    "notMember": "このチームのメンバーではありません",
+    "backToTeams": "チーム一覧に戻る",
+    "filter": {
+      "title": "フィルター",
+      "all": "全て",
+      "fiveRoles": "5ロール",
+      "fourRolesPlus": "4ロール+",
+      "threeRolesPlus": "3ロール+"
+    },
+    "display": {
+      "title": "表示"
+    },
+    "members": {
+      "title": "メンバー",
+      "selectAll": "全選択",
+      "deselectAll": "全解除"
+    },
+    "settingsDrawer": {
+      "title": "設定"
+    },
+    "events": {
+      "roles": "{{count}}ロール",
+      "rolesWithMembers": "{{roles}}{{count}}人",
+      "recruiting": "📢 募集中",
+      "recruitingWithCount": "📢 募集中({{count}}件)",
+      "applicationPending": "📝 申込中:",
+      "applicationCount": "{{count}}件"
+    },
+    "modal": {
+      "title": "スクリム募集を作成",
+      "confirmMessage": "この時間でスクリム募集を作成しますか？",
+      "timeSeparator": " 〜 ",
+      "availableMembers": "参加可能メンバー",
+      "noAvailableMembers": "この時間帯に参加可能なメンバーはいません",
+      "composition": "チーム構成",
+      "compositionRoles": "（{{count}}ロール）",
+      "average": "平均",
+      "highest": "最高:",
+      "lowest": "最低:",
+      "tank": "タンク:",
+      "damage": "ダメージ:",
+      "support": "サポート:",
+      "searchScrim": "スクリム検索",
+      "createPost": "募集を作成",
+      "close": "閉じる"
+    },
+    "calendarButtons": {
+      "day": "日",
+      "week": "週"
+    }
+  },
+  "teamAvailability": {
+    "loading": "空き状況を読み込み中...",
+    "noData": "空き状況データがありません",
+    "fiveRoles": "5ロール",
+    "roles": "ロール",
+    "people": "人",
+    "title": "チーム空き状況",
+    "composition": "構成:",
+    "highest": "最高:",
+    "lowest": "最低:",
+    "avg": "平均",
+    "roleSummary": "{{roleCount}}ロール / {{playerCount}}人",
+    "note": "※ この時間帯に予定が空いているメンバー数",
+    "roleLabels": {
+      "tank": "タンク",
+      "damage": "ダメージ",
+      "support": "サポート"
+    }
+  },
+  "teamActivityLog": {
+    "actionTypes": {
+      "member_join": "チーム参加",
+      "member_leave": "チーム脱退",
+      "member_removed": "メンバー削除",
+      "roles_updated": "ロール変更",
+      "announcement_updated": "お知らせ編集",
+      "team_name_updated": "チーム名変更",
+      "team_public_profile_updated": "公開プロフィール変更"
+    },
+    "roleLabels": {
+      "tank": "タンク",
+      "damage": "ダメージ",
+      "support": "サポート",
+      "owner": "オーナー",
+      "manager": "マネージャー",
+      "coach": "コーチ",
+      "admin": "管理者",
+      "scrim_manager": "スクリム担当"
+    },
+    "none": "なし",
+    "currentPrefix": "（現在: {{name}}）",
+    "noLogs": "操作ログはまだありません",
+    "loadMore": "さらに読み込む",
+    "unknownAction": "不明な操作",
+    "descriptions": {
+      "member_join": "{{user}} がチームに参加しました",
+      "member_leave": "{{user}} がチームを脱退しました",
+      "member_removed": "{{removedBy}} が {{target}} をチームから削除しました",
+      "roles_updated": "{{updatedBy}} が {{target}} のロールを変更しました",
+      "announcement_updated": "{{updatedBy}} がお知らせを編集しました",
+      "team_name_updated": "{{updatedBy}} がチーム名を「{{oldName}}」から「{{newName}}」に変更しました",
+      "team_public_profile_updated": "{{updatedBy}} が公開プロフィールを変更しました"
+    },
+    "roleChanges": {
+      "playerRole": "選手ロール: {{from}} → {{to}}",
+      "titleRole": "役職: {{from}} → {{to}}",
+      "permissionRole": "権限: {{from}} → {{to}}"
+    }
+  },
+  "teamInvitations": {
+    "title": "スクリム招待一覧",
+    "backToTeam": "← {{name}} に戻る",
+    "createNewInvitation": "新しい招待を作成",
+    "noInvitations": "発行した招待はありません",
+    "createInvitation": "招待を作成する",
+    "matchFormat": "対戦形式:",
+    "note": "備考:",
+    "acceptedBy": "{{name}} が承諾しました",
+    "viewSchedule": "スケジュールを確認 →",
+    "expiresAt": "有効期限:",
+    "cancelConfirm": "この招待を取り消しますか？",
+    "cancelling": "取消中...",
+    "cancel": "取り消す",
+    "statusPending": "未使用",
+    "statusAccepted": "承諾済み",
+    "statusCancelled": "取り消し済み",
+    "statusExpired": "期限切れ"
+  },
+  "teamRatingHistory": {
+    "title": "{{teamName}} の評価履歴",
+    "subtitle": "過去50件の評価を表示",
+    "noRatings": "まだ評価がありません",
+    "close": "閉じる",
+    "edit": "編集",
+    "cancel": "キャンセル",
+    "update": "更新する",
+    "updating": "更新中...",
+    "fromTeam": "{{team}} からの評価",
+    "fromAnonymousTeam": "相手チームからの評価",
+    "fromTournamentOrganizer": "大会「{{tournament}}」主催者からの評価",
+    "scrimTime": "スクリム: {{time}}",
+    "notHeldNote": "開催されなかったスクリム（評価に換算されません）",
+    "notHeldButton": "➖ 開催なし",
+    "selectRating": "評価を選択",
+    "selectReasons": "理由を選択（複数選択可）",
+    "reasonLabel": "理由:",
+    "otherReasonPlaceholder": "その他の理由を入力",
+    "replyFrom": "{{team}} からの返信:",
+    "editReplyPlaceholder": "返信内容を編集（500文字以内）",
+    "replyPlaceholder": "評価への返信を入力（500文字以内）",
+    "replyToRating": "この評価に返信する",
+    "reply": "返信する",
+    "replying": "送信中...",
+    "alert": {
+      "replyEmptyTitle": "エラー",
+      "replyEmptyMessage": "返信内容を入力してください",
+      "replySentTitle": "返信を送信しました",
+      "replySentMessage": "評価への返信を送信しました",
+      "badReasonRequiredMessage": "Badの場合は理由を1つ以上選択してください",
+      "otherReasonRequiredMessage": "「その他」を選択した場合は理由を入力してください",
+      "editRatingTitle": "評価を編集",
+      "editRatingMessage": "評価を更新してもよろしいですか？",
+      "ratingUpdatedTitle": "評価を更新しました",
+      "ratingUpdatedMessage": "評価が正常に更新されました",
+      "editReplyTitle": "返信を編集",
+      "editReplyMessage": "返信を更新してもよろしいですか？",
+      "replyUpdatedTitle": "返信を更新しました",
+      "replyUpdatedMessage": "返信が正常に更新されました"
+    }
+  },
+  "teamRatingSummary": {
+    "noRating": "評価なし",
+    "summary": "({{percentage}}% Good / 過去{{count}}件)",
+    "viewHistory": "履歴を見る"
+  },
+  "teamRecruitmentEdit": {
+    "createTitle": "メンバー募集を作成",
+    "editTitle": "メンバー募集を編集",
+    "deleteConfirm": "募集を削除しますか？",
+    "expiredWarning": "この募集は作成から100日が経過したため、一覧に表示されていません。",
+    "expiredHint": "引き続き募集を行う場合は、一度削除して再作成してください。",
+    "expiryNotice": "募集は作成から100日後に自動的に非表示になります。",
+    "rolesLabel": "募集するロール",
+    "playerRoles": "選手",
+    "staffRoles": "スタッフ",
+    "descriptionLabel": "募集詳細（任意）",
+    "descriptionPlaceholder": "チームの雰囲気、活動時間、求めるスキルなど...",
+    "languagesLabel": "使用言語（任意）",
+    "popularLanguages": "よく使う言語",
+    "regionsLabel": "居住地域（任意）",
+    "popularRegions": "よく使う地域"
+  }
+}

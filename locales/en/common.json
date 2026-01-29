@@ -1,4 +1,39 @@
 {
+  "common": {
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "error": "Error",
+    "success": "Success",
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next",
+      "showing": "Showing {{from}} - {{to}} of {{total}}",
+      "pageNumber": "Page {{page}}"
+    },
+    "fileSizeLimit": "File size must be {{size}}MB or less",
+    "moreThan": "or more",
+    "lessThan": "or less",
+    "approximate": "approx.",
+    "noSpecification": "Any",
+    "range": "{{min}} - {{max}}",
+    "deleteConfirm": "Delete all schedules for {{target}}?",
+    "timeRange": {
+      "morningToNoon": "Morning-Noon",
+      "fullDay": "10:00-22:00"
+    },
+    "webhookDescription": "Set a Webhook URL to receive the following notifications",
+    "notSet": "Not Set"
+  },
+  "label": {
+    "team": "Team",
+    "unknownTeam": "[Unknown Team]",
+    "dissolvedTeam": "[Dissolved Team]",
+    "apply": "application",
+    "operation": "operation",
+    "send": "sending"
+  },
   "error": {
     "generic": "An error occurred",
     "unknown": "An unknown error occurred",
@@ -34,182 +69,196 @@
     "copy": "Copied to clipboard",
     "action": "{{action}} completed"
   },
-  "team": {
-    "error": {
-      "create": "Failed to create team",
-      "update": "Failed to update team",
-      "leave": "Failed to leave team",
-      "memberRemove": "Failed to remove member",
-      "roleUpdate": "Failed to update role",
-      "inviteCancel": "Failed to cancel invitation",
-      "inviteFetch": "Failed to fetch invitations",
-      "inviteValidate": "Failed to validate invite code",
-      "requestCancel": "Failed to cancel request",
-      "notFound": "Team not found",
-      "permissionDenied": "You don't have permission to access this feature"
+  "errorBoundary": {
+    "title": "An error occurred",
+    "description": "An unexpected error occurred. Please reload the page.",
+    "errorIdLabel": "Error ID (provide this when contacting support)",
+    "clickToCopy": "Click to copy",
+    "copied": "Copied",
+    "reload": "Reload"
+  },
+  "duration": {
+    "minutes_60": "1 hour",
+    "minutes_90": "1.5 hours",
+    "minutes_120": "2 hours",
+    "minutes_150": "2.5 hours",
+    "minutes_180": "3 hours",
+    "minutes_210": "3.5 hours",
+    "minutes_240": "4 hours",
+    "minutes_300": "5 hours"
+  },
+  "conflictWarning": {
+    "title": "{{count}} events overlap at this time."
+  },
+  "updateBanner": {
+    "title": "New version available",
+    "description": "Please refresh the page to get the latest features",
+    "updateNow": "Update now",
+    "later": "Later"
+  },
+  "multiSelect": {
+    "popularLabel": "Popular",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "selectedCount": "{{count}} selected"
+  },
+  "roles": {
+    "player": {
+      "tank": "Tank",
+      "damage": "Damage",
+      "support": "Support"
     },
-    "success": {
-      "create": "Team created",
-      "update": "Team updated",
-      "leave": "Left the team",
-      "memberRemove": "Member removed",
-      "roleUpdate": "Role updated",
-      "inviteCancel": "Invitation cancelled",
-      "inviteCodeCopy": "Invite code copied",
-      "inviteUrlCopy": "Invite URL copied"
+    "title": {
+      "owner": "Owner",
+      "manager": "Team Manager",
+      "coach": "Coach",
+      "player": "Player",
+      "sub": "Sub"
     },
-    "validation": {
-      "adminRequired": "Admin permission required",
-      "needAdminBeforeLeave": "The team needs at least one admin. Please assign admin permission to another member before leaving."
+    "permission": {
+      "admin": "Admin",
+      "scrim_manager": "Scrim Manager"
     }
   },
-  "scrim": {
-    "error": {
-      "create": "Failed to create scrim post",
-      "apply": "Failed to apply",
-      "cancel": "Failed to cancel",
-      "withdraw": "Failed to withdraw",
-      "approve": "Failed to approve",
-      "reject": "Failed to reject",
-      "timeChange": "Failed to request time change",
-      "fetch": "Failed to fetch scrim posts",
-      "messageFetch": "Failed to fetch messages",
-      "messageSend": "Failed to send message",
-      "invitationCancel": "Failed to cancel invitation",
-      "invitationFetch": "Failed to fetch invitations",
-      "register": "Failed to register"
+  "nav": {
+    "home": "Home",
+    "mypage": "My Page",
+    "scrims": "Scrims",
+    "scrimPosts": "Scrim Posts",
+    "recruitments": "Recruitments",
+    "teamRecruitments": "Team Recruitments",
+    "tournaments": "Tournaments",
+    "calendar": "Calendar",
+    "login": "Login",
+    "logout": "Logout",
+    "settings": "Settings",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "privacyShort": "Privacy",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "rank": {
+    "notSet": "Not Set",
+    "tier": {
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum",
+      "diamond": "Diamond",
+      "master": "Master",
+      "grandmaster": "Grandmaster",
+      "champion": "Champion"
     },
-    "success": {
-      "create": "Scrim post created",
-      "apply": "Applied successfully",
-      "cancel": "Cancelled",
-      "withdraw": "Withdrawn",
-      "approve": "Approved",
-      "reject": "Rejected"
+    "short": {
+      "bronze": "B",
+      "silver": "S",
+      "gold": "G",
+      "platinum": "P",
+      "diamond": "D",
+      "master": "M",
+      "grandmaster": "GM",
+      "champion": "C"
+    },
+    "withNumber": "{{tier}} {{number}}"
+  },
+  "timezone": {
+    "group": {
+      "asiaPacific": "Asia & Pacific",
+      "northAmerica": "North America",
+      "southAmerica": "South America",
+      "europe": "Europe",
+      "middleEastAfrica": "Middle East & Africa",
+      "other": "Other"
+    },
+    "zone": {
+      "Asia/Tokyo": "Japan Standard Time (JST)",
+      "Asia/Seoul": "Korea Standard Time (KST)",
+      "Asia/Shanghai": "China Standard Time (CST)",
+      "Asia/Hong_Kong": "Hong Kong Time (HKT)",
+      "Asia/Taipei": "Taiwan Standard Time (TST)",
+      "Asia/Singapore": "Singapore Standard Time (SGT)",
+      "Asia/Manila": "Philippine Standard Time (PHT)",
+      "Asia/Bangkok": "Indochina Time (ICT)",
+      "Asia/Ho_Chi_Minh": "Vietnam Time (ICT)",
+      "Asia/Jakarta": "Western Indonesia Time (WIB)",
+      "Asia/Kolkata": "India Standard Time (IST)",
+      "Australia/Sydney": "Australian Eastern Standard Time (AEST)",
+      "Australia/Melbourne": "Melbourne Time (AEST)",
+      "Australia/Perth": "Australian Western Standard Time (AWST)",
+      "Pacific/Auckland": "New Zealand Standard Time (NZST)",
+      "America/Los_Angeles": "Pacific Time (PT)",
+      "America/Denver": "Mountain Time (MT)",
+      "America/Chicago": "Central Time (CT)",
+      "America/New_York": "Eastern Time (ET)",
+      "America/Toronto": "Toronto Time (ET)",
+      "America/Vancouver": "Vancouver Time (PT)",
+      "America/Mexico_City": "Mexico City Time (CST)",
+      "America/Sao_Paulo": "Brasilia Time (BRT)",
+      "America/Argentina/Buenos_Aires": "Argentina Time (ART)",
+      "America/Santiago": "Chile Time (CLT)",
+      "America/Lima": "Peru Time (PET)",
+      "America/Bogota": "Colombia Time (COT)",
+      "Europe/London": "British Time (GMT/BST)",
+      "Europe/Paris": "Central European Time (CET)",
+      "Europe/Berlin": "Germany Time (CET)",
+      "Europe/Amsterdam": "Netherlands Time (CET)",
+      "Europe/Madrid": "Spain Time (CET)",
+      "Europe/Rome": "Italy Time (CET)",
+      "Europe/Stockholm": "Sweden Time (CET)",
+      "Europe/Warsaw": "Poland Time (CET)",
+      "Europe/Athens": "Eastern European Time (EET)",
+      "Europe/Helsinki": "Finland Time (EET)",
+      "Europe/Moscow": "Moscow Standard Time (MSK)",
+      "Europe/Kiev": "Ukraine Time (EET)",
+      "Asia/Dubai": "Gulf Standard Time (GST)",
+      "Asia/Riyadh": "Arabia Standard Time (AST)",
+      "Asia/Jerusalem": "Israel Standard Time (IST)",
+      "Africa/Cairo": "Egypt Standard Time (EET)",
+      "Africa/Johannesburg": "South Africa Standard Time (SAST)",
+      "Africa/Lagos": "West Africa Time (WAT)",
+      "UTC": "Coordinated Universal Time (UTC)"
     }
   },
-  "lft": {
-    "error": {
-      "create": "Failed to create LFT post",
-      "update": "Failed to update",
-      "close": "Failed to close LFT post",
-      "delete": "Failed to delete LFT post",
-      "fetch": "Failed to fetch LFT posts",
-      "startConversation": "Failed to start conversation"
-    },
-    "success": {
-      "create": "LFT post created",
-      "update": "Updated",
-      "close": "LFT post closed",
-      "delete": "LFT post deleted"
+  "region": {
+    "group": {
+      "eastAsia": "East Asia",
+      "southeastAsia": "Southeast Asia",
+      "southAsia": "South Asia",
+      "northAmerica": "North America",
+      "latinAmerica": "Latin America",
+      "westernEurope": "Western Europe",
+      "northernEurope": "Northern Europe",
+      "easternEurope": "Eastern Europe",
+      "oceania": "Oceania",
+      "middleEast": "Middle East",
+      "africa": "Africa",
+      "other": "Other"
     }
   },
-  "tournament": {
-    "error": {
-      "create": "Failed to create tournament",
-      "update": "Failed to update tournament",
-      "delete": "Failed to delete",
-      "publish": "Failed to publish",
-      "close": "Failed to close registration",
-      "lottery": "Failed to run lottery",
-      "complete": "Failed to complete",
-      "cancel": "Failed to cancel",
-      "apply": "Failed to apply",
-      "approve": "Failed to approve",
-      "reject": "Failed to reject",
-      "promote": "Failed to promote",
-      "disqualify": "Failed to disqualify",
-      "export": "Failed to export",
-      "rankFetch": "Failed to fetch rankings",
-      "operation": "Operation failed"
+  "auth": {
+    "banned": {
+      "title": "Account Suspended",
+      "message": "Your account has been suspended due to a violation of our Terms of Service.",
+      "contactHint": "If you believe this is a mistake, please contact us.",
+      "contact": "Contact Us",
+      "logout": "Logout"
     },
-    "success": {
-      "create": "Tournament created",
-      "update": "Tournament updated",
-      "delete": "Tournament deleted",
-      "publish": "Tournament published",
-      "close": "Registration closed",
-      "lottery": "Lottery completed",
-      "complete": "Tournament completed",
-      "cancel": "Tournament cancelled"
+    "suspended": {
+      "title": "Account Temporarily Suspended",
+      "message": "Your account has been temporarily suspended due to a violation of our Terms of Service.",
+      "until": "Suspension ends",
+      "autoResume": "Your account will be automatically restored after this time",
+      "contactHint": "If you believe this is a mistake, please contact us.",
+      "contact": "Contact Us",
+      "logout": "Logout"
     },
-    "validation": {
-      "dateRequired": "Please set at least one event date",
-      "challongeLoginRequired": "Please login to Challonge first",
-      "noAdvancingTeams": "No advancing teams"
-    }
-  },
-  "circle": {
-    "error": {
-      "create": "Failed to create circle",
-      "joinRequest": "Failed to send join request",
-      "generic": "An error occurred"
-    },
-    "success": {
-      "create": "Circle created",
-      "joinRequest": "Join request sent",
-      "inviteCodeCopy": "Invite code copied",
-      "inviteUrlCopy": "Invite URL copied",
-      "inviteRegenerate": "Invite code regenerated",
-      "settingsSave": "Settings saved"
-    }
-  },
-  "notification": {
-    "error": {
-      "save": "Failed to save settings",
-      "testSend": "Error during test send",
-      "webhookUrlRequired": "Please enter Webhook URL",
-      "webhookUrlInvalid": "Please enter a valid Discord Webhook URL"
-    },
-    "success": {
-      "save": "Settings saved",
-      "testSend": "Test message sent. Please check Discord."
-    }
-  },
-  "rating": {
-    "error": {
-      "send": "Failed to send rating",
-      "update": "Failed to update rating",
-      "delete": "Failed to delete",
-      "replySend": "Failed to send reply",
-      "replyUpdate": "Failed to update reply"
-    },
-    "success": {
-      "send": "Rating submitted",
-      "update": "Rating updated",
-      "delete": "Rating deleted",
-      "replySend": "Reply sent",
-      "replyUpdate": "Reply updated"
-    }
-  },
-  "user": {
-    "error": {
-      "fetch": "Failed to fetch user info",
-      "notFound": "User not found",
-      "report": "Failed to send report",
-      "delete": "Error during account deletion"
-    },
-    "success": {
-      "report": "Report submitted"
-    }
-  },
-  "calendar": {
-    "error": {
-      "add": "Failed to add",
-      "update": "Failed to update",
-      "delete": "Failed to delete",
-      "bulkSet": "Failed to bulk set"
-    },
-    "success": {
-      "add": "Added",
-      "update": "Updated",
-      "delete": "Deleted",
-      "bulkSet": "Bulk set completed"
-    },
-    "validation": {
-      "duplicateSchedule": "A schedule already exists at this time",
-      "dayOfWeekRequired": "Please select a day of week",
-      "noTargetDates": "No target dates for setting"
+    "challonge": {
+      "processing": "Processing Challonge authentication...",
+      "success": "Authentication successful",
+      "autoClose": "This window will close automatically",
+      "error": "Authentication failed",
+      "close": "Close"
     }
   }
 }

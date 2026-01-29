@@ -1,0 +1,264 @@
+{
+  "common": {
+    "delete": "삭제",
+    "cancel": "취소",
+    "save": "저장",
+    "saving": "저장 중...",
+    "error": "오류",
+    "success": "성공",
+    "pagination": {
+      "prev": "이전",
+      "next": "다음",
+      "showing": "전체 {{total}}건 중 {{from}} - {{to}}건 표시",
+      "pageNumber": "{{page}} 페이지"
+    },
+    "fileSizeLimit": "파일 크기는 {{size}}MB 이하여야 합니다",
+    "moreThan": "이상",
+    "lessThan": "이하",
+    "approximate": "대략",
+    "noSpecification": "지정 안 함",
+    "range": "{{min}} ~ {{max}}",
+    "deleteConfirm": "{{target}}의 일정을 모두 삭제하시겠습니까?",
+    "timeRange": {
+      "morningToNoon": "오전~오후",
+      "fullDay": "10:00~22:00"
+    },
+    "webhookDescription": "Webhook URL을 설정하면 다음 알림을 받을 수 있습니다",
+    "notSet": "미설정"
+  },
+  "label": {
+    "team": "팀",
+    "unknownTeam": "[알 수 없는 팀]",
+    "dissolvedTeam": "[해체된 팀]",
+    "apply": "신청",
+    "operation": "작업",
+    "send": "전송"
+  },
+  "error": {
+    "generic": "오류가 발생했습니다",
+    "unknown": "알 수 없는 오류가 발생했습니다",
+    "network": "네트워크 오류가 발생했습니다",
+    "timeout": "시간이 초과되었습니다",
+    "login": "로그인에 실패했습니다",
+    "auth": "인증에 실패했습니다",
+    "create": "생성에 실패했습니다",
+    "update": "업데이트에 실패했습니다",
+    "delete": "삭제에 실패했습니다",
+    "save": "저장에 실패했습니다",
+    "fetch": "불러오기에 실패했습니다",
+    "send": "전송에 실패했습니다",
+    "submit": "요청 전송에 실패했습니다",
+    "approve": "승인에 실패했습니다",
+    "reject": "거절에 실패했습니다",
+    "cancel": "취소에 실패했습니다",
+    "withdraw": "철회에 실패했습니다",
+    "withDetail": "{{action}}에 실패했습니다: {{detail}}",
+    "withoutDetail": "{{action}}에 실패했습니다"
+  },
+  "success": {
+    "create": "생성되었습니다",
+    "update": "업데이트되었습니다",
+    "delete": "삭제되었습니다",
+    "save": "저장되었습니다",
+    "send": "전송되었습니다",
+    "submit": "요청이 전송되었습니다",
+    "approve": "승인되었습니다",
+    "reject": "거절되었습니다",
+    "cancel": "취소되었습니다",
+    "withdraw": "철회되었습니다",
+    "copy": "클립보드에 복사되었습니다",
+    "action": "{{action}}되었습니다"
+  },
+  "errorBoundary": {
+    "title": "오류가 발생했습니다",
+    "description": "예기치 않은 오류가 발생했습니다. 페이지를 새로고침해 주세요.",
+    "errorIdLabel": "오류 ID (문의 시 알려주세요)",
+    "clickToCopy": "클릭하여 복사",
+    "copied": "복사되었습니다",
+    "reload": "새로고침"
+  },
+  "duration": {
+    "minutes_60": "1시간",
+    "minutes_90": "1.5시간",
+    "minutes_120": "2시간",
+    "minutes_150": "2.5시간",
+    "minutes_180": "3시간",
+    "minutes_210": "3.5시간",
+    "minutes_240": "4시간",
+    "minutes_300": "5시간"
+  },
+  "conflictWarning": {
+    "title": "같은 시간에 {{count}}건의 일정이 겹칩니다."
+  },
+  "updateBanner": {
+    "title": "새 버전을 사용할 수 있습니다",
+    "description": "최신 기능을 사용하려면 페이지를 새로고침해 주세요",
+    "updateNow": "지금 업데이트",
+    "later": "나중에"
+  },
+  "multiSelect": {
+    "popularLabel": "자주 사용",
+    "selectAll": "전체 선택",
+    "deselectAll": "전체 해제",
+    "selectedCount": "{{count}}건 선택됨"
+  },
+  "roles": {
+    "player": {
+      "tank": "탱커",
+      "damage": "딜러",
+      "support": "힐러"
+    },
+    "title": {
+      "owner": "오너",
+      "manager": "팀 매니저",
+      "coach": "코치",
+      "player": "선수",
+      "sub": "서브"
+    },
+    "permission": {
+      "admin": "관리자",
+      "scrim_manager": "스크림 담당"
+    }
+  },
+  "nav": {
+    "home": "홈",
+    "mypage": "마이페이지",
+    "scrims": "스크림",
+    "scrimPosts": "스크림 모집",
+    "recruitments": "모집",
+    "teamRecruitments": "팀 모집",
+    "tournaments": "대회",
+    "calendar": "캘린더",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "settings": "설정",
+    "terms": "이용약관",
+    "privacy": "개인정보 처리방침",
+    "privacyShort": "개인정보",
+    "contact": "문의하기",
+    "admin": "관리"
+  },
+  "rank": {
+    "notSet": "미설정",
+    "tier": {
+      "bronze": "브론즈",
+      "silver": "실버",
+      "gold": "골드",
+      "platinum": "플래티넘",
+      "diamond": "다이아몬드",
+      "master": "마스터",
+      "grandmaster": "그랜드마스터",
+      "champion": "챔피언"
+    },
+    "short": {
+      "bronze": "B",
+      "silver": "S",
+      "gold": "G",
+      "platinum": "P",
+      "diamond": "D",
+      "master": "M",
+      "grandmaster": "GM",
+      "champion": "C"
+    },
+    "withNumber": "{{tier}} {{number}}"
+  },
+  "timezone": {
+    "group": {
+      "asiaPacific": "아시아・태평양",
+      "northAmerica": "북미",
+      "southAmerica": "남미",
+      "europe": "유럽",
+      "middleEastAfrica": "중동・아프리카",
+      "other": "기타"
+    },
+    "zone": {
+      "Asia/Tokyo": "일본 표준시 (JST)",
+      "Asia/Seoul": "한국 표준시 (KST)",
+      "Asia/Shanghai": "중국 표준시 (CST)",
+      "Asia/Hong_Kong": "홍콩 시간 (HKT)",
+      "Asia/Taipei": "대만 표준시 (TST)",
+      "Asia/Singapore": "싱가포르 표준시 (SGT)",
+      "Asia/Manila": "필리핀 표준시 (PHT)",
+      "Asia/Bangkok": "인도차이나 시간 (ICT)",
+      "Asia/Ho_Chi_Minh": "베트남 시간 (ICT)",
+      "Asia/Jakarta": "서부 인도네시아 시간 (WIB)",
+      "Asia/Kolkata": "인도 표준시 (IST)",
+      "Australia/Sydney": "호주 동부 표준시 (AEST)",
+      "Australia/Melbourne": "멜버른 시간 (AEST)",
+      "Australia/Perth": "호주 서부 표준시 (AWST)",
+      "Pacific/Auckland": "뉴질랜드 표준시 (NZST)",
+      "America/Los_Angeles": "태평양 시간 (PT)",
+      "America/Denver": "산악 시간 (MT)",
+      "America/Chicago": "중부 시간 (CT)",
+      "America/New_York": "동부 시간 (ET)",
+      "America/Toronto": "토론토 시간 (ET)",
+      "America/Vancouver": "밴쿠버 시간 (PT)",
+      "America/Mexico_City": "멕시코시티 시간 (CST)",
+      "America/Sao_Paulo": "브라질리아 시간 (BRT)",
+      "America/Argentina/Buenos_Aires": "아르헨티나 시간 (ART)",
+      "America/Santiago": "칠레 시간 (CLT)",
+      "America/Lima": "페루 시간 (PET)",
+      "America/Bogota": "콜롬비아 시간 (COT)",
+      "Europe/London": "영국 시간 (GMT/BST)",
+      "Europe/Paris": "중앙 유럽 시간 (CET)",
+      "Europe/Berlin": "독일 시간 (CET)",
+      "Europe/Amsterdam": "네덜란드 시간 (CET)",
+      "Europe/Madrid": "스페인 시간 (CET)",
+      "Europe/Rome": "이탈리아 시간 (CET)",
+      "Europe/Stockholm": "스웨덴 시간 (CET)",
+      "Europe/Warsaw": "폴란드 시간 (CET)",
+      "Europe/Athens": "동유럽 시간 (EET)",
+      "Europe/Helsinki": "핀란드 시간 (EET)",
+      "Europe/Moscow": "모스크바 표준시 (MSK)",
+      "Europe/Kiev": "우크라이나 시간 (EET)",
+      "Asia/Dubai": "걸프 표준시 (GST)",
+      "Asia/Riyadh": "아라비아 표준시 (AST)",
+      "Asia/Jerusalem": "이스라엘 표준시 (IST)",
+      "Africa/Cairo": "이집트 표준시 (EET)",
+      "Africa/Johannesburg": "남아프리카 표준시 (SAST)",
+      "Africa/Lagos": "서아프리카 시간 (WAT)",
+      "UTC": "협정 세계시 (UTC)"
+    }
+  },
+  "region": {
+    "group": {
+      "eastAsia": "동아시아",
+      "southeastAsia": "동남아시아",
+      "southAsia": "남아시아",
+      "northAmerica": "북미",
+      "latinAmerica": "중남미",
+      "westernEurope": "서유럽",
+      "northernEurope": "북유럽",
+      "easternEurope": "동유럽",
+      "oceania": "오세아니아",
+      "middleEast": "중동",
+      "africa": "아프리카",
+      "other": "기타"
+    }
+  },
+  "auth": {
+    "banned": {
+      "title": "계정이 정지되었습니다",
+      "message": "이용약관 위반으로 계정이 정지되었습니다.",
+      "contactHint": "잘못된 정지라고 생각되시면 문의해 주세요.",
+      "contact": "문의하기",
+      "logout": "로그아웃"
+    },
+    "suspended": {
+      "title": "계정이 일시 정지되었습니다",
+      "message": "이용약관 위반으로 계정이 일시 정지되었습니다.",
+      "until": "정지 해제 일시",
+      "autoResume": "이 시간이 지나면 자동으로 이용이 재개됩니다",
+      "contactHint": "잘못된 정지라고 생각되시면 문의해 주세요.",
+      "contact": "문의하기",
+      "logout": "로그아웃"
+    },
+    "challonge": {
+      "processing": "Challonge 인증 처리 중...",
+      "success": "인증이 완료되었습니다",
+      "autoClose": "이 창은 자동으로 닫힙니다",
+      "error": "인증에 실패했습니다",
+      "close": "닫기"
+    }
+  }
+}
