@@ -26,9 +26,9 @@
         "description2": "Discord",
         "description3": ". Never miss updates.",
         "item1": "• Scrim applications, approvals, rejections",
-        "item2": "• Scrim reminders (10min/1hr/12hr/24hr before)",
+        "item2": "• Scrim reminders (fully customizable)",
         "item3": "• Tournament selection, rejection, promotion",
-        "item4": "• Tournament reminders (10min/1hr/12hr/24hr before)"
+        "item4": "• Tournament reminders (fully customizable)"
       }
     },
     "interface": {

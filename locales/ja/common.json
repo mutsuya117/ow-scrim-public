@@ -32,7 +32,8 @@
     "dissolvedTeam": "[解散済みチーム]",
     "apply": "申し込み",
     "operation": "操作",
-    "send": "送信"
+    "send": "送信",
+    "add": "追加"
   },
   "error": {
     "generic": "エラーが発生しました",
@@ -85,7 +86,25 @@
     "minutes_180": "3時間",
     "minutes_210": "3.5時間",
     "minutes_240": "4時間",
-    "minutes_300": "5時間"
+    "minutes_300": "5時間",
+    "hours24": "24時間前",
+    "hours12": "12時間前",
+    "hours6": "6時間前",
+    "hours3": "3時間前",
+    "hour1": "1時間前",
+    "minutes30": "30分前",
+    "minutes10": "10分前",
+    "minutes5": "5分前",
+    "unitHours": "時間",
+    "unitMinutes": "分",
+    "errorOutOfRange": "{{maxHours}}時間以内で入力してください",
+    "errorDuplicate": "この時間は既に追加されています",
+    "days": "{{count}}日前",
+    "daysHours": "{{days}}日{{hours}}時間前",
+    "daysMinutes": "{{days}}日{{minutes}}分前",
+    "hours": "{{count}}時間前",
+    "hoursMinutes": "{{hours}}時間{{minutes}}分前",
+    "minutes": "{{count}}分前"
   },
   "conflictWarning": {
     "title": "同じ時間に{{count}}件予定が重なっています。"

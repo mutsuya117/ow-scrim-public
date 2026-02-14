@@ -32,7 +32,8 @@
     "dissolvedTeam": "[已解散战队]",
     "apply": "申请",
     "operation": "操作",
-    "send": "发送"
+    "send": "发送",
+    "add": "添加"
   },
   "error": {
     "generic": "发生错误",
@@ -85,7 +86,25 @@
     "minutes_180": "3小时",
     "minutes_210": "3.5小时",
     "minutes_240": "4小时",
-    "minutes_300": "5小时"
+    "minutes_300": "5小时",
+    "hours24": "24小时前",
+    "hours12": "12小时前",
+    "hours6": "6小时前",
+    "hours3": "3小时前",
+    "hour1": "1小时前",
+    "minutes30": "30分钟前",
+    "minutes10": "10分钟前",
+    "minutes5": "5分钟前",
+    "unitHours": "小时",
+    "unitMinutes": "分钟",
+    "errorOutOfRange": "请输入{{maxHours}}小时以内的时间",
+    "errorDuplicate": "该时间已被添加",
+    "days": "{{count}}天前",
+    "daysHours": "{{days}}天{{hours}}小时前",
+    "daysMinutes": "{{days}}天{{minutes}}分钟前",
+    "hours": "{{count}}小时前",
+    "hoursMinutes": "{{hours}}小时{{minutes}}分钟前",
+    "minutes": "{{count}}分钟前"
   },
   "conflictWarning": {
     "title": "同一时间有{{count}}个日程冲突。"

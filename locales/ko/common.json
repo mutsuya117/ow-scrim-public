@@ -32,7 +32,8 @@
     "dissolvedTeam": "[해체된 팀]",
     "apply": "신청",
     "operation": "작업",
-    "send": "전송"
+    "send": "전송",
+    "add": "추가"
   },
   "error": {
     "generic": "오류가 발생했습니다",
@@ -85,7 +86,25 @@
     "minutes_180": "3시간",
     "minutes_210": "3.5시간",
     "minutes_240": "4시간",
-    "minutes_300": "5시간"
+    "minutes_300": "5시간",
+    "hours24": "24시간 전",
+    "hours12": "12시간 전",
+    "hours6": "6시간 전",
+    "hours3": "3시간 전",
+    "hour1": "1시간 전",
+    "minutes30": "30분 전",
+    "minutes10": "10분 전",
+    "minutes5": "5분 전",
+    "unitHours": "시간",
+    "unitMinutes": "분",
+    "errorOutOfRange": "{{maxHours}}시간 이내로 입력해주세요",
+    "errorDuplicate": "이 시간은 이미 추가되어 있습니다",
+    "days": "{{count}}일 전",
+    "daysHours": "{{days}}일 {{hours}}시간 전",
+    "daysMinutes": "{{days}}일 {{minutes}}분 전",
+    "hours": "{{count}}시간 전",
+    "hoursMinutes": "{{hours}}시간 {{minutes}}분 전",
+    "minutes": "{{count}}분 전"
   },
   "conflictWarning": {
     "title": "같은 시간에 {{count}}건의 일정이 겹칩니다."

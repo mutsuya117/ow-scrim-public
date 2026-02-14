@@ -32,7 +32,8 @@
     "dissolvedTeam": "[Dissolved Team]",
     "apply": "application",
     "operation": "operation",
-    "send": "sending"
+    "send": "sending",
+    "add": "Add"
   },
   "error": {
     "generic": "An error occurred",
@@ -85,7 +86,25 @@
     "minutes_180": "3 hours",
     "minutes_210": "3.5 hours",
     "minutes_240": "4 hours",
-    "minutes_300": "5 hours"
+    "minutes_300": "5 hours",
+    "hours24": "24h before",
+    "hours12": "12h before",
+    "hours6": "6h before",
+    "hours3": "3h before",
+    "hour1": "1h before",
+    "minutes30": "30m before",
+    "minutes10": "10m before",
+    "minutes5": "5m before",
+    "unitHours": "h",
+    "unitMinutes": "m",
+    "errorOutOfRange": "Please enter a time within {{maxHours}} hours",
+    "errorDuplicate": "This time has already been added",
+    "days": "{{count}} day(s) before",
+    "daysHours": "{{days}}d {{hours}}h before",
+    "daysMinutes": "{{days}}d {{minutes}}m before",
+    "hours": "{{count}}h before",
+    "hoursMinutes": "{{hours}}h {{minutes}}m before",
+    "minutes": "{{count}}m before"
   },
   "conflictWarning": {
     "title": "{{count}} events overlap at this time."
