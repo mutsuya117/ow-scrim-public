@@ -23,14 +23,14 @@
 #### 既存言語の修正
 
 1. このリポジトリをフォーク
-2. `locales/{言語コード}/common.json` を編集
+2. `locales/{言語コード}/` 内の該当ファイルを編集
 3. Pull Request を作成
 
 #### 新しい言語の追加
 
 1. Issue を作成して追加したい言語を提案
 2. 承認後、`locales/{言語コード}/` ディレクトリを作成
-3. `locales/en/common.json` をコピーして翻訳
+3. `locales/en/` 内のファイルをコピーして翻訳
 4. Pull Request を作成
 
 #### 翻訳ルール
@@ -71,14 +71,14 @@
 #### Fixing Existing Translations
 
 1. Fork this repository
-2. Edit `locales/{language_code}/common.json`
+2. Edit the relevant files in `locales/{language_code}/`
 3. Create a Pull Request
 
 #### Adding New Languages
 
 1. Create an Issue to propose the new language
 2. After approval, create `locales/{language_code}/` directory
-3. Copy `locales/en/common.json` and translate
+3. Copy files from `locales/en/` and translate
 4. Create a Pull Request
 
 #### Translation Rules
