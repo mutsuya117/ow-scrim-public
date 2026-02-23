@@ -216,6 +216,11 @@
       }
     },
     "detail": {
+      "roleWarning": {
+        "prefix": "Set up player roles for at least 5 members (1 Tank, 2 DPS, 2 Support). Go to ",
+        "linkText": "Role Settings",
+        "suffix": " to configure."
+      },
       "tabs": {
         "scrim": "Scrims",
         "members": "Members",
@@ -352,8 +357,8 @@
         "discordDescription": "Set up a Discord Webhook to receive team notifications on Discord.",
         "webhookLabel": "Webhook URL",
         "webhookHelpTitle": "How to get Webhook URL",
-        "webhookStep1": "1. Create a notification channel in your Discord server",
-        "webhookStep2": "2. Open channel settings",
+        "webhookStep1": "1. Choose a channel in your Discord server to receive notifications (existing channels work too)",
+        "webhookStep2": "2. Open channel settings via the gear icon next to the channel name",
         "webhookStep3": "3. Go to 'Integrations' → 'Webhooks' → 'New Webhook'",
         "webhookStep4": "4. Copy the Webhook URL and paste it here",
         "notifyItemsLabel": "Notification Items",

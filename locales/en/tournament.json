@@ -352,6 +352,12 @@
       "datesHint": "Add multiple dates if you have preliminary rounds, finals, etc.",
       "visibilityNote": "* Visibility cannot be changed after creation",
       "selectRating": "Select a rating",
+      "visibilityReadonly": {
+        "label": "Visibility:",
+        "public": "Public",
+        "circleLimited": "{{name}} Only",
+        "cannotChange": "* Visibility cannot be changed after creation"
+      },
       "buttons": {
         "addDate": "+ Add Event Date",
         "addContact": "+ Add Contact",

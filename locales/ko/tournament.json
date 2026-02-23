@@ -352,6 +352,12 @@
       "datesHint": "예선, 본선 등 여러 일정이 있는 경우 추가해 주세요",
       "visibilityNote": "※ 공개 설정은 생성 후 변경할 수 없습니다",
       "selectRating": "선택해 주세요",
+      "visibilityReadonly": {
+        "label": "공개 범위:",
+        "public": "전체 공개",
+        "circleLimited": "{{name}} 한정",
+        "cannotChange": "※ 공개 설정은 생성 후 변경할 수 없습니다"
+      },
       "buttons": {
         "addDate": "+ 개최 일시 추가",
         "addContact": "+ 연락처 추가",

@@ -465,7 +465,9 @@
       "externalScrim": "外部スクリム",
       "applications": "申込み: {{count}}件",
       "applying": "申込み中",
-      "applyingAs": "{{team}}として申込み"
+      "applyingAs": "{{team}}として申込み",
+      "noAvailabilityBanner": "今後1ヶ月間にスクリム可能時間が設定されていません。カレンダーで空き時間を設定しましょう。",
+      "goToCalendar": "カレンダーで設定する →"
     },
     "requests": {
       "title": "保留中の参加リクエスト",
@@ -480,7 +482,8 @@
     "teams": {
       "noTeams": "所属しているチームはありません",
       "memberCount": "メンバー: {{count}}人",
-      "avgRank": "平均ランク:"
+      "avgRank": "平均ランク:",
+      "createTeam": "+ 新しいチームを作成"
     },
     "lft": {
       "manage": "募集を管理",

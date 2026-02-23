@@ -352,6 +352,12 @@
       "datesHint": "如有预选赛、决赛等，请添加多个日期",
       "visibilityNote": "* 创建后无法更改可见范围",
       "selectRating": "选择评价",
+      "visibilityReadonly": {
+        "label": "可见范围:",
+        "public": "公开",
+        "circleLimited": "仅限{{name}}",
+        "cannotChange": "* 创建后无法更改可见范围"
+      },
       "buttons": {
         "addDate": "+ 添加比赛日期",
         "addContact": "+ 添加联系方式",

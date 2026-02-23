@@ -216,6 +216,11 @@
       }
     },
     "detail": {
+      "roleWarning": {
+        "prefix": "選手ロールを5人以上設定しよう（タンク1、DPS2、サポート2）。設定の仕方は",
+        "linkText": "ロール設定",
+        "suffix": "から"
+      },
       "tabs": {
         "scrim": "スクリム",
         "members": "メンバー",
@@ -352,8 +357,8 @@
         "discordDescription": "Discord Webhookを設定すると、チームへの通知をDiscordで受け取れます。",
         "webhookLabel": "Webhook URL",
         "webhookHelpTitle": "Webhook URLの取得方法",
-        "webhookStep1": "1. チームのDiscordサーバーで通知用チャンネルを作成",
-        "webhookStep2": "2. チャンネル設定を開く",
+        "webhookStep1": "1. Discordサーバーで通知を受け取りたいチャンネルを選ぶ（既存チャンネルでもOK）",
+        "webhookStep2": "2. チャンネル名の横の歯車アイコンから設定を開く",
         "webhookStep3": "3. 「連携サービス」→「ウェブフック」→「新しいウェブフック」",
         "webhookStep4": "4. 「ウェブフックURLをコピー」してここに貼り付け",
         "notifyItemsLabel": "通知する項目",

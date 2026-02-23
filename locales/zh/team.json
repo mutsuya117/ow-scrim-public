@@ -216,6 +216,11 @@
       }
     },
     "detail": {
+      "roleWarning": {
+        "prefix": "请为至少5名成员设置选手角色（坦克1、DPS2、辅助2）。前往",
+        "linkText": "角色设置",
+        "suffix": "进行配置。"
+      },
       "tabs": {
         "scrim": "训练赛",
         "members": "成员",
@@ -352,8 +357,8 @@
         "discordDescription": "设置Discord Webhook以在Discord接收战队通知。",
         "webhookLabel": "Webhook URL",
         "webhookHelpTitle": "如何获取Webhook URL",
-        "webhookStep1": "1. 在您的Discord服务器中创建通知频道",
-        "webhookStep2": "2. 打开频道设置",
+        "webhookStep1": "1. 在Discord服务器中选择要接收通知的频道（也可以使用现有频道）",
+        "webhookStep2": "2. 点击频道名称旁的齿轮图标打开设置",
         "webhookStep3": "3. 前往「整合」→「Webhooks」→「新建Webhook」",
         "webhookStep4": "4. 复制Webhook URL并粘贴到此处",
         "notifyItemsLabel": "通知项目",

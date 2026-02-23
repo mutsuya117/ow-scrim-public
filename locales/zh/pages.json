@@ -465,7 +465,9 @@
       "externalScrim": "外部",
       "applications": "申请：{{count}}",
       "applying": "申请中",
-      "applyingAs": "以{{team}}身份申请中"
+      "applyingAs": "以{{team}}身份申请中",
+      "noAvailabilityBanner": "您尚未设置未来1个月内的训练赛可用时间。请在日历中设置空闲时间。",
+      "goToCalendar": "在日历中设置 →"
     },
     "requests": {
       "title": "待处理的加入申请",
@@ -480,7 +482,8 @@
     "teams": {
       "noTeams": "您不属于任何战队",
       "memberCount": "成员：{{count}}",
-      "avgRank": "平均段位："
+      "avgRank": "平均段位：",
+      "createTeam": "+ 创建新战队"
     },
     "lft": {
       "manage": "管理帖子",

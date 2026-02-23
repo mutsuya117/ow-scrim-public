@@ -352,6 +352,12 @@
       "datesHint": "予選・本戦など複数の日程がある場合は追加してください",
       "visibilityNote": "※ 公開設定は作成後に変更できません",
       "selectRating": "選択してください",
+      "visibilityReadonly": {
+        "label": "公開範囲:",
+        "public": "全体公開",
+        "circleLimited": "{{name}} 限定",
+        "cannotChange": "※ 公開設定は作成後に変更できません"
+      },
       "buttons": {
         "addDate": "+ 開催日時を追加",
         "addContact": "+ 連絡先を追加",

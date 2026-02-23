@@ -465,7 +465,9 @@
       "externalScrim": "External",
       "applications": "Applications: {{count}}",
       "applying": "Applying",
-      "applyingAs": "Applying as {{team}}"
+      "applyingAs": "Applying as {{team}}",
+      "noAvailabilityBanner": "You haven't set any available times for scrims in the next month. Set your availability on the calendar.",
+      "goToCalendar": "Set on Calendar →"
     },
     "requests": {
       "title": "Pending Join Requests",
@@ -480,7 +482,8 @@
     "teams": {
       "noTeams": "You are not a member of any team",
       "memberCount": "Members: {{count}}",
-      "avgRank": "Avg Rank:"
+      "avgRank": "Avg Rank:",
+      "createTeam": "+ Create a New Team"
     },
     "lft": {
       "manage": "Manage Post",

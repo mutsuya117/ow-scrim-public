@@ -216,6 +216,11 @@
       }
     },
     "detail": {
+      "roleWarning": {
+        "prefix": "선수 역할을 5명 이상 설정하세요 (탱크 1, DPS 2, 서포트 2). ",
+        "linkText": "역할 설정",
+        "suffix": "에서 설정할 수 있습니다."
+      },
       "tabs": {
         "scrim": "스크림",
         "members": "멤버",
@@ -352,8 +357,8 @@
         "discordDescription": "Discord Webhook을 설정하면 팀 알림을 Discord에서 받을 수 있습니다.",
         "webhookLabel": "Webhook URL",
         "webhookHelpTitle": "Webhook URL 얻는 방법",
-        "webhookStep1": "1. 팀 Discord 서버에서 알림용 채널 생성",
-        "webhookStep2": "2. 채널 설정 열기",
+        "webhookStep1": "1. Discord 서버에서 알림을 받을 채널 선택 (기존 채널도 가능)",
+        "webhookStep2": "2. 채널 이름 옆의 톱니바퀴 아이콘으로 설정 열기",
         "webhookStep3": "3. '연동' → '웹후크' → '새 웹후크'",
         "webhookStep4": "4. '웹후크 URL 복사'하여 여기에 붙여넣기",
         "notifyItemsLabel": "알림 항목",
